@@ -6,6 +6,10 @@ categories:
 
 Respected adventurer, travelling with Ran-Asar and the puma Mira.
 
+<figure class="right">
+<img src="images/Ayah.jpg" width="340" alt="Ayah" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Ayah                      |

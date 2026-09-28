@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Ogreforest.jpg" width="340" alt="Ogre" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 2 + Athletics 1 + 1 = **4**)

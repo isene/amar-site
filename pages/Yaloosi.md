@@ -6,6 +6,10 @@ categories:
 
 Wizard of The Guards; a Life and Protection wizard, full of humour and joy, loves all kinds of games.
 
+<figure class="right">
+<img src="images/Yaloosi.jpg" width="340" alt="Yaloosi" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Yaloosi                |

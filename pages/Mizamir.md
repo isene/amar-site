@@ -6,6 +6,10 @@ categories:
 
 Archeress of the Wayanah-party; threads a bowstring through a keyhole at two hundred paces.
 
+<figure class="right">
+<img src="images/Mizamir.jpg" width="340" alt="Mizamir" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Mizamir    |

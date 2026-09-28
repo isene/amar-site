@@ -17,6 +17,10 @@ stats:
   Reaction: '2'
 ---
 
+<figure class="right">
+<img src="images/Arax.jpg" width="340" alt="Arax" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 2 (BODY 1 + Athletics 1 + 2 = **4**)

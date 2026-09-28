@@ -17,6 +17,10 @@ stats:
   Reaction: '1'
 ---
 
+<figure class="right">
+<img src="images/Giant.jpg" width="340" alt="Giant" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 3 + Athletics 0 + 0 = **3**)

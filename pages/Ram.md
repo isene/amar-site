@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Ram.jpg" width="420" alt="Ram" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 1 + 1 = **3**)

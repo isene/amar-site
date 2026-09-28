@@ -6,6 +6,10 @@ categories:
 
 Ranger of The Guards; reads the land like a ledger.
 
+<figure class="right">
+<img src="images/Vinar.jpg" width="340" alt="Vinar" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Vinar      |

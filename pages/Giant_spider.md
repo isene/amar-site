@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Giant_spider.jpg" width="420" alt="Giant spider" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 2 + 1 = **4**)

@@ -17,6 +17,10 @@ stats:
   Reaction: '6'
 ---
 
+<figure class="right">
+<img src="images/Peregrine_Falcon.jpg" width="420" alt="Peregrine Falcon" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 5 + 0 = **6**)

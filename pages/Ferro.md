@@ -6,6 +6,10 @@ categories:
 
 One of the three playful wizards (Fire).
 
+<figure class="right">
+<img src="images/Ferro.jpg" width="340" alt="Ferro" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Ferro             |

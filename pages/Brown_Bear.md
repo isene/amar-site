@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Brown_Bear.jpg" width="420" alt="Brown Bear" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 2 + Athletics 1 + 0 = **3**)

@@ -13,6 +13,10 @@ stats:
 
 Xetus, the Raven Demon, is a summoned trader of forbidden spells. He is bound to [Antonio](Antonio_The_Magician.html), who gave him his name.
 
+<figure class="right">
+<img src="images/Raven_Demon.jpg" width="340" alt="Raven Demon" />
+</figure>
+
 ## Character Sheet
 
 **Raven Demon - Summoned Demon**

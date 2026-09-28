@@ -18,6 +18,10 @@ stats:
   Reaction: '4'
 ---
 
+<figure class="right">
+<img src="images/Faerie.jpg" width="340" alt="Faerie" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 6 (BODY 1 + Athletics 3 + 6 = **10**)

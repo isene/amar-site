@@ -6,6 +6,10 @@ categories:
 
 The prince; a sports enthusiast and idol figure for healthy living. Darling of the Coliseum crowds.
 
+<figure class="right">
+<img src="images/Prince_Vaiangor.jpg" width="340" alt="Prince Vaiangor" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Prince Vaiangor  |

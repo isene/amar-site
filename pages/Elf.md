@@ -18,6 +18,10 @@ stats:
   Reaction: '8'
 ---
 
+<figure class="right">
+<img src="images/Elf.jpg" width="340" alt="Elf" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 2 + Athletics 5 + 0 = **7**)

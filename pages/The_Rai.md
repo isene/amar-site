@@ -6,6 +6,10 @@ categories:
 
 Leader of the Magick Circle, the eight most powerful wizards of Amar; a summoning specialist.
 
+<figure class="right">
+<img src="images/The_Rai.jpg" width="340" alt="The Rai" />
+</figure>
+
 ## Character Sheet
 
 | Name   | The Rai                     |

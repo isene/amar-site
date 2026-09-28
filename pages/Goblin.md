@@ -18,6 +18,10 @@ stats:
   Reaction: '10'
 ---
 
+<figure class="right">
+<img src="images/Goblin.jpg" width="340" alt="Goblin" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 5 + 1 = **7**)

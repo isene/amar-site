@@ -17,6 +17,10 @@ stats:
   Reaction: '4'
 ---
 
+<figure class="right">
+<img src="images/Human.jpg" width="340" alt="Human" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 3 + 0 = **4**)

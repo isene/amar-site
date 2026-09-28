@@ -6,6 +6,10 @@ categories:
 
 Lord of Land in Tsenkir, the largest village in Amar and the kingdom's most important place of trading. Himself an important trader; little happens on the trade routes without his knowing.
 
+<figure class="right">
+<img src="images/Lord_Nalchir_Emaron.jpg" width="340" alt="Lord Nalchir Emaron" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Lord Nalchir Emaron   |

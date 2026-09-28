@@ -6,6 +6,10 @@ categories:
 
 Lor Aigilos is perhaps the greatest warrior in Amar. Although the greatest of Taroc's human minions, he does not have an official role in the cult.
 
+<figure class="right">
+<img src="images/LorAigilos.jpg" width="340" alt="Lor Aigilos" />
+</figure>
+
 File:Lor Aigilos.jpg
 
 ## Character Sheet

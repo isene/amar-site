@@ -6,6 +6,10 @@ categories:
 
 Wizard with a magick shop; trades spells. Has a famously poor memory.
 
+<figure class="right">
+<img src="images/Naraghin.jpg" width="340" alt="Naraghin" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Naraghin                   |

@@ -4,6 +4,10 @@ title: Universal Amar
 
 The Amar RPG system is quite generic and can be used for all kinds of role-playing settings - from 1500's pirate adventures to modern warfare, present day vampire feuds and science fiction settings. The GM should create the needed skills and tables for Difficulty Ratings (based on the guidelines for DRs). Combat is well covered in the baisc fantasy rules, apart from modern weapons which can be found in the table below.
 
+<figure class="right">
+<img src="images/Universal_Amar.jpg" width="420" alt="Universal Amar" />
+</figure>
+
 **Guns**
 
 | Weapon | Strength | Damage | Modifier | Range | MaxRange | Shots/round | Weight | Length |

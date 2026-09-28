@@ -6,6 +6,10 @@ categories:
 
 An offbeat Moltan priest; right hand of Baron Garos Maella. Sees guilt where others see faces.
 
+<figure class="right">
+<img src="images/Moltar_the_Just.jpg" width="340" alt="Moltar the Just" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Moltar the Just |

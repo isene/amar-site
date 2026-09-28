@@ -6,6 +6,10 @@ categories:
 
 Taroc warlord ruling Mieronir; relative of the King, trusted with the defence of the kingdom. A man of honour and bravery who never shies from a challenge.
 
+<figure class="right">
+<img src="images/Alac_Geoffryn.jpg" width="340" alt="Alac Geoffryn" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Alac Geoffryn       |

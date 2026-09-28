@@ -6,6 +6,10 @@ categories:
 
 High Priest of the biggest Walmaer temple; very clean and proper.
 
+<figure class="right">
+<img src="images/High_Priest_Larosmarot.jpg" width="340" alt="High Priest Larosmarot" />
+</figure>
+
 ## Character Sheet
 
 | Name   | High Priest Larosmarot |

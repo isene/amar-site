@@ -6,6 +6,10 @@ categories:
 
 Salidus Taramostran is rumored to be the greatest living wizard in Amar.
 
+<figure class="right">
+<img src="images/SalidusTaramostran.jpg" width="340" alt="Salidus Taramostran" />
+</figure>
+
 File:Salidus Taramostran.jpg
 
 ## Character Sheet

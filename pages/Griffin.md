@@ -17,6 +17,10 @@ stats:
   Reaction: '6'
 ---
 
+<figure class="right">
+<img src="images/Griffin.jpg" width="420" alt="Griffin" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 4 + 0 = **5**)

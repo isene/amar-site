@@ -6,6 +6,10 @@ categories:
 
 Baroness of Calaronir, the King's cousin. Determined, respected, very strict; rumoured to have strange magickal powers — some say grey at best.
 
+<figure class="right">
+<img src="images/Baronesse_Fienna_Milin.jpg" width="340" alt="Baronesse Fienna Milin" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Baronesse Fienna Milin |

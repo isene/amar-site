@@ -17,6 +17,10 @@ stats:
   Reaction: '7'
 ---
 
+<figure class="right">
+<img src="images/Werewolf.jpg" width="340" alt="Werewolf" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 2 (BODY 2 + Athletics 6 + 2 = **10**)

@@ -6,6 +6,10 @@ categories:
 
 Principal of Aleresir; a young, single Anashina priestess with a strong belief in personal freedom. A bit of an anarchist, to the King's dismay.
 
+<figure class="right">
+<img src="images/Lady_Serena_Chiall.jpg" width="340" alt="Lady Serena Chiall" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Lady Serena Chiall                         |

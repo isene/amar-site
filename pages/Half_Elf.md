@@ -4,6 +4,10 @@ title: Half Elf
 
 Half Elves are one of the [Playable Races](Playable_Races.html) in Amar RPG.
 
+<figure class="right">
+<img src="images/Half_Elf.jpg" width="340" alt="Half Elf" />
+</figure>
+
 ### Physical description
 
 Half Elves look like humans except for being a bit smaller and more slender.

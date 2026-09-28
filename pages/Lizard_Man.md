@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Lizard_Man.jpg" width="340" alt="Lizard Man" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 2 + Athletics 1 + 0 = **3**)

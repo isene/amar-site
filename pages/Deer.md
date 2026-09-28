@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Deer.jpg" width="420" alt="Deer" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 2 + 0 = **3**)

@@ -6,6 +6,10 @@ categories:
 
 Queen of Amar; a Shalissa priestess. A very elegant lady, spiritually aware.
 
+<figure class="right">
+<img src="images/Queen_Fiona.jpg" width="340" alt="Queen Fiona" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Queen Fiona                        |

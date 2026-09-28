@@ -6,6 +6,10 @@ categories:
 
 Respected adventurer, travelling with Ayah and the puma Mira; likely pursuing mysterious missions.
 
+<figure class="right">
+<img src="images/Ran-Asar.jpg" width="340" alt="Ran-Asar" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Ran-Asar   |

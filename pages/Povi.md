@@ -6,6 +6,10 @@ categories:
 
 One of the three playful wizards (Air). The three prank each other from towers a hundred metres apart.
 
+<figure class="right">
+<img src="images/Povi.jpg" width="340" alt="Povi" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Povi             |

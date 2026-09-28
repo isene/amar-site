@@ -17,6 +17,10 @@ stats:
   Reaction: '4'
 ---
 
+<figure class="right">
+<img src="images/Trollkin.jpg" width="340" alt="Trollkin" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 2 + 1 = **4**)

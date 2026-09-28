@@ -4,6 +4,10 @@ title: Advice to the GM
 
 Role playing on Amar begins with the Player Characters washed up on the beach. They do not know where they are, who they are or where they are heading. They are very confused. The only stable data they have are their own skills and proficiencies, and that the other PCs on the beach are their friends.
 
+<figure class="right">
+<img src="images/Advice_to_the_GM.jpg" width="420" alt="Advice to the GM" />
+</figure>
+
 This is all the knowledge the players will get when they start. They should not be given any background information on Amar at all before they start! This is very important, as it would otherwise ruin much of the game for them. All new player characters that enter the game in the future will also start off on the beach with a complete memory loss. They would have to travel to the other PCs to join them. You as the GM should make that happen.
 
 All the information they will get about Amar, its places, personalities, gossip, cabals, plots, politics and history will be revealed to them during the course of playing. Do not give them much at a time. Try to keep as many secrets about Amar as possible for as long as you can. This will give the game zest and pizazz!

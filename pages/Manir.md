@@ -6,6 +6,10 @@ categories:
 
 One of the three playful wizards (Life).
 
+<figure class="right">
+<img src="images/Manir.jpg" width="340" alt="Manir" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Manir             |

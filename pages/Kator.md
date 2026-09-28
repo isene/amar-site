@@ -6,6 +6,10 @@ categories:
 
 Knight; leader of The Guards, a mercenary party.
 
+<figure class="right">
+<img src="images/Kator.jpg" width="340" alt="Kator" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Kator                        |

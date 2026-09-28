@@ -17,6 +17,10 @@ stats:
   Reaction: '2'
 ---
 
+<figure class="right">
+<img src="images/Wild_Boar.jpg" width="420" alt="Wild Boar" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 2 (BODY 1 + Athletics 1 + 2 = **4**)

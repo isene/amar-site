@@ -4,6 +4,10 @@ title: Amar rules 101
 
 Welcome to the Amar Role Playing Game, the world's easiest and most realistic role-playing game.
 
+<figure class="right">
+<img src="images/Amar_rules_101.jpg" width="420" alt="Amar rules 101" />
+</figure>
+
 Unlike other games, which require volumes of data to sift through, the Amar RPG has just one simple book that can fit in your pocket, and requires only one six sided die to play.
 
 This role-playing game uses approximated percentages on a six sided die roll to mimic human events to release a storyline. For example, if you want to jump across a chasm and it's just in your range, you may have a chance of making it but it isn't CERTAIN. So you roll a die to figure out IF you made it and if not how much damage it cost you.

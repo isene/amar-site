@@ -2,6 +2,10 @@
 title: Equipment
 ---
 
+<figure class="right">
+<img src="images/Equipment.jpg" width="420" alt="Equipment" />
+</figure>
+
 ## Monetary System
 
 The monetary system on Amar uses three types of coins: copper, silver and gold.

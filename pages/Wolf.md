@@ -17,6 +17,10 @@ stats:
   Reaction: '4'
 ---
 
+<figure class="right">
+<img src="images/Wolf.jpg" width="420" alt="Wolf" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 2 + 1 = **4**)

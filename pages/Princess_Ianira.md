@@ -6,6 +6,10 @@ categories:
 
 The princess; singer, painter, poet and flautist. An Ielina initiate with the Moon-goddess's quiet in her.
 
+<figure class="right">
+<img src="images/Princess_Ianira.jpg" width="340" alt="Princess Ianira" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Princess Ianira            |

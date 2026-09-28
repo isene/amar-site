@@ -6,6 +6,10 @@ categories:
 
 Scout of the Wayanah-party; the first in and the last seen.
 
+<figure class="right">
+<img src="images/Lagioracharan.jpg" width="340" alt="Lagioracharan" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Lagioracharan |

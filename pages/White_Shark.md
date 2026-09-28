@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/White_Shark.jpg" width="420" alt="White Shark" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 2 + Athletics 2 + 1 = **5**)

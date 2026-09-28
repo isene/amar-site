@@ -6,6 +6,10 @@ categories:
 
 Commander of the kingdom's army; a Taroc warlord, scarred and unbending.
 
+<figure class="right">
+<img src="images/Commander_Seillan_Torthal.jpg" width="340" alt="Commander Seillan Torthal" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Commander Seillan Torthal      |

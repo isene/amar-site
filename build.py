@@ -136,6 +136,8 @@ def polish(body, title):
     body = re.sub(r"<thead>\s*<tr>(?:\s*<th>\s*</th>)+\s*</tr>\s*</thead>", "", body)
 
     def portrait(m):
+        if re.search(r"<figure[^>]*>\s*$", m.string[max(0, m.start() - 60):m.start()]):
+            return m.group(0)                    # already in a figure
         size = img_size(re.search(r'src="([^"]+)"', m.group(0)).group(1))
         return f'<figure class="right">{m.group(0)}</figure>' if size and size[1] > size[0] else m.group(0)
     # a tall picture standing alone (a portrait) sits beside the text

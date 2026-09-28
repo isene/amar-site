@@ -6,6 +6,10 @@ categories:
 
 Warrior of the Wayanah-party; the shield-wall made person.
 
+<figure class="right">
+<img src="images/Hina.jpg" width="340" alt="Hina" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Hina       |

@@ -18,6 +18,10 @@ stats:
   Reaction: '6'
 ---
 
+<figure class="right">
+<img src="images/Drake.jpg" width="420" alt="Drake" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 7 (BODY 6 + Athletics 2 + 7 = **15**)

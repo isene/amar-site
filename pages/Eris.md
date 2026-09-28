@@ -6,6 +6,10 @@ categories:
 
 Priestess of The Guards; wife of Kator. An Anashina priestess with a big heart — empathy for animals, faeries, people and dwarves alike.
 
+<figure class="right">
+<img src="images/Eris.jpg" width="340" alt="Eris" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Eris               |

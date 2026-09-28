@@ -6,6 +6,10 @@ categories:
 
 King of the dwarves, ruling from Borgheim in the Dvergfjellene. Old as oaks, hard as the mountain, fair as a scale.
 
+<figure class="right">
+<img src="images/King_Gorm.jpg" width="340" alt="King Gorm" />
+</figure>
+
 ## Character Sheet
 
 | Name   | King Gorm           |

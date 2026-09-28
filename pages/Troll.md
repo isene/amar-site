@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Troll.jpg" width="340" alt="Troll" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 3 + Athletics 0 + 0 = **3**)

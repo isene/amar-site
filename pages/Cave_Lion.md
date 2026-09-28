@@ -17,6 +17,10 @@ stats:
   Reaction: '4'
 ---
 
+<figure class="right">
+<img src="images/Cave_Lion.jpg" width="420" alt="Cave Lion" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 2 (BODY 2 + Athletics 1 + 2 = **5**)

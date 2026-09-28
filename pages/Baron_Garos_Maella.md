@@ -6,6 +6,10 @@ categories:
 
 Baron of Feronir; ex-Moltan initiate, now self-proclaimed ruler, judge, jury and executor. Very strict, firm grip on local law.
 
+<figure class="right">
+<img src="images/Baron_Garos_Maella.jpg" width="340" alt="Baron Garos Maella" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Baron Garos Maella |

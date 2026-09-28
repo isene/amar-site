@@ -17,6 +17,10 @@ stats:
   Reaction: '2'
 ---
 
+<figure class="right">
+<img src="images/Horse.jpg" width="420" alt="Horse" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 1 + 0 = **2**)

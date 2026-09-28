@@ -6,6 +6,10 @@ categories:
 
 The King's cousin, looked upon as the Mayor of Amaron; directly responsible for law and order in the capital. An important trader.
 
+<figure class="right">
+<img src="images/Lord_Thainir_Laidhos.jpg" width="340" alt="Lord Thainir Laidhos" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Lord Thainir Laidhos     |

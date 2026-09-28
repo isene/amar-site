@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Two-headed_badger.jpg" width="420" alt="Two-headed badger" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 3 (BODY 1 + Athletics 2 + 3 = **6**)

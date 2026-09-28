@@ -4,6 +4,10 @@ title: Incantation Magic
 
 *Incantation Magic is an alternative to the standard magick system and allows magic casters to have an arsenal of incantations unique to the caster only.*
 
+<figure class="right">
+<img src="images/Incantation_Magic.jpg" width="420" alt="Incantation Magic" />
+</figure>
+
 ## Introduction
 
 Every living creature has Magical Aptitude (MA), but only a few have a significant amount - which is 1 or more in gaming terms. Those who have a significant MA can use that to affect a situation (add or subtract as much MA as you want or can to any skills roll) - but doing so requires a whole month to recover that MA.

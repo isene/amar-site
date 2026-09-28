@@ -6,6 +6,10 @@ categories:
 
 Travelling alchemist; merchant in useful potions with fair pricing.
 
+<figure class="right">
+<img src="images/Zarin.jpg" width="340" alt="Zarin" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Zarin                |

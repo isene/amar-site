@@ -18,6 +18,10 @@ stats:
   Reaction: '2'
 ---
 
+<figure class="right">
+<img src="images/Wyvern.jpg" width="420" alt="Wyvern" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 2 + Athletics 2 + 0 = **4**)

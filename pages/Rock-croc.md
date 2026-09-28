@@ -17,6 +17,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Rock-croc.jpg" width="420" alt="Rock-croc" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 2 + Athletics 1 + 0 = **3**)

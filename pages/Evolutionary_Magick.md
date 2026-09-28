@@ -4,6 +4,10 @@ title: Evolutionary Magick
 
 **Note that this system is currently not being developed.**
 
+<figure class="right">
+<img src="images/Evolutionary_Magick.jpg" width="420" alt="Evolutionary Magick" />
+</figure>
+
 The Evolutionary Magick is a new, simplified magic system that changes the way spells are learnt, and their effect as they level up. While making the system simpler, it also allows magic casters to easier get an huge variety of spells to use from.
 
 The Evolutionary Magick system doesn't change the whole process of doing magick, things that aren't noted here will work as it does in the original system.

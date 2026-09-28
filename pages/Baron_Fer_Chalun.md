@@ -6,6 +6,10 @@ categories:
 
 Baron of Rauinir; a Walmaer Lord and eager fisherman, said to commune with the fish and command the waters. Doesn't meddle much in politics.
 
+<figure class="right">
+<img src="images/Baron_Fer_Chalun.jpg" width="340" alt="Baron Fer Chalun" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Baron Fer Chalun                |

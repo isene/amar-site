@@ -6,6 +6,10 @@ categories:
 
 Fighter of the Wayanah-party; a mountain that walks. His intelligence is not up to many a quiz.
 
+<figure class="right">
+<img src="images/Boran.jpg" width="340" alt="Boran" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Boran      |

@@ -17,6 +17,10 @@ stats:
   Reaction: '6'
 ---
 
+<figure class="right">
+<img src="images/King_Eagle.jpg" width="420" alt="King Eagle" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 0 (BODY 1 + Athletics 5 + 0 = **6**)

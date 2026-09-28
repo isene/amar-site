@@ -9,6 +9,10 @@ categories:
 
 Magick in Amar RPG is a powerful and complex force. Spells are unique possessions - each spell exists as a specific instance of Magick that a character owns, and can be given to others through rituals.
 
+<figure class="right">
+<img src="images/Magick.jpg" width="420" alt="Magick" />
+</figure>
+
 ## The Spell System
 
 Each spell is described with specific properties that define how it works:

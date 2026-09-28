@@ -17,6 +17,10 @@ stats:
   Reaction: '1'
 ---
 
+<figure class="right">
+<img src="images/Pig.jpg" width="420" alt="Pig" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 0 + Athletics 1 + 1 = **2**)

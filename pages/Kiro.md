@@ -6,6 +6,10 @@ categories:
 
 Notorious Perception wizard; one of the very few permitted to use magick inside Calaron's walls.
 
+<figure class="right">
+<img src="images/Kiro.jpg" width="340" alt="Kiro" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Kiro              |

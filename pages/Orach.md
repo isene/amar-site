@@ -6,6 +6,10 @@ categories:
 
 Warrior of The Guards; the company's anvil.
 
+<figure class="right">
+<img src="images/Orach.jpg" width="340" alt="Orach" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Orach      |

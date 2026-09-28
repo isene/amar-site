@@ -6,6 +6,10 @@ categories:
 
 Warrior-sorceress; leader of the renowned Wayanah-party of high-level adventurers. Steel in one hand, the strength of the earth in the other.
 
+<figure class="right">
+<img src="images/Wayanah.jpg" width="340" alt="Wayanah" />
+</figure>
+
 ## Character Sheet
 
 | Name   | Wayanah           |

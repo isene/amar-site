@@ -18,6 +18,10 @@ stats:
   Reaction: '2'
 ---
 
+<figure class="right">
+<img src="images/Dragon.jpg" width="420" alt="Dragon" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 2 + Athletics 1 + 1 = **4**)

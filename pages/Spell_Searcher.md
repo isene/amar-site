@@ -18,6 +18,10 @@ stats:
   Reaction: '3'
 ---
 
+<figure class="right">
+<img src="images/Spell_Searcher.jpg" width="420" alt="Spell Searcher" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 1 (BODY 1 + Athletics 2 + 1 = **4**)
