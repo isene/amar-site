@@ -28,10 +28,10 @@ RULES = ["Introduction", "Amar rules 101", "The Character", "Advantages and Disa
          "Playable Races", "Half Elf", "Lizard Man (Playable Race)", "Trollkin (Playable Race)",
          "Combat", "Movement and Weather", "Equipment", "Magick", "Magick Lore",
          "Incantation Magic", "Incantation Example: Minor Heating", "Womp"]
-GM = ["Advice to the GM", "GM's Screen", "The First Adventure", "Campaign tracker",
+GM = ["Advice to the GM", "The First Adventure", "Campaign tracker",
       "Compacting information", "Conversion from other RPGs", "Other Resources"]
 LITE = ["Amar Lite", "The first Amar Lite adventure"]
-ADDONS = ["Universal Amar", "Experimental Systems", "Evolutionary Magick", "Electrify Path",
+ADDONS = ["Universal Amar", "Evolutionary Magick", "Electrify Path",
           "Elemental Path", "Healing Path", "Light Path", "Water Path"]
 EVM = sorted(t for t in TITLES if t.endswith("(EVM)"))
 SKIP = {"Magick", "Legacy Magick", "Raven Demon"}

@@ -58,7 +58,7 @@ title: Main Page
 
 <li><a href="https://d6gaming.org/fairyforest/">Enter the Faerie Forest</a></li>
 
-<li><a href="https://youtu.be/L0aL3EopqP4">To the Castle</a>, music for the Amar RPG</li>
+<li><a href="https://open.spotify.com/album/7CIpVecbrfnLmvnnoXyrr6">Amar</a>, the album, on Spotify</li>
 
 <li><a href="https://www.youtube.com/playlist?list=PLbHUA-o_5dgJbOXwtdVx--gTnmWfiyyys">Ambient sounds</a> for your gaming sessions</li>
 
@@ -190,15 +190,13 @@ title: Main Page
 
 <ul>
 
+<li><a href="https://isene.com/amar3.html">Amar Tools</a><span>Online generators for NPCs, encounters, towns, weather and more.</span></li>
+
 <li><a href="Advice_to_the_GM.html">Advice to the GM</a><span>Tips for new Game Masters.</span></li>
 
 <li><a href="files/Amar-character-sheet.pdf">Character sheet</a><span>A4 PDF, with a <a href="files/Amar-spell-sheet.pdf">spell sheet</a> for magicians.</span></li>
 
-<li><a href="GM's_Screen.html">GM's Screen</a><span>Panels to keep the game flowing.</span></li>
-
 <li><a href="The_First_Adventure.html">The First Adventure</a><span>A first adventure to get a new GM started.</span></li>
-
-<li><a href="https://isene.org/amar/">Amar Tools</a><span>Online generators for encounters, NPCs, towns, weather and more.</span></li>
 
 <li><a href="Compacting_information.html">Compacting information</a><span>Adventure notes with no bloat.</span></li>
 
@@ -221,8 +219,6 @@ title: Main Page
 <ul>
 
 <li><a href="Universal_Amar.html">Universal Amar</a><span>Pirates, modern days and science fiction, with guns and lasers.</span></li>
-
-<li><a href="Experimental_Systems.html">Experimental Systems</a><span>Rules being tried out.</span></li>
 
 <li><a href="Evolutionary_Magick.html">Evolutionary Magick</a><span>A magick system where spells grow along paths.</span></li>
 

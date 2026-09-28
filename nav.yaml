@@ -1,5 +1,6 @@
 # The menu on every page. Each section lists page titles in order.
 # Pages not listed here sit under their parent (see PARENT in build.py).
+# "Label: https://..." puts an outside link in the menu.
 - section: Start here
   pages:
     - Introduction
@@ -40,8 +41,8 @@
     - Encounters
 - section: Game Master
   pages:
+    - Amar Tools: https://isene.com/amar3.html
     - Advice to the GM
-    - GM's Screen
     - The First Adventure
     - Campaign tracker
     - Compacting information
@@ -51,5 +52,4 @@
 - section: Add-ons
   pages:
     - Universal Amar
-    - Experimental Systems
     - Evolutionary Magick

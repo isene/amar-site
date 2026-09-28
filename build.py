@@ -80,7 +80,8 @@ for c in CATEGORIES:
 SECTION = {}
 for s in NAV:
     for t in s["pages"]:
-        SECTION[t] = s["section"]
+        if isinstance(t, str):
+            SECTION[t] = s["section"]
 
 
 def section_of(t):
@@ -301,6 +302,10 @@ def nav_html(current):
     for s in NAV:
         items = []
         for t in s["pages"]:
+            if isinstance(t, dict):             # an outside link: {label: url}
+                label, url = next(iter(t.items()))
+                items.append(f'<li><a class="out" href="{esc(url, quote=True)}">{esc(label)}</a></li>')
+                continue
             cur = ' aria-current="page"' if t == current else ' class="here"' if t == top else ""
             items.append(f'<li><a href="{href(t)}"{cur}>{esc(t)}</a></li>')
         out.append(f'<h2>{esc(s["section"])}</h2><ul>' + "".join(items) + "</ul>")
