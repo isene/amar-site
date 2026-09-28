@@ -1,0 +1,45 @@
+# d6gaming.org: the Amar RPG site. Old wiki addresses lead to the new pages.
+ErrorDocument 404 /404.html
+AddType font/woff2 .woff2
+
+RewriteEngine On
+
+# the wiki's front page
+RewriteRule ^index\.php/Main_Page$ / [R=301,L]
+RewriteCond %{QUERY_STRING} ^$
+RewriteRule ^index\.php$ / [R=301,L]
+# index.php?title=Name (with or without an action)
+RewriteCond %{QUERY_STRING} (?:^|&)title=([^&]+)
+RewriteRule ^index\.php$ /%1.html? [R=301,L,NE]
+# index.php/Name, index.php/Category:Name, index.php/File:Name
+RewriteRule ^index\.php/Category:(.+)$ /$1.html [R=301,L,NE]
+RewriteRule ^index\.php/File:Amar-RPG\.pdf$ https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf [R=301,L]
+RewriteRule ^index\.php/File:(.+)$ /images/$1 [R=301,L,NE]
+RewriteRule ^index\.php/Special:.*$ / [R=301,L]
+RewriteRule ^index\.php/(.+)$ /$1.html [R=301,L,NE]
+
+# the wiki's picture addresses: /images/a/ab/Name and its thumbnails
+RewriteRule ^images/[0-9a-f]/[0-9a-f]{2}/Amar-RPG\.pdf$ https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf [R=301,L]
+RewriteRule ^images/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]+)/.*$ /images/$1 [R=301,L,NE]
+RewriteRule ^images/[0-9a-f]/[0-9a-f]{2}/([^/]+)$ /images/$1 [R=301,L,NE]
+
+# short names without .html, as in d6gaming.org/The_Character
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^([^/]+)$ /$1.html [R=301,L]
+
+# the wiki's own scripts are gone for good
+RewriteRule ^(api|load|opensearch_desc|thumb|img_auth|rest)\.php - [G,L]
+
+# pictures, fonts and style change rarely: let browsers keep them a month
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType font/woff2 "access plus 30 days"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+</IfModule>
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE application/json image/svg+xml
+</IfModule>

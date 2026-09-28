@@ -46,5 +46,3 @@ As the [deer](Deer.html).
 ### Mental description
 
 A moose will always try to flee, but will fight to its death if escape is impossible. Cows are very aggressive as long as the calves are still young. If a calf is touched by a human, the cow will leave it behind.
-
-NewPP limit report Cached time: 20260928070227 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.079 seconds Real time usage: 0.374 seconds Preprocessor visited node count: 92/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1758/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.280/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 359.624 1 Template:Infobox 100.00% 359.624 1 -total Saved in parser cache with key my_wiki:pcache:idhash:250-0!canonical and timestamp 20260928070227 and revision id 4190

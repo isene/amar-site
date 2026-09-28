@@ -381,6 +381,12 @@ def main():
             for k in range(1, len(parts), 2):
                 i, h = re.match(r'<h[23] id="([^"]+)">(.*?)</h[23]>', parts[k], flags=re.S).groups()
                 index.append({"t": text_of(h), "u": href(t, i), "s": t, "w": words(parts[k + 1])})
+    # the page for addresses that lead nowhere; <base> keeps its links working at any depth
+    nf = page("Page not found", '<h1>Page not found</h1><div class="text"><p class="lede">This page does not exist, '
+              'or it moved when the Amar wiki became this site. Try the search box above, the menu, or '
+              '<a href="index.html">the front page</a>.</p></div>', cls="", head_extra='<base href="/">')
+    (OUT / "404.html").write_text(nf)
+    written.add("404.html")
     (OUT / "search.json").write_text(json.dumps(index, ensure_ascii=False, separators=(",", ":")))
     for f in OUT.glob("*.html"):
         if f.name not in written:

@@ -50,5 +50,3 @@ Horses are generally able to jump their own height vertically and quite a few me
 ### Mental description
 
 Horses are generally easily frightened and thus hard to train for combat. Most horses are real cowards and will make a lot out of a wound. Taming them is quite easy.
-
-NewPP limit report Cached time: 20260928083402 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.091 seconds Real time usage: 0.403 seconds Preprocessor visited node count: 94/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1758/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.290/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 384.237 1 Template:Infobox 100.00% 384.237 1 -total Saved in parser cache with key my_wiki:pcache:idhash:248-0!canonical and timestamp 20260928083402 and revision id 4185

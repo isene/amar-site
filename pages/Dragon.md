@@ -54,5 +54,3 @@ Dragons are horders of gold, treasure and power.
 ### Mental description
 
 Dragons are intelligent beasts, some even highly intelligent and some employ magical spells. They are greedy and cunning, ranging from the darkest of evil to more benevolent, but still greedy and cunning.
-
-NewPP limit report Cached time: 20260928081248 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.085 seconds Real time usage: 0.382 seconds Preprocessor visited node count: 99/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1942/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.280/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 367.937 1 Template:Infobox 100.00% 367.937 1 -total Saved in parser cache with key my_wiki:pcache:idhash:262-0!canonical and timestamp 20260928081247 and revision id 4175

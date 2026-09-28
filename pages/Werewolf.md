@@ -30,4 +30,3 @@ stats:
 | Unarmed | 10    | 12   | 8   | 8   | -1  | \-    |
 
 *Typical specimen. Off/Def/Dam totals include the modifiers; Dam adds DB unless fixed.*
-

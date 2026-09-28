@@ -7,7 +7,7 @@ again to redo the import from scratch.
 """
 import json, pathlib, re, subprocess, sys, urllib.parse
 import yaml
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Comment
 from PIL import Image
 
 BOOK = pathlib.Path.home() / "Main/G/AMAR/Book"
@@ -77,6 +77,8 @@ def link_for(target, frag):
 def clean(title):
     soup = BeautifulSoup(html_of(title), "lxml")
     root = soup.find("div", class_="mw-parser-output") or soup.body
+    for c in root.find_all(string=lambda t: isinstance(t, Comment)):
+        c.extract()
     for sel in ["div#toc", "span.mw-editsection", "div.magnify", "style", "script",
                 "div.printfooter", "div.catlinks", "table.mw-stack"]:
         for e in root.select(sel):

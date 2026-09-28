@@ -56,5 +56,3 @@ They are able to dive down to 100 meters without complications. They are wonderf
 ### Mental description
 
 Merfolk are shy and isolate their society from the rest of the world. Their relation to dolphins is a good aid against many of the dangers in the sea.
-
-NewPP limit report Cached time: 20260928064859 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.104 seconds Real time usage: 0.736 seconds Preprocessor visited node count: 102/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1948/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.310/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 715.618 1 Template:Infobox 100.00% 715.618 1 -total Saved in parser cache with key my_wiki:pcache:idhash:271-0!canonical and timestamp 20260928064858 and revision id 4189

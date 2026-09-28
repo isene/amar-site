@@ -55,5 +55,3 @@ Lizard men can hold their breath for 30 minutes. They get -3 in riding potential
 ### Mental description
 
 Lizard men are rude and persistent and they almost never surrender. This makes them very dangerous opponents to fight. Females are more calm and caring as their lives are mostly devoted to raising children.
-
-NewPP limit report Cached time: 20260928083406 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.095 seconds Real time usage: 0.416 seconds Preprocessor visited node count: 97/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1812/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.300/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 397.735 1 Template:Infobox 100.00% 397.735 1 -total Saved in parser cache with key my_wiki:pcache:idhash:270-0!canonical and timestamp 20260928083405 and revision id 4188

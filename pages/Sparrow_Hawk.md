@@ -50,5 +50,3 @@ A sparrow hawk is able to maneuver fast even in deep forest.
 ### Mental description
 
 A sparrow hawk will easily become used to people and they are easy to tame. Wild sparrow hawks will usually not fear humans, but will defend killed prey or nests with great courage.
-
-NewPP limit report Cached time: 20260928083415 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.101 seconds Real time usage: 0.421 seconds Preprocessor visited node count: 94/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1740/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.290/7 seconds Lua virtual size: 5.33 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 402.988 1 Template:Infobox 100.00% 402.988 1 -total Saved in parser cache with key my_wiki:pcache:idhash:253-0!canonical and timestamp 20260928083415 and revision id 4198

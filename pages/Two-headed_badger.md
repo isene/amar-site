@@ -50,5 +50,3 @@ The two-headed badger is active at daytime, but is also a nocturnal amimal with 
 ### Mental description
 
 The two-headed badger will usually cause no problems for humans. They will not attack unless threatened. Two-headed badgers in packs will approach and attack the predator as a group if threatened.
-
-NewPP limit report Cached time: 20260928070135 Cache expiry: 86400 Dynamic content: false Complications: \[\] CPU time usage: 0.102 seconds Real time usage: 0.629 seconds Preprocessor visited node count: 94/1000000 Preprocessor generated node count: 0/1000000 Post‐expand include size: 1788/2097152 bytes Template argument size: 0/2097152 bytes Highest expansion depth: 3/40 Expensive parser function count: 0/100 Unstrip recursion depth: 0/20 Unstrip post‐expand size: 0/5000000 bytes Lua time usage: 0.310/7 seconds Lua virtual size: 5.34 MB/50 MB Lua estimated memory usage: 0 bytes Transclusion expansion time report (%,ms,calls,template) 100.00% 604.316 1 Template:Infobox 100.00% 604.316 1 -total Saved in parser cache with key my_wiki:pcache:idhash:412-0!canonical and timestamp 20260928070134 and revision id 4203
