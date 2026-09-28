@@ -135,7 +135,7 @@ def polish(body, title):
         size = img_size(re.search(r'src="([^"]+)"', m.group(0)).group(1))
         return f'<figure class="right">{m.group(0)}</figure>' if size and size[1] > size[0] else m.group(0)
     # a tall picture standing alone (a portrait) sits beside the text
-    body = re.sub(r"(?m)^<img\b[^>]*>$", portrait, body)
+    body = re.sub(r'(?m)^<img\b(?![^>]*\bclass=)[^>]*>$', portrait, body)
     body = body.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     # a footnote line right under a table belongs inside its frame
     body = re.sub(r'</table></div>\s*<p><em>([¹²³⁴⁵*†][^<]*)</em></p>', r'</table><p class="note">\1</p></div>', body)
@@ -152,7 +152,9 @@ def polish(body, title):
             if not wm:
                 extra += f' width="{w}"'
             extra += f' height="{round(dw * h / w)}"'
-            if art:
+            if art and 'class="' in tag:
+                tag = tag.replace('class="', 'class="art ', 1)
+            elif art:
                 extra += ' class="art"'
             tag = tag[:-2].rstrip() + extra + ">" if tag.endswith("/>") else tag[:-1] + extra + ">"
             # shrunk on the page: a tap opens the full picture, as on the wiki
@@ -235,8 +237,35 @@ def domains():
             and any("Spells" in PAGE[t]["categories"] for t in members(c))]
 
 
+def gallery():
+    """Every picture in site/images as a small preview; previews are made once."""
+    thumbs = OUT / "images" / "thumbs"
+    thumbs.mkdir(exist_ok=True)
+    out = ['<p>Maps, floor plans, portraits and scenery. Free for personal use. '
+           'Tap a picture to open it in full size.</p>', '<div class="gallery">']
+    for f in sorted((OUT / "images").iterdir(), key=lambda p: p.name.lower()):
+        if not f.is_file():
+            continue
+        th = thumbs / f.name
+        if not th.exists():
+            im = Image.open(f)
+            im.thumbnail((360, 360))
+            if f.suffix.lower() in (".jpg", ".jpeg"):
+                im.convert("RGB").save(th, quality=78, optimize=True)
+            else:
+                im.save(th, optimize=True)
+        w, h = Image.open(th).size
+        q = urllib.parse.quote(f.name)
+        name = esc(f.stem.replace("_", " "))
+        out.append(f'<a href="images/{q}"><img src="images/thumbs/{q}" width="{w}" height="{h}" '
+                   f'loading="lazy" decoding="async" alt="{name}"><span>{name}</span></a>')
+    return "\n".join(out + ["</div>"])
+
+
 def generated(title):
     """Body for a page that is a list, or '' when the page is written by hand only."""
+    if title == "Image Library":
+        return gallery()
     if title == "Skills":
         return "\n".join(f'<h2 id="{hid(c)}">{c}</h2>\n' + link_list(members(c))
                          for c in ("Physical Skills", "Mental Skills", "Perception Skills"))
@@ -261,7 +290,7 @@ def generated(title):
     return ""
 
 
-GENERATED_ONLY = ["Skills", "Spells", "Rituals", "Potions"] + [c for c in CATEGORIES if c not in PAGE]
+GENERATED_ONLY = ["Skills", "Spells", "Rituals", "Potions", "Image Library"] + [c for c in CATEGORIES if c not in PAGE]
 ALL_TITLES = set(PAGE) | set(GENERATED_ONLY)
 
 

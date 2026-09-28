@@ -33,3 +33,17 @@
   });
   document.addEventListener("click", e => { if (!e.target.closest(".search")) hits.hidden = true; });
 })();
+
+// A video shows as a still picture; the YouTube player loads only when tapped.
+for (const a of document.querySelectorAll("a.video[data-yt]")) {
+  a.addEventListener("click", e => {
+    e.preventDefault();
+    const f = document.createElement("iframe");
+    f.src = `https://www.youtube-nocookie.com/embed/${a.dataset.yt}?autoplay=1`;
+    f.allow = "autoplay; encrypted-media; picture-in-picture; fullscreen";
+    f.allowFullscreen = true;
+    f.title = a.querySelector("img").alt;
+    f.className = "video";
+    a.replaceWith(f);
+  });
+}
