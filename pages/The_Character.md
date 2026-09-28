@@ -17,7 +17,7 @@ Amar RPG organizes all character abilities into three tiers:
 
 - **Characteristics (Tier 1)**: The fundamental nature of a being: **BODY**, **MIND**, and **SPIRIT**
 - **Attributes (Tier 2)**: Grouped abilities under each characteristic (e.g., Strength, Melee Combat, Intelligence, Casting)
-- **Skills (Tier 3)**: Specific trained abilities under each attribute (e.g., Climb, Problem Solving, Litteracy)
+- **Skills (Tier 3)**: Specific trained abilities under each attribute (e.g., Climb, Problem Solving, Literacy)
 
 ## The Characteristics
 
