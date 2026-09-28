@@ -9,7 +9,7 @@
 
 Run: python3 build.py
 """
-import collections, html, json, pathlib, re, urllib.parse
+import collections, hashlib, html, json, pathlib, re, urllib.parse
 import yaml
 from markdown_it import MarkdownIt
 from PIL import Image
@@ -21,6 +21,7 @@ GITHUB = "https://github.com/isene/amar-site"      # pages are edited there, on 
 MD = MarkdownIt("commonmark", {"html": True}).enable(["table", "strikethrough"])
 NAV = yaml.load(open(ROOT / "nav.yaml"), Loader=yaml.BaseLoader)
 TEMPLATE = (ROOT / "template.html").read_text()
+VERSION = {f: hashlib.md5((ROOT / "site" / f).read_bytes()).hexdigest()[:8] for f in ("theme/style.css", "theme/site.js")}
 esc = html.escape
 
 
@@ -347,6 +348,9 @@ def page(title, body, desc="", cls="", head_extra=""):
                  "desc": esc(desc, quote=True), "cls": cls, "nav": nav_html(title),
                  "content": body, "head": head_extra}.items():
         doc = doc.replace("{" + k + "}", v)
+    # a version tag on style and script: browsers fetch them again as soon as they change
+    for f in ("theme/style.css", "theme/site.js"):
+        doc = doc.replace(f'"{f}"', f'"{f}?v={VERSION[f]}"')
     return doc
 
 
@@ -372,7 +376,7 @@ def main():
                 f'<a href="{href(c)}">{esc(c)}</a>' for c in cats) + ".</p>") if cats else ""
             if p.get("src"):                    # written by hand: editable on GitHub
                 q = urllib.parse.quote(p["src"])
-                foot += (f'<p class="edit"><a href="{GITHUB}/edit/main/pages/{q}">Edit this page</a>'
+                foot += (f'<p class="edit"><a href="{GITHUB}/edit/main/pages/{q}">Edit this page</a> '
                          f'<a href="{GITHUB}/commits/main/pages/{q}">History</a></p>')
             content = crumbs(t) + f"<h1>{esc(t)}</h1>" + stats_html(p["stats"], p.get("symbol")) + toc_html(own) \
                 + f'<div class="text">{body}</div>' + foot
