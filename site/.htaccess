@@ -1,6 +1,7 @@
 # d6gaming.org: the Amar RPG site. Old wiki addresses lead to the new pages.
 ErrorDocument 404 /404.html
 AddType font/woff2 .woff2
+AddDefaultCharset UTF-8
 
 RewriteEngine On
 
@@ -12,16 +13,17 @@ RewriteRule ^index\.php$ / [R=301,L]
 RewriteCond %{QUERY_STRING} (?:^|&)title=([^&]+)
 RewriteRule ^index\.php$ /%1.html? [R=301,L,NE]
 # index.php/Name, index.php/Category:Name, index.php/File:Name
-RewriteRule ^index\.php/Category:(.+)$ /$1.html [R=301,L,NE]
+RewriteRule ^index\.php/Category:(.+)$ /$1.html [R=301,L]
 RewriteRule ^index\.php/File:Amar-RPG\.pdf$ https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf [R=301,L]
-RewriteRule ^index\.php/File:(.+)$ /images/$1 [R=301,L,NE]
+RewriteRule ^index\.php/File:(.+)$ /images/$1 [R=301,L]
+RewriteRule ^index\.php/Special:ListFiles$ /Image_Library.html [R=301,L]
 RewriteRule ^index\.php/Special:.*$ / [R=301,L]
-RewriteRule ^index\.php/(.+)$ /$1.html [R=301,L,NE]
+RewriteRule ^index\.php/(.+)$ /$1.html [R=301,L]
 
 # the wiki's picture addresses: /images/a/ab/Name and its thumbnails
 RewriteRule ^images/[0-9a-f]/[0-9a-f]{2}/Amar-RPG\.pdf$ https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf [R=301,L]
-RewriteRule ^images/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]+)/.*$ /images/$1 [R=301,L,NE]
-RewriteRule ^images/[0-9a-f]/[0-9a-f]{2}/([^/]+)$ /images/$1 [R=301,L,NE]
+RewriteRule ^images/thumb/[0-9a-f]/[0-9a-f]{2}/([^/]+)/.*$ /images/$1 [R=301,L]
+RewriteRule ^images/[0-9a-f]/[0-9a-f]{2}/([^/]+)$ /images/$1 [R=301,L]
 
 # short names without .html, as in d6gaming.org/The_Character
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -41,5 +43,6 @@ RewriteRule ^(api|load|opensearch_desc|thumb|img_auth|rest)\.php - [G,L]
   ExpiresByType application/javascript "access plus 1 day"
 </IfModule>
 <IfModule mod_deflate.c>
-  AddOutputFilterByType DEFLATE application/json image/svg+xml
+  # this list replaces the server's own for this folder, so it names everything
+  AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json image/svg+xml
 </IfModule>
