@@ -118,10 +118,6 @@ title: Main Page
 
 <li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a><span>A goblin hunt for a first evening of play.</span></li>
 
-<li><a href="https://isene.org/2018/09/Podcast-RPGs.html">What are role-playing games?</a><span>A 20-minute podcast.</span></li>
-
-<li><a href="https://isene.org/2018/10/Podcast-AmarLite.html">The Amar Lite podcast</a><span>How the one-page game works.</span></li>
-
 </ul>
 
 </section>
@@ -230,8 +226,6 @@ title: Main Page
 
 <li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a><span>Bring characters and monsters from RuneQuest, D&amp;D, Pathfinder.</span></li>
 
-<li><a href="https://isene.org/2019/01/Podcast-Improv.html">The value of improvisation</a><span>A podcast on improvising as a Game Master.</span></li>
-
 <li><a href="Image_Library.html">Image Library</a><span>Graphics, floor plans and more, free for personal use.</span></li>
 
 <li><a href="Other_Resources.html">Other Resources</a><span>Links to adventures, graphics, dice and more.</span></li>
@@ -265,6 +259,22 @@ title: Main Page
 <li><a href="https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf">The Amar RPG book</a><span>PDF for reading on a screen, 17 MB.</span></li>
 
 <li><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">Print edition</a><span>PDF, A4 with bleed, 76 MB.</span></li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>Podcasts</h2>
+
+<ul>
+
+<li><a href="https://isene.org/2018/09/Podcast-RPGs.html">What are role-playing games?</a><span>A 20-minute introduction to role-playing and Amar.</span></li>
+
+<li><a href="https://isene.org/2018/10/Podcast-AmarLite.html">Amar Lite</a><span>How the one-page game works.</span></li>
+
+<li><a href="https://isene.org/2019/01/Podcast-Improv.html">The value of improvisation</a><span>Improvising as a Game Master.</span></li>
 
 </ul>
 

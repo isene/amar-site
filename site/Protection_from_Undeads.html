@@ -7,8 +7,8 @@
 <title>Protection from Undeads – Amar RPG</title>
 <meta name="description" content="An undead must exceed the target’s MD +2 per level (+4 per level if the spell is active) with its MD+d in order to attack him.">
 <link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
-<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t } catch (e) {}</script>
-<link rel="stylesheet" href="theme/style.css?v=dd67a746">
+<script>try { var s = localStorage, d = document.documentElement.dataset; ["theme", "font", "edit"].forEach(function (k) { var v = s.getItem(k); if (v) d[k] = v }) } catch (e) {}</script>
+<link rel="stylesheet" href="theme/style.css?v=7c1c5328">
 <link rel="icon" href="theme/icon.png">
 </head>
 <body class="">
@@ -17,9 +17,11 @@
 <header class="bar">
   <a class="mark" href="index.html">Amar</a>
   <div class="search">
-    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <input id="q" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
     <ol id="hits" hidden></ol>
   </div>
+  <button class="pen" type="button" aria-pressed="false" aria-label="Show the edit and history links" title="Edit links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></button>
+  <button class="font-btn" type="button" aria-pressed="false" aria-label="Easy-reading font for dyslexia" title="Easy-reading font">Aa</button>
   <button class="mode" type="button" aria-label="Switch between light and dark pages" title="Light or dark"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <label class="menu-btn" for="menu">Menu</label>
 </header>
@@ -57,6 +59,6 @@
   <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>.</p>
   <p><a href="https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/tools/">Amar Tools</a> <a href="Image_Library.html">Image Library</a> <a href="mailto:g@isene.com">Contact</a></p>
 </footer>
-<script src="theme/site.js?v=7c915a79" defer></script>
+<script src="theme/site.js?v=dc81486e" defer></script>
 </body>
 </html>

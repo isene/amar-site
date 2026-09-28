@@ -7,8 +7,8 @@
 <title>Amar RPG</title>
 <meta name="description" content="Amar, a realistic and simple role-playing game played with one six-sided die.">
 <link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
-<script>try { var t = localStorage.getItem("theme"); if (t) document.documentElement.dataset.theme = t } catch (e) {}</script>
-<link rel="stylesheet" href="theme/style.css?v=dd67a746">
+<script>try { var s = localStorage, d = document.documentElement.dataset; ["theme", "font", "edit"].forEach(function (k) { var v = s.getItem(k); if (v) d[k] = v }) } catch (e) {}</script>
+<link rel="stylesheet" href="theme/style.css?v=7c1c5328">
 <link rel="icon" href="theme/icon.png">
 </head>
 <body class="home">
@@ -17,9 +17,11 @@
 <header class="bar">
   <a class="mark" href="index.html">Amar</a>
   <div class="search">
-    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <input id="q" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
     <ol id="hits" hidden></ol>
   </div>
+  <button class="pen" type="button" aria-pressed="false" aria-label="Show the edit and history links" title="Edit links"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></button>
+  <button class="font-btn" type="button" aria-pressed="false" aria-label="Easy-reading font for dyslexia" title="Easy-reading font">Aa</button>
   <button class="mode" type="button" aria-label="Switch between light and dark pages" title="Light or dark"><svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg><svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6"/></svg></button>
   <label class="menu-btn" for="menu">Menu</label>
 </header>
@@ -93,8 +95,6 @@
 <ul>
 <li><a href="Amar_Lite.html">Amar Lite</a><span>The whole game on one page, for beginners and young players.</span></li>
 <li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a><span>A goblin hunt for a first evening of play.</span></li>
-<li><a href="https://isene.org/2018/09/Podcast-RPGs.html">What are role-playing games?</a><span>A 20-minute podcast.</span></li>
-<li><a href="https://isene.org/2018/10/Podcast-AmarLite.html">The Amar Lite podcast</a><span>How the one-page game works.</span></li>
 </ul>
 </section>
 <section>
@@ -149,7 +149,6 @@
 <li><a href="The_First_Adventure.html">The First Adventure</a><span>A first adventure to get a new GM started.</span></li>
 <li><a href="Compacting_information.html">Compacting information</a><span>Adventure notes with no bloat.</span></li>
 <li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a><span>Bring characters and monsters from RuneQuest, D&amp;D, Pathfinder.</span></li>
-<li><a href="https://isene.org/2019/01/Podcast-Improv.html">The value of improvisation</a><span>A podcast on improvising as a Game Master.</span></li>
 <li><a href="Image_Library.html">Image Library</a><span>Graphics, floor plans and more, free for personal use.</span></li>
 <li><a href="Other_Resources.html">Other Resources</a><span>Links to adventures, graphics, dice and more.</span></li>
 </ul>
@@ -167,6 +166,14 @@
 <ul>
 <li><a href="https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf">The Amar RPG book</a><span>PDF for reading on a screen, 17 MB.</span></li>
 <li><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">Print edition</a><span>PDF, A4 with bleed, 76 MB.</span></li>
+</ul>
+</section>
+<section>
+<h2 id="Podcasts">Podcasts</h2>
+<ul>
+<li><a href="https://isene.org/2018/09/Podcast-RPGs.html">What are role-playing games?</a><span>A 20-minute introduction to role-playing and Amar.</span></li>
+<li><a href="https://isene.org/2018/10/Podcast-AmarLite.html">Amar Lite</a><span>How the one-page game works.</span></li>
+<li><a href="https://isene.org/2019/01/Podcast-Improv.html">The value of improvisation</a><span>Improvising as a Game Master.</span></li>
 </ul>
 </section>
 <section>
@@ -191,6 +198,6 @@
   <p>Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0</a>.</p>
   <p><a href="https://isene.com/x/2026-08-24_Amar-RPG-screen.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/tools/">Amar Tools</a> <a href="Image_Library.html">Image Library</a> <a href="mailto:g@isene.com">Contact</a></p>
 </footer>
-<script src="theme/site.js?v=7c915a79" defer></script>
+<script src="theme/site.js?v=dc81486e" defer></script>
 </body>
 </html>

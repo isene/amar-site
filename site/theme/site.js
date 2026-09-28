@@ -55,3 +55,16 @@ if (mode) mode.addEventListener("click", () => {
   document.documentElement.dataset.theme = dark ? "light" : "dark";
   try { localStorage.setItem("theme", dark ? "light" : "dark"); } catch (e) {}
 });
+
+// The easy-reading font and the edit links: on or off, remembered like light/dark
+for (const [sel, key, on] of [[".font-btn", "font", "sans"], [".pen", "edit", "on"]]) {
+  const b = document.querySelector(sel), root = document.documentElement;
+  if (!b) continue;
+  b.setAttribute("aria-pressed", String(root.dataset[key] === on));
+  b.addEventListener("click", () => {
+    const next = root.dataset[key] === on ? null : on;
+    if (next) root.dataset[key] = next; else delete root.dataset[key];
+    b.setAttribute("aria-pressed", String(Boolean(next)));
+    try { if (next) localStorage.setItem(key, next); else localStorage.removeItem(key); } catch (e) {}
+  });
+}
