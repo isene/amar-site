@@ -66,6 +66,9 @@ EXTRA = {  # notes for pages where the first picture missed something
     "Two-headed badger": "It must have TWO separate heads on two necks, side by side, and SIX short legs, "
                          "three on each side of its long low body.",
     "Naraghin": "Absolutely no writing anywhere: no signs, labels or lettering on anything.",
+    "Archangelos": "He is NOT a king and wears NO crown. He is the High Lord of the cult of Taroc, the god of war: "
+                   "a war-priest (priest rank War Lord) in armour with priestly vestments, standing in the Taroc "
+                   "temple of Amaron.",
     "Faerie": "Faeries are many races from the Otherworld: pixies, brownies, leprechauns, forest spirits, "
               "kelpies and water spirits. Show several different faeries together at play in a western forest, "
               "curious and mischievous, neither good nor evil.",
