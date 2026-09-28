@@ -196,7 +196,8 @@ img.art { mix-blend-mode: multiply; }
 .foot { border-top: 2px solid var(--gold); background: var(--leather); color: #CDB58D;
   padding: 1.4rem max(1.2rem, calc((100vw - 76rem) / 2)); font-size: 0.9rem; }
 .foot p { margin: 0 0 0.4rem; }
-.foot a { color: #E3BE72; margin-right: 1.4rem; }
+.foot a { color: #E3BE72; }
+.foot p:last-child a { margin-right: 1.4rem; }
 
 /* ── front page ── */
 .home main { max-width: none; }
