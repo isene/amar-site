@@ -19,7 +19,7 @@ stats:
 ---
 
 <figure class="right">
-<img src="images/Goblin.jpg" width="340" alt="Goblin" />
+<img src="images/Goblin_painted.jpg" width="420" alt="Goblin" />
 </figure>
 
 ## Skills

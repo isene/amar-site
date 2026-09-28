@@ -6,7 +6,7 @@ categories:
 
 Archangelos is the High Lord of Amar. He is the leader of the Taroc cult, residing in the Taroc temple of Amaron.
 
-<img src="images/Archangelos.jpg" width="338" alt="Archangelos.jpg" />
+<img src="images/Archangelos_painted.jpg" width="340" alt="Archangelos, High Lord of Taroc" />
 
 ## Character Sheet
 

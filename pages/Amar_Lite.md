@@ -158,7 +158,7 @@ The above is the complete rules set for Amar Lite. Now, to help getting into the
     MAGICAL APTITUDE: 5  SPELL CASTING: 5
     SPELLS: Freeze, Magic Armor, Fireball, Water Breathing
 
-<img src="images/Barghan.jpg" width="350" alt="Barghan" />
+<img src="images/Barghan_painted.jpg" width="200" alt="Barghan" />
 
     Name: Barghan        Race: Dwarf       Description: Male warrior
     STRENGTH:         6  ENCUMBRANCE:   6  BODY POINTS:   8  AP: 3 (Cuirboullie)

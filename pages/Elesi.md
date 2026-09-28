@@ -13,7 +13,7 @@ stats:
 ---
 
 <figure class="right">
-<img src="images/Elesi.jpg" width="337" alt="Elesi.jpg" />
+<img src="images/Elesi_painted.jpg" width="337" alt="Elesi, goddess of fertility, creation and art" />
 </figure>
 
 Elesi is the Goddess of Fertility, Creation and Art. She is the Mother of Humans and the Protector of the Pregnant. She is worshipped by many from all walks of life.

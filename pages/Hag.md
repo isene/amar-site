@@ -57,4 +57,4 @@ As competent magicians, Hags have a set of skills and spells: Natural Magick = O
 
 They are cunningly evil by nature and thrives off the suffering af humans, and sometimes other creatures such as dwarves or even trolls. But for some unknown reason, they bear a particular grudge against humans.
 
-<img src="images/Hag.png" width="400" alt="Hag" />
+<img src="images/Hag.jpg" width="340" alt="Hag" />

@@ -2,6 +2,7 @@
 """Illustrations for site pages with Gemini (Nano Banana Pro).
 
 Usage: tools/gen_images.py npc "King Gorm" ...   |   creature "Troll" ...   |   scene "Equipment" ...
+       tools/gen_images.py --new npc "Archangelos"   (a fresh picture beside an existing one)
        tools/gen_images.py --all               (every job in JOBS below)
 
 Each picture is drawn from the page itself: an NPC from its character sheet
@@ -43,7 +44,8 @@ PROMPT = {
 }
 ASPECT = {"npc": "3:4", "creature": "4:3", "scene": "4:3"}
 UPRIGHT = {"Dwarf", "Elf", "Human", "Lizard Man", "Trollkin", "Merfolk", "Giant", "Troll", "Werewolf",
-           "Faerie", "Centaur", "Half Elf", "Antonio The Magician", "Arax", "Ogre", "Vampire"}
+           "Faerie", "Centaur", "Half Elf", "Antonio The Magician", "Arax", "Ogre", "Vampire",
+           "Hag", "Phooka", "Elesi", "Barghan", "Archangelos", "Elysian Chakorta"}
 
 JOBS = [("npc", t) for t in [
     "Alac Geoffryn", "Ayah", "Baron Fer Chalun", "Baron Garos Maella", "Baronesse Fienna Milin", "Boran",
@@ -69,12 +71,19 @@ EXTRA = {  # notes for pages where the first picture missed something
               "curious and mischievous, neither good nor evil.",
 }
 
+TEXT = {  # pictures for people without a page of their own
+    "Barghan": "Barghan, a ready-made character in Amar Lite. Race: dwarf. Male warrior. Strength 6. "
+               "Armour: cuirbouilli, hardened boiled leather (AP 3). Weapons: a great axe and a heavy crossbow.",
+}
+
 KEEP = re.compile(r"(character sheet|weapon|armou?r|equipment|gear|description|appearance|background|"
                   r"personality|history|clothing|combat|diet|habitat|social|special|mental)", re.I)
 
 
 def page_text(title):
     """The parts of a page that say what to draw: the opening, the sheet, gear and descriptions."""
+    if title in TEXT:
+        return TEXT[title]
     body = (PAGES / (title.replace(" ", "_") + ".md")).read_text().split("---\n", 2)[2]
     body = re.sub(r"<figure.*?</figure>|<img[^>]*>", "", body, flags=re.S)
     parts = re.split(r"(?m)^(#{2,4} .*)$", body)
@@ -93,9 +102,12 @@ def ref_part(name):
     return {"inline_data": {"mime_type": "image/jpeg", "data": base64.b64encode(buf.getvalue()).decode()}}
 
 
-def generate(kind, title):
+def generate(kind, title, new=False):
     stem = title.replace(" ", "_")
     web = WEB / f"{stem}.jpg"
+    if new and web.exists():             # replacing an older picture: keep both names apart
+        stem += "_painted"
+        web = WEB / f"{stem}.jpg"
     if web.exists():
         return title, "exists"
     prompt = PROMPT[kind].format(title=title, style=STYLE, page=page_text(title))
@@ -127,14 +139,16 @@ def generate(kind, title):
     if max(im.size) > 1600:
         im.thumbnail((1600, 1600), Image.LANCZOS)
     im.save(web, "JPEG", quality=82, optimize=True, progressive=True)
-    return title, f"ok {im.size[0]}x{im.size[1]}"
+    return title, f"ok {web.name} {im.size[0]}x{im.size[1]}"
 
 
 def main():
     args = sys.argv[1:]
+    new = "--new" in args              # --new: make a fresh picture for a page that has one
+    args = [a for a in args if a != "--new"]
     jobs = JOBS if args == ["--all"] else [(args[0], t) for t in args[1:]]
     with concurrent.futures.ThreadPoolExecutor(4) as pool:
-        for title, result in pool.map(lambda j: generate(*j), jobs):
+        for title, result in pool.map(lambda j: generate(*j, new=new), jobs):
             print(f"{title}: {result}", flush=True)
 
 

@@ -7,7 +7,7 @@ categories:
 Elysian Chakorta is Amar's Cal Amae Overlord. A hero of the cult and respected far beyond.
 
 <figure class="right">
-<img src="images/ElysianChakorta.jpg" width="340" alt="Elysian Chakorta" />
+<img src="images/Elysian_Chakorta.jpg" width="340" alt="Elysian Chakorta" />
 </figure>
 
 File:Elysian Chakorta.jpg

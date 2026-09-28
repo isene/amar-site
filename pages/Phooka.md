@@ -57,4 +57,4 @@ Phookas can transform themselves into a large eagle capable of carrying an adult
 
 Phookas are usually menacing creatures with ill intent toward mankind. They tend to lure humans into traps or difficult situations, watching them struggle to get out of it. Some Phookas have been taken in by the intriguing aspects of the human civilization and are beneficial towards humans as they want to learn more about the ways of Man. Some will then take the form of an large eagle and carry a human as a guide while flying over a civilized area asking questions along the way.
 
-<img src="images/Phooka.jpg" width="400" alt="Phooka" />
+<img src="images/Phooka_painted.jpg" width="340" alt="Phooka" />

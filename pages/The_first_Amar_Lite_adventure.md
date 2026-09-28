@@ -44,7 +44,7 @@ Here the characters have several options. They can sneak up on the goblin guards
 ## The goblins
 
 <figure class="right">
-<img src="images/Goblin.jpg" width="200" />
+<img src="images/Goblin_painted.jpg" width="300" alt="A goblin" />
 <figcaption>Goblin</figcaption>
 </figure>
 
