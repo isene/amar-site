@@ -4,7 +4,7 @@ The Amar RPG as a static website: one Markdown file per page, built to plain HTM
 
 ## Edit a page
 
-Open `pages/<Title>.md` in any editor. The top block holds the title, the categories and, for spells, rituals and potions, the numbers shown in the stat card. The rest is Markdown.
+Open `pages/<Title>.md` in any editor. The top block gives the title, the categories and, for spells, rituals and potions, the numbers shown in the stat card. The rest is Markdown.
 
 ## Build
 
