@@ -58,7 +58,7 @@ title: Main Page
 
 <li><a href="https://d6gaming.org/fairyforest/">Enter the Faerie Forest</a></li>
 
-<li><a href="https://open.spotify.com/album/7CIpVecbrfnLmvnnoXyrr6">Amar</a>, the album, on Spotify</li>
+<li><a href="https://open.spotify.com/album/7CIpVecbrfnLmvnnoXyrr6">Amar</a> and <a href="https://open.spotify.com/album/16ikWGRupnYwz9IEZARcD6">Walmaer</a>, albums on Spotify</li>
 
 <li><a href="https://www.youtube.com/playlist?list=PLbHUA-o_5dgJbOXwtdVx--gTnmWfiyyys">Ambient sounds</a> for your gaming sessions</li>
 
