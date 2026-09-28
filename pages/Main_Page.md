@@ -42,6 +42,40 @@ title: Main Page
 
 <p class="quote">“A fucking amazing game system” (GarThaleon)</p>
 
+<div class="intro">
+
+<h2>Quick introduction</h2>
+
+<section>
+
+<h3>What is a role-playing game?</h3>
+
+<p>Some people sit around a table with their player character described on a sheet of paper in front of them. The Game Master (GM) sits at the end of the table hiding his secrets behind a cardboard screen. The GM tells the players what their characters see and what they meet. The players respond by saying what their character does.</p>
+
+<p>Whenever there is a chance of failure, a die is rolled to see if the character is successful in that task. The players usually play only one character each. The GM plays every non-player character (NPC) the player characters (PCs) meet. Small metal miniatures are sometimes used to represent the PCs and NPCs, especially to help track combat situations.</p>
+
+</section>
+
+<section>
+
+<h3>What is the Amar RPG?</h3>
+
+<p>Amar is two things:</p>
+
+<ul>
+
+<li>A realistic rule system that guides the GM and players in the game. The rules make it possible to easily determine if a risky task like attacking the troll under the bridge is successful.</li>
+
+<li>A fantasy world where the game play takes place.</li>
+
+</ul>
+
+<p>This site covers the rules of the game as well as information about the Amar fantasy world.</p>
+
+</section>
+
+</div>
+
 <div class="mood">
 
 <div>
@@ -78,10 +112,6 @@ title: Main Page
 
 <h2>New to role-playing</h2>
 
-<p>A few people sit around a table, each with a character on a sheet of paper. The Game Master tells them what their characters see and meet.</p>
-
-<p>The players say what their characters do. When something could fail, a die decides.</p>
-
 <ul>
 
 <li><a href="Amar_Lite.html">Amar Lite</a><span>The whole game on one page, for beginners and young players.</span></li>
@@ -99,8 +129,6 @@ title: Main Page
 <section>
 
 <h2>About Amar</h2>
-
-<p>Amar is two things: a realistic rule system, and the fantasy world where the game takes place.</p>
 
 <p>The game is the result of more than 35 years of development and play testing. Its forerunner, <a href="https://en.wikipedia.org/wiki/MEGA_Role-Playing_System">The Mega Role-Playing System</a>, was published in the UK in 1987.</p>
 
