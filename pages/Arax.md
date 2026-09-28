@@ -18,7 +18,7 @@ stats:
 ---
 
 <figure class="right">
-<img src="images/Arax.jpg" width="340" alt="Arax" />
+<img src="images/Arax_ambush.jpg" width="420" alt="An Araxi pack ambushing travellers on a mountain switchback" />
 </figure>
 
 ## Skills
