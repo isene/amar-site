@@ -7,7 +7,7 @@ categories:
 Travelling alchemist; merchant in useful potions with fair pricing.
 
 <figure class="right">
-<img src="images/Zarin.jpg" width="340" alt="Zarin" />
+<img src="images/Zarin_wagon.jpg" width="420" alt="Zarin the travelling alchemist on his potion wagon" />
 </figure>
 
 ## Character Sheet

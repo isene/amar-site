@@ -17,6 +17,10 @@ stats:
   Reaction: '6'
 ---
 
+<figure class="right">
+<img src="images/Vampire.jpg" width="340" alt="Vampire" />
+</figure>
+
 ## Skills
 
 - **Dodge**: 4 (BODY 3 + Athletics 3 + 4 = **10**)

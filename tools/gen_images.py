@@ -43,7 +43,7 @@ PROMPT = {
 }
 ASPECT = {"npc": "3:4", "creature": "4:3", "scene": "4:3"}
 UPRIGHT = {"Dwarf", "Elf", "Human", "Lizard Man", "Trollkin", "Merfolk", "Giant", "Troll", "Werewolf",
-           "Faerie", "Centaur", "Half Elf", "Antonio The Magician", "Arax", "Ogre"}
+           "Faerie", "Centaur", "Half Elf", "Antonio The Magician", "Arax", "Ogre", "Vampire"}
 
 JOBS = [("npc", t) for t in [
     "Alac Geoffryn", "Ayah", "Baron Fer Chalun", "Baron Garos Maella", "Baronesse Fienna Milin", "Boran",
@@ -55,7 +55,7 @@ JOBS = [("npc", t) for t in [
     "Arax", "Brown Bear", "Cave Lion", "Centaur", "Deer", "Dragon", "Drake", "Dwarf", "Elf", "Faerie", "Giant",
     "Giant spider", "Griffin", "Horse", "Human", "King Eagle", "Lizard Man", "Merfolk", "Moose", "Mule",
     "Peregrine Falcon", "Pig", "Ram", "Rock-croc", "Sparrow Hawk", "Spell Searcher", "Troll", "Trollkin",
-    "Two-headed badger", "Werewolf", "White Shark", "Wild Boar", "Wolf", "Wyvern"]] + \
+    "Two-headed badger", "Werewolf", "White Shark", "Wild Boar", "Wolf", "Wyvern", "Vampire"]] + \
     [("npc", "Antonio The Magician"), ("npc", "Half Elf")] + \
     [("scene", t) for t in ["The Forbidden Library", "Magick", "Incantation Magic", "Evolutionary Magick",
                             "Equipment", "Amar rules 101", "Advice to the GM", "Universal Amar"]]
