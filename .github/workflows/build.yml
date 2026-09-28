@@ -1,0 +1,42 @@
+# After an edit on GitHub: rebuild the HTML in site/ and commit it.
+# The Amar server pulls main every five minutes, so the change then goes live.
+name: Build the site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "pages/**"
+      - "nav.yaml"
+      - "template.html"
+      - "build.py"
+      - "site/theme/**"
+      - "site/images/**"
+  workflow_dispatch:
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install markdown-it-py==3.0.0 pyyaml pillow
+      - run: python build.py
+      - name: Commit the built pages
+        run: |
+          git add -A site
+          if git diff --cached --quiet; then echo "The built pages did not change."; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -q -m "Build the site for ${GITHUB_SHA::7}"
+          git pull -q --rebase
+          git push -q

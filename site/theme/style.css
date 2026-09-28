@@ -181,6 +181,10 @@ ul.index a { font-size: 1.05rem; }
 ul.index span { display: block; font-size: 0.9rem; color: var(--ink-soft); line-height: 1.35; }
 .cats { clear: both; margin-top: 3rem; padding-top: 0.7rem; border-top: 1px solid var(--rule);
   font-size: 0.88rem; font-style: italic; color: var(--ink-soft); }
+/* edit and history links to GitHub; the rule above them when a page has no categories */
+.edit { clear: both; margin: 0.4rem 0 0; font-size: 0.86rem; }
+.text + .edit { margin-top: 3rem; padding-top: 0.7rem; border-top: 1px solid var(--rule); }
+.edit a { color: var(--ink-soft); margin-right: 1.3rem; }
 
 /* pictures */
 figure { margin: 0.3rem 0 1.2rem; }

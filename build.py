@@ -17,6 +17,7 @@ from PIL import Image
 ROOT = pathlib.Path(__file__).resolve().parent
 PAGES, OUT = ROOT / "pages", ROOT / "site"
 WIKI = "https://d6gaming.org/index.php/"
+GITHUB = "https://github.com/isene/amar-site"      # pages are edited there, on the web
 MD = MarkdownIt("commonmark", {"html": True}).enable(["table", "strikethrough"])
 NAV = yaml.load(open(ROOT / "nav.yaml"), Loader=yaml.BaseLoader)
 TEMPLATE = (ROOT / "template.html").read_text()
@@ -34,6 +35,7 @@ def load(f):
     meta.setdefault("categories", [])
     meta.setdefault("stats", {})
     meta["body"] = body
+    meta["src"] = f.name
     return meta
 
 
@@ -368,6 +370,10 @@ def main():
             cats = [c for c in p["categories"] if c != t]
             foot = ('<p class="cats">Listed under ' + ", ".join(
                 f'<a href="{href(c)}">{esc(c)}</a>' for c in cats) + ".</p>") if cats else ""
+            if p.get("src"):                    # written by hand: editable on GitHub
+                q = urllib.parse.quote(p["src"])
+                foot += (f'<p class="edit"><a href="{GITHUB}/edit/main/pages/{q}">Edit this page</a>'
+                         f'<a href="{GITHUB}/commits/main/pages/{q}">History</a></p>')
             content = crumbs(t) + f"<h1>{esc(t)}</h1>" + stats_html(p["stats"], p.get("symbol")) + toc_html(own) \
                 + f'<div class="text">{body}</div>' + foot
             desc, cls = summary(t), ""
