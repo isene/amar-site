@@ -47,3 +47,11 @@ for (const a of document.querySelectorAll("a.video[data-yt]")) {
     a.replaceWith(f);
   });
 }
+
+// The light/dark switch: overrides the device setting and is remembered.
+const mode = document.querySelector(".mode");
+if (mode) mode.addEventListener("click", () => {
+  const dark = getComputedStyle(document.documentElement).colorScheme.includes("dark");
+  document.documentElement.dataset.theme = dark ? "light" : "dark";
+  try { localStorage.setItem("theme", dark ? "light" : "dark"); } catch (e) {}
+});
