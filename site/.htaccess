@@ -9,6 +9,10 @@ RewriteEngine On
 RewriteRule ^index\.php/Main_Page$ / [R=301,L]
 RewriteCond %{QUERY_STRING} ^$
 RewriteRule ^index\.php$ / [R=301,L]
+# index.php?title=Main_Page and Main_Page.html: the front page
+RewriteCond %{QUERY_STRING} (?:^|&)title=Main_Page(?:&|$)
+RewriteRule ^index\.php$ /? [R=301,L]
+RewriteRule ^Main_Page(?:\.html)?$ / [R=301,L]
 # index.php?title=Name (with or without an action)
 RewriteCond %{QUERY_STRING} (?:^|&)title=([^&]+)
 RewriteRule ^index\.php$ /%1.html? [R=301,L,NE]
