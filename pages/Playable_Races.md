@@ -6,13 +6,13 @@ List of the playable races in Amar RPG. While these are the default playable rac
 
 ### Default Playable Races
 
-[Human](https://d6gaming.org/index.php/Human)
+[Human](Human.html)
 
-[Dwarf](https://d6gaming.org/index.php/Dwarf)
+[Dwarf](Dwarf.html)
 
 [Lizard Man](Lizard_Man_(Playable_Race).html)
 
-[Elf](https://d6gaming.org/index.php/Elf)
+[Elf](Elf.html)
 
 [Half Elf](Half_Elf.html)
 

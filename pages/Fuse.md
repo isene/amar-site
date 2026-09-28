@@ -22,7 +22,7 @@ stats:
 
 Fuses multiple objects or creatures together. Fusing two creatures together will give severe damage to their bodies and will lose D6+1 + 1 per level of the characters body points. When fusing objects they will interact different depending on the objects.
 
-This spell was used a long time ago in Giellor by magicians to build houses. But the spell got banished after [Antonio The Magician](https://d6gaming.org/index.php/Antonio_The_Magician) destroyed a big part of Giellor.
+This spell was used a long time ago in Giellor by magicians to build houses. But the spell got banished after [Antonio The Magician](Antonio_The_Magician.html) destroyed a big part of Giellor.
 
 ## Casting
 

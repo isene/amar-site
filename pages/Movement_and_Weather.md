@@ -8,7 +8,7 @@ title: Movement and Weather
 <img src="images/Oseina_hills.jpg" width="360" alt="Oseina hills.jpg" />
 </figure>
 
-Base movement in flat terrain (plains) for every creature is covered under each [encounter](https://d6gaming.org/index.php/Encounters) ("Move"). The base movement for humans is 30 kilometers per day. This includes carrying equipment/weapons/armor, resting and meal breaks and travelling 10 hours per day. The movement in combat is the base movement in meters x0.4 per round (i.e. 12 for humans).
+Base movement in flat terrain (plains) for every creature is covered under each [encounter](Encounters.html) ("Move"). The base movement for humans is 30 kilometers per day. This includes carrying equipment/weapons/armor, resting and meal breaks and travelling 10 hours per day. The movement in combat is the base movement in meters x0.4 per round (i.e. 12 for humans).
 
 The table below gives the movement in kilometers per day for humans. Movement for other creatures should be adjusted proportionally.
 
@@ -69,4 +69,4 @@ Each day, roll on the table below for changes in the weather (applied to the Wea
 | 5    | -2     | -1     | -1     | -1     |
 | 6    | -3     | -2     | -2     | -2     |
 
-Next: [Encounters](https://d6gaming.org/index.php/Encounters)
+Next: [Encounters](Encounters.html)

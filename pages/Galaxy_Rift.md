@@ -22,7 +22,7 @@ stats:
 
 Summons a rift that pulls in a creature or a object into the rift and destroys it.
 
-This spell was created by a [Spell Searcher](https://d6gaming.org/index.php/Spell_Searcher) a long time ago.
+This spell was created by a [Spell Searcher](Spell_Searcher.html) a long time ago.
 
 ## Casting
 

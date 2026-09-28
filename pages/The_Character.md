@@ -309,9 +309,9 @@ Combat has its own Critical and Fumble tables (see [Combat](Combat.html)), and s
 
 See the race pages for racial modifiers:
 
-- [Human](https://d6gaming.org/index.php/Human) - Balanced, 2 bonus skill points
-- [Elf](https://d6gaming.org/index.php/Elf) - +1 SPIRIT characteristic
-- [Dwarf](https://d6gaming.org/index.php/Dwarf) - +1 BODY characteristic
+- [Human](Human.html) - Balanced, 2 bonus skill points
+- [Elf](Elf.html) - +1 SPIRIT characteristic
+- [Dwarf](Dwarf.html) - +1 BODY characteristic
 - Others - See individual race pages
 
 ## See Also

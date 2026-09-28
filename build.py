@@ -63,9 +63,14 @@ for t, p in PAGE.items():
     elif "Rituals" in c: PARENT[t] = "Rituals"
     elif "Potions" in c: PARENT[t] = "Potions"
     elif "Natural Magick Items" in c: PARENT[t] = "Natural Magick Items"
+    elif "Gods" in c: PARENT[t] = "Gods"
+    elif "Places" in c: PARENT[t] = "Places"
+    elif "NPCs" in c: PARENT[t] = "NPCs"
+    elif "Encounters" in c: PARENT[t] = "Encounters"
     elif t.endswith("(EVM)") or t.endswith(" Path"): PARENT[t] = "Evolutionary Magick"
     elif t.endswith("(Playable Race)") or t == "Half Elf": PARENT[t] = "Playable Races"
-PARENT.update({"Incantation Example: Minor Heating": "Incantation Magic", "Magick Lore": "Magick"})
+PARENT.update({"Incantation Example: Minor Heating": "Incantation Magic", "Magick Lore": "Magick",
+               "Antonio The Magician": "NPCs", "Arius": "NPCs", "The Forbidden Library": "Places"})
 for c in CATEGORIES:
     if c.endswith(" Magick") or c in ("Advanced Spells", "Forbidden Spells"):
         PARENT.setdefault(c, "Spells")
@@ -93,7 +98,7 @@ IMG_SIZE = {}
 def img_size(src):
     if src not in IMG_SIZE:
         try:
-            im = Image.open(OUT / urllib.parse.unquote(src)).convert("RGB")
+            im = Image.open(OUT / urllib.parse.unquote(html.unescape(src))).convert("RGB")
             w, h = im.size
             corners = [(2, 2), (w - 3, 2), (2, h - 3), (w - 3, h - 3)]
             art = sum(min(im.getpixel(c)) > 215 for c in corners) >= 3
@@ -124,6 +129,13 @@ def polish(body, title):
         return f'<h{n} id="{esc(i, quote=True)}">{inner}</h{n}>'
     body = re.sub(r"<h([2-6])>(.*?)</h\1>", head, body, flags=re.S)
     body = re.sub(r"<p><strong>([^<]{1,80})</strong></p>\s*<table>", r'<table><caption>\1</caption>', body)
+    body = re.sub(r"<thead>\s*<tr>(?:\s*<th>\s*</th>)+\s*</tr>\s*</thead>", "", body)
+
+    def portrait(m):
+        size = img_size(re.search(r'src="([^"]+)"', m.group(0)).group(1))
+        return f'<figure class="right">{m.group(0)}</figure>' if size and size[1] > size[0] else m.group(0)
+    # a tall picture standing alone (a portrait) sits beside the text
+    body = re.sub(r"(?m)^<img\b[^>]*>$", portrait, body)
     body = body.replace("<table>", '<div class="tw"><table>').replace("</table>", "</table></div>")
     # a footnote line right under a table belongs inside its frame
     body = re.sub(r'</table></div>\s*<p><em>([¹²³⁴⁵*†][^<]*)</em></p>', r'</table><p class="note">\1</p></div>', body)
@@ -179,7 +191,7 @@ def summary(t):
     p = PAGE.get(t)
     if not p:
         return ""
-    txt = text_of(MD.render(re.sub(r"^\s*(#.*|\|.*|<.*)$", "", p["body"], flags=re.M)))
+    txt = text_of(MD.render(re.sub(r"^\s*(#.*|\|.*|<.*|\*\*[^*]+\*\*\s*)$", "", p["body"], flags=re.M)))
     s = re.split(r"(?<=[.!?])\s", txt, maxsplit=1)[0]
     return s if len(s) < 180 else s[:170].rsplit(" ", 1)[0] + " …"
 
@@ -188,8 +200,9 @@ def summary(t):
 def link_list(titles):
     out = ['<ul class="index">']
     for t in titles:
-        s = summary(t)
-        out.append(f'<li><a href="{href(t)}">{esc(t)}</a>' + (f" <span>{esc(s)}</span>" if s else "") + "</li>")
+        s, sym = summary(t), PAGE.get(t, {}).get("symbol")
+        icon = f'<img class="symbol" src="{esc(sym, quote=True)}" alt="">' if sym else ""
+        out.append(f'<li>{icon}<a href="{href(t)}">{esc(t)}</a>' + (f" <span>{esc(s)}</span>" if s else "") + "</li>")
     return "\n".join(out + ["</ul>"])
 
 
@@ -265,11 +278,12 @@ def nav_html(current):
     return "\n".join(out)
 
 
-def stats_html(st):
+def stats_html(st, symbol=None):
     rows = [(k, v) for k, v in st.items() if v and v != "See below"]
     if not rows:
         return ""
-    return '<aside class="stats"><dl>' + "".join(f"<dt>{esc(k)}</dt><dd>{esc(v)}</dd>" for k, v in rows) + "</dl></aside>"
+    sym = f'<img class="symbol" src="{esc(symbol, quote=True)}" alt="">' if symbol else ""
+    return f'<aside class="stats">{sym}<dl>' + "".join(f"<dt>{esc(k)}</dt><dd>{esc(v)}</dd>" for k, v in rows) + "</dl></aside>"
 
 
 def toc_html(body):
@@ -320,7 +334,7 @@ def main():
             cats = [c for c in p["categories"] if c != t]
             foot = ('<p class="cats">Listed under ' + ", ".join(
                 f'<a href="{href(c)}">{esc(c)}</a>' for c in cats) + ".</p>") if cats else ""
-            content = crumbs(t) + f"<h1>{esc(t)}</h1>" + stats_html(p["stats"]) + toc_html(own) \
+            content = crumbs(t) + f"<h1>{esc(t)}</h1>" + stats_html(p["stats"], p.get("symbol")) + toc_html(own) \
                 + f'<div class="text">{body}</div>' + foot
             desc, cls = summary(t), ""
         (OUT / fname(t)).write_text(page("Amar RPG" if t == "Main Page" else t, content, desc, cls))

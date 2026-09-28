@@ -1,0 +1,442 @@
+---
+title: Mythology
+---
+
+## In the beginning…
+
+…there was the allmighty god Uhr, the personified knowledge of all. Uhr had total ability and could be, do or have anything at will. And all the god wanted, was a game – to not be bored. So Uhr created Magick, the complete mystery, the unknowable. And Magick was a god, the god of chaos, randomity, unpredictability and mystery. The universe now encompassed two extremes, Uhr and Magick. Magick in this earliest period was a total randomity, unpredictable even to Uhr. And so the game was set and the two powers clashed. They interchanged, vanished and resolved into what is now known as the world. Uhr and Magick degenerated and ceased to exist but they gave birth to the game Uhr wanted. Knowledge and magick still exists but in the milder forms known in our world today.
+
+From the friction between Uhr and Magick the elements emerged. The first in creation was Alesia, the mother earth. She formed the basis on which all else was built and she represents the basic stability. But the game needed motion and thus came water, and the waterlord Walmaer ruled the sea. But the motion was slow and the freedom limited. The windlady Shalissa supplied speed to the motion and freedom to the world, like the winds that lifts the eagle to the sky. The next to emerge was Ikalio, the sun , the god of fire. He is the ultimate in speed and the giver of life, the creator of thought. There is nothing faster than the thought.
+
+And then came Ikalios’ ally Ielina, the moon. Ielina watches over the world when Ikalio is resting. But she is also the timekeeper and that is her main mission, to turn the wheel of existence. The counsel of time also emerged directly from the interchange betwwen Uhr and Magick. The five time lords has their main purpose to preserve the game, to see to its continuance. They build the basis for tings to happen and through Ielina they turn the wheel of existence.
+
+The six Primary Gods are considered to be Alesia, Ikalio, Shalissa, Walmaer, Ielina and the Time Lords. The latter are often counted as one God and are rarely if ever worshipped as they never interact with mortals.
+
+<figure class="right">
+<img src="images/Familyofgods.png" width="711" alt="Familyofgods.png" />
+</figure>
+
+The world was devided between Alesia and Walmaer, between the land and the sea. But the borders were ever changing and the water and the land was in constant fluxation. With the help of Ikalio, Alesia and Walmaer gave birth to a beautiful goddess, and Anashina the goddess of nature, gave life to the land and the sea. At the same time in the sky, Ikalio and Ielina happened to cross paths and Elesi, the goddess of creation was born. The five time lords saw this beautiful goddess and to further the preservation of the game, they created her counterpart Kraagh, the god of death and decay.
+
+By accident or plan, Elesi and Kraagh happened to meet twice before they could realize the consequences of the powers they unleashed. From their first meeting the Devil erupted and from their second came the Saint.
+
+Now this was the first era of the gods, before emotions entered in and the gods started acting human and falling in love with each other. The first era was some 20 ort ago. At this time, the humans and other creatures in the world was brought into existence. Little is known about how this came about, though many legends exist. About 19 ort ago the second era of the gods started when Alesia and Ikalio found eachothers heart. Their godly emotions brought forth two sons, Fal Munir, the sage and Macgillan.
+
+In their romantic adventures Walmaer and Shalissa got one daughter, Gwendyll.
+
+Macgillan and Gwendyll, both created by love found eachother and was the first to ever marry. They founded the kingdoms on earth and led the humans to a civilized way of life. They got five sons, all whom played an important role towards the humans and their civilizations.
+
+They were Moltan – the judge, creator of law and order, Maleko – the lonely one, Taroc – the warlord, Man Peggon – the god of strength and last and often considered least, Juba – the joker, the god of fun and entertainment. Now this concluded the second era of the gods, some 18 ort ago.
+
+The powers of Magick was taken by three powerful entities and divided amongst thjem. These were Ish Nakil – the silent, master of innate magick, Fenimaal – the power, master of willpower magick and Fionella the witch – master of natural magick. Many gods, demigods, powerful entities, demons and faeries have later come into the world. Many have played and some still play an important role in our destiny and course of life. To lead a successful life one is advised to know about the forces that rules one's life, though treat it with care and awe, these forces are greater than you.
+
+## The History of the Gods
+
+    -20 ort: The world is created, the gods first era starts.
+    -19 ort: The second era starts with the comming of the lesser gods.
+    -18 ort: The distribution and balancing of power is completed, the wheel of existence is finalized.
+    -16 ort: The three masters of magick grasps this power and divide it amongst themselves.
+    -15 ort: The great war for power begins. The war is between the good and the evil, between the light and the darkness. The war threatens the wheel of existence.
+    -14 ort: The elements join forces and the timelords intervene to end the war.
+    -10 ort: The second thrust for power: The timelords and the masters of magick against the elements and the moon.
+    -09 ort: The balance of power is regained and stabilized with the help of the Dragon kingdom. The faeries entered this world from the Otherworld.
+
+## The World of the Gods
+
+<figure class="right">
+<img src="images/Worldofgods.png" width="430" alt="Worldofgods.png" />
+</figure>
+
+Spirits inhabit bodies on Amar. If they lead a “normal” life, they are recycled after death by Kraagh, and thus get to inhabit a new body on Amar.
+
+Before spirits are returned to Amar, Kraagh strips them of their memory of their former life. If they have been a faithful follower of a particular god, that god will “tag” that spirit as his. Kraagh sees this and sends the spirit to the part of The World of the Gods run by that particular god.
+
+The World of the Gods is quite similar to Amar except that the gods live there. It is hyper fantasy gaudy with stereotypical landscapes. Alesia rules in The Land of Farming with The Great Mountain in the middle, Walmaer rules The Island Kingdom, Anashina rules in The Great Forest, etc.
+
+If the spirit has done a lot of evil and nobody wants it and Kraagh sees that it is not wanted in Amar either, it goes to The Underworld (Hell) in the wrong end of the whip. But if the spirit has pleased Mestronorpha and become one of his priests, he will still go to The Underworld – but in the right end of the whip.
+
+## The Wheel of Existence
+
+The year has 13 months - each month honoring one God. Each month has 4 weeks with 7 days per week. It all fits neatly in to a *Wheel of Existence* with all the main Gods in one descriptive image. The calendar turns clockwise. There are several holy days throughout the year as the image shows.
+
+The weeks within a month each have a name (after the phase of the moon):
+
+1.  InIelina ("No Ielina")
+2.  UrIelina ("Beginning Ielina")
+3.  AlIelina ("All Ielina")
+4.  DeIelina ("End Ielina")
+
+Each day of a week is named after one lesser God:
+
+1.  Recolar (sports & competition - son of Taroc)
+2.  Mailatroz (trading - son of Ikalio)
+3.  Ztenasie (wine and food - daughter of Alesia)
+4.  Elaari (passion & arts - daughter of Elesi)
+5.  Tsankili (thievery & treachery - son of Mestronorpha)
+6.  Fooradur (diplomacy - half human, half dwarf)
+7.  Liandra (hope and dreams - daughter of Ielina)
+
+The GM keeps track of the days as the characters evolve through the game. Click the image for larger size.
+
+<img src="images/Wheel.jpg" width="800" alt="Wheel.jpg" />
+
+## Overview of the Gods and their Worshipping
+
+**The Gods of Amar**
+
+<table>
+<thead>
+<tr>
+<th>God's Name</th>
+<th>Gender</th>
+<th>Domain</th>
+<th>Signifying<br />
+Number</th>
+<th>Symbol</th>
+<th>Holy Day</th>
+<th>Special Powers</th>
+<th>Priest<br />
+Rank</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="Alesia.html">Alesia</a></td>
+<td>♀</td>
+<td>Earth</td>
+<td>¼</td>
+<td><img src="images/Alesia.png" width="32" alt="Alesia.png" /></td>
+<td>8 Gwendyll</td>
+<td>Earth &amp; Protection Magick</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Ikalio.html">Ikalio</a></td>
+<td>♂</td>
+<td>Fire</td>
+<td>¼</td>
+<td><img src="images/Ikalio.png" width="32" alt="Ikalio.png" /></td>
+<td>15 Taroc</td>
+<td>Fire Magick</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Shalissa.html">Shalissa</a></td>
+<td>♀</td>
+<td>Wind</td>
+<td>¼</td>
+<td><img src="images/Shalissa.png" width="32" alt="Shalissa.png" /></td>
+<td>22 Fal Munir</td>
+<td>Air Magick</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Walmaer.html">Walmaer</a></td>
+<td>♂</td>
+<td>Water</td>
+<td>¼</td>
+<td><img src="images/Walmaer.png" width="32" alt="Walmaer.png" /></td>
+<td>1 Cal Amae</td>
+<td>Water Magick, Swim</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Ielina.html">Ielina</a></td>
+<td>♀</td>
+<td>Moon, Timekeeping</td>
+<td>28</td>
+<td><img src="images/Ielina.png" width="32" alt="Ielina.png" /></td>
+<td>28 Mestronorpha</td>
+<td>Perception Magick, Awareness (&amp;skills)</td>
+<td>Seer</td>
+</tr>
+<tr>
+<td><a href="Time_Lords.html">Time Lords</a></td>
+<td>♂</td>
+<td>Time</td>
+<td>⅕</td>
+<td><img src="images/Timelords.png" width="32" alt="Timelords.png" /></td>
+<td>(None)</td>
+<td>(None)</td>
+<td>(None)</td>
+</tr>
+<tr>
+<td><a href="Cal_Amae.html">Cal Amae</a></td>
+<td>♂</td>
+<td>Good Deeds</td>
+<td>9</td>
+<td><img src="images/Calamae.png" width="32" alt="Calamae.png" /></td>
+<td>9 Cal Amae</td>
+<td>Melee Defense</td>
+<td>Paladin</td>
+</tr>
+<tr>
+<td><a href="Elesi.html">Elesi</a></td>
+<td>♀</td>
+<td>Creation/Art</td>
+<td>2</td>
+<td><img src="images/Elesi.png" width="32" alt="Elesi.png" /></td>
+<td>2 Elesi</td>
+<td>Life Magick</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Anashina.html">Anashina</a></td>
+<td>♀</td>
+<td>Nature</td>
+<td>4</td>
+<td><img src="images/Anashina.png" width="32" alt="Anashina.png" /></td>
+<td>4 Anashina</td>
+<td>Missile Weapons</td>
+<td>Druid</td>
+</tr>
+<tr>
+<td><a href="Gwendyll.html">Gwendyll</a></td>
+<td>♀</td>
+<td>Queen of the Gods</td>
+<td>12</td>
+<td><img src="images/Gwendyll.png" width="32" alt="Gwendyll.png" /></td>
+<td>12 Gwendyll</td>
+<td>Social Skills</td>
+<td>Baroness</td>
+</tr>
+<tr>
+<td><a href="MacGillan.html">MacGillan</a></td>
+<td>♂</td>
+<td>King of the Gods</td>
+<td>13</td>
+<td><img src="images/Macgillan.png" width="32" alt="Macgillan.png" /></td>
+<td>13 MacGillan</td>
+<td>Leadership</td>
+<td>Baron</td>
+</tr>
+<tr>
+<td><a href="Juba.html">Juba</a></td>
+<td>♂</td>
+<td>Entertainment</td>
+<td>10</td>
+<td><img src="images/Juba.png" width="32" alt="Juba.png" /></td>
+<td>10 Juba</td>
+<td>Music/Dance skills</td>
+<td>Jester</td>
+</tr>
+<tr>
+<td><a href="Taroc.html">Taroc</a></td>
+<td>♂</td>
+<td>War</td>
+<td>11</td>
+<td><img src="images/Taroc.png" width="32" alt="Taroc.png" /></td>
+<td>11 Taroc</td>
+<td>Melee Skills</td>
+<td>War Lord</td>
+</tr>
+<tr>
+<td><a href="Man_Peggon.html">Man Peggon</a></td>
+<td>♂</td>
+<td>Strength</td>
+<td>5</td>
+<td><img src="images/Manpeggon.png" width="32" alt="Manpeggon.png" /></td>
+<td>4 Man Peggon</td>
+<td>Strength</td>
+<td>Lord</td>
+</tr>
+<tr>
+<td><a href="Maleko.html">Maleko</a></td>
+<td>♂</td>
+<td>Inner Strength</td>
+<td>1</td>
+<td><img src="images/Maleko.png" width="32" alt="Maleko.png" /></td>
+<td>1 Maleko</td>
+<td>Endurance</td>
+<td>Monk</td>
+</tr>
+<tr>
+<td><a href="Fal_Munir.html">Fal Munir</a></td>
+<td>♂</td>
+<td>Knowledge &amp; Wisdom</td>
+<td>7</td>
+<td><img src="images/Falmunir.png" width="32" alt="Falmunir.png" /></td>
+<td>7 Fal Munir</td>
+<td>Learning</td>
+<td>Sage</td>
+</tr>
+<tr>
+<td><a href="Moltan.html">Moltan</a></td>
+<td>♂</td>
+<td>Judgement</td>
+<td>3</td>
+<td><img src="images/Moltan.png" width="32" alt="Moltan.png" /></td>
+<td>3 Moltan</td>
+<td>Awareness</td>
+<td>Judge</td>
+</tr>
+<tr>
+<td><a href="Kraagh.html">Kraagh</a></td>
+<td>♂</td>
+<td>Death &amp; Reincarnation</td>
+<td>8</td>
+<td><img src="images/Kraagh.png" width="32" alt="Kraagh.png" /></td>
+<td>8 Kraagh</td>
+<td>Black Magick</td>
+<td>Priest</td>
+</tr>
+<tr>
+<td><a href="Mestronorpha.html">Mestronorpha</a></td>
+<td>♂</td>
+<td>Evil Deeds</td>
+<td>6</td>
+<td><img src="images/Mestronorpha.png" width="32" alt="Mestronorpha.png" /></td>
+<td>6 Mestronorpha</td>
+<td>Black Magick</td>
+<td>Servant</td>
+</tr>
+<tr>
+<td><a href="Ish_Nakil.html">Ish Nakil</a></td>
+<td>?</td>
+<td>Innate Magick</td>
+<td>⅓</td>
+<td><img src="images/Ishnakil.png" width="32" alt="Ishnakil.png" /></td>
+<td>15 Anashina</td>
+<td>Innate Magick</td>
+<td>Entity</td>
+</tr>
+<tr>
+<td><a href="Fenimaal.html">Fenimaal</a></td>
+<td>♂</td>
+<td>Willpower Magick</td>
+<td>⅓</td>
+<td><img src="images/Fenimaal.png" width="32" alt="Fenimaal.png" /></td>
+<td>18 Anashina</td>
+<td>Spell skills</td>
+<td>Mage</td>
+</tr>
+<tr>
+<td><a href="Fionella.html">Fionella</a></td>
+<td>♀</td>
+<td>Natural Magick</td>
+<td>⅓</td>
+<td><img src="images/Fionella.png" width="32" alt="Fionella.png" /></td>
+<td>21 Anashina</td>
+<td>Rituals</td>
+<td>Witch</td>
+</tr>
+<tr>
+<td><a href="Recolar.html">Recolar</a></td>
+<td>♂</td>
+<td>Sports &amp; Competition</td>
+<td>1</td>
+<td><img src="images/Recolar.png" width="32" alt="Recolar.png" /></td>
+<td>1 Taroc</td>
+<td>Coordination</td>
+<td>Master</td>
+</tr>
+<tr>
+<td><a href="Mailatroz.html">Mailatroz</a></td>
+<td>♂</td>
+<td>Trading</td>
+<td>2</td>
+<td><img src="images/Mailatroz.png" width="32" alt="Mailatroz.png" /></td>
+<td>14 Taroc</td>
+<td>Trading</td>
+<td>Master Merchant</td>
+</tr>
+<tr>
+<td><a href="Ztenasie.html">Ztenasie</a></td>
+<td>♀</td>
+<td>Wine &amp; Food</td>
+<td>3</td>
+<td><img src="images/Ztenasie.png" width="32" alt="Ztenasie.png" /></td>
+<td>1 Juba</td>
+<td>Cooking</td>
+<td>Master Chef</td>
+</tr>
+<tr>
+<td><a href="Elaari.html">Elaari</a></td>
+<td>♀</td>
+<td>Passion &amp; Arts</td>
+<td>5</td>
+<td><img src="images/Elaari.png" width="32" alt="Elaari.png" /></td>
+<td>28 Juba</td>
+<td>Art skills</td>
+<td>Master</td>
+</tr>
+<tr>
+<td><a href="Tsankili.html">Tsankili</a></td>
+<td>♂</td>
+<td>Thievery &amp; Treachery</td>
+<td>1</td>
+<td><img src="images/Tsankili.png" width="32" alt="Tsankili.png" /></td>
+<td>1 Mestronorpha</td>
+<td>Sleight, MvQt &amp; Hide</td>
+<td>Master Thief</td>
+</tr>
+<tr>
+<td><a href="Fooradur.html">Fooradur</a></td>
+<td>♂</td>
+<td>Diplomacy</td>
+<td>2</td>
+<td><img src="images/Fooradur.png" width="32" alt="Fooradur.png" /></td>
+<td>2 Moltan</td>
+<td>Social Lore</td>
+<td>Diplomat</td>
+</tr>
+<tr>
+<td><a href="Liandra.html">Liandra</a></td>
+<td>♀</td>
+<td>Hope &amp; Dreams</td>
+<td>1</td>
+<td><img src="images/Liandra.png" width="32" alt="Liandra.png" /></td>
+<td>1 Elesi</td>
+<td>Drawing, dancing, sculpting, ...</td>
+<td>Dreamer</td>
+</tr>
+<tr>
+<td><a href="Asteria.html">Asteria</a></td>
+<td>♀</td>
+<td>Ice</td>
+<td>6</td>
+<td><img src="images/Asteria.png" width="32" alt="Asteria.png" /></td>
+<td>2 Cal Amae</td>
+<td>Ice Magick</td>
+<td>Frost Mage</td>
+</tr>
+<tr>
+<td><a href="Parkoan.html">Parkoan</a></td>
+<td>♂</td>
+<td>Lava</td>
+<td>7</td>
+<td><img src="images/Parkoan.png" width="32" alt="Parkoan.png" /></td>
+<td>16 Taroc</td>
+<td>Lava Magick</td>
+<td>Lava Mage</td>
+</tr>
+</tbody>
+</table>
+
+There are cults worshipping each and every God. The cult ranks are very similar. Novices are called Lay Members and receive no special treatments, benefits or powers. A ritual is required for attaining the rank of *Initiate*. The ritual depends on the cult. An Initiate can develop a Cult Standing that can be used in critical situations to call upon the power of the God (see [Magick](Magick.html)). In addition, on the God's Holy Day, an Initiate will receive a +3 bonus in the God's Special Power (see table above). The highest rank is that of a Priest. A Priest receives a +3 bonus in the Special Power the 5 days before and after the Holy Day and +6 on the Holy Day. Attaining a Priest Rank requires a set of greater abilities as well as years of servitude as an active Initiate. The name of the Priest Rank for each cult is given in the table above under "Priest Rank".
+
+The actual attributes of each God and Goddess is given on each of their pages. These are approximations as they shift as time goes by.
+
+Major Gods are those featured in the Wheel of Existence - the Elements, the Months, the Magick Trio, Time Lords and Ielina. The other Gods are considered Minor. Major Gods regenerate approximately 20 BP per round, while Minor Gods regenerate some 10 BP per round.
+
+## Relationship between the Gods
+
+This map shows the relationships between the Gods of Amar (click for a full size detailed image)
+
+<img src="images/GodsOfAmar.png" width="1000" alt="GodsOfAmar.png" />
+
+Relations between the Gods. Black lines are positive relations, while red are negative. Black and red lines indicate a complex relationship. Stronger lines indicates stronger relationships.
+
+## Other Gods
+
+Here are a list of other known Gods in Amar:
+
+**The Gods of Amar**
+
+| God's Name  | Domain                                            |
+|-------------|---------------------------------------------------|
+| Duargur     | Prime God of the Dwarves, Willpower, Stubbornness |
+| Chill Padde | Patience, slowness, relaxation, laziness          |
+| Oddmar      | Service                                           |
+
+Next: [The World](The_World.html)

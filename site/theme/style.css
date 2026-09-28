@@ -120,6 +120,11 @@ pre { white-space: pre-wrap; background: var(--vellum-2); padding: 0.8rem 1rem; 
 .stats dl { display: grid; grid-template-columns: auto 1fr; gap: 0.28rem 0.9rem; margin: 0; }
 .stats dt { font-style: italic; color: var(--ink-soft); }
 .stats dd { margin: 0; font-variant-numeric: lining-nums; }
+.symbol { width: 2rem; height: auto; image-rendering: pixelated; mix-blend-mode: multiply; }
+.stats .symbol { display: block; margin: 0.35rem auto 0.7rem; }
+ul.index .symbol { float: left; width: 1.6rem; margin: 0.2rem 0.7rem 0 0; }
+ul.index li:has(.symbol) { display: flow-root; }
+@media (prefers-color-scheme: dark) { .symbol { mix-blend-mode: screen; filter: invert(0.88); } }
 
 /* tables */
 /* tables are blocks of their own width, so short ones sit side by side */
@@ -150,7 +155,7 @@ ul.index span { display: block; font-size: 0.9rem; color: var(--ink-soft); line-
 
 /* pictures */
 figure { margin: 0.3rem 0 1.2rem; }
-figure.right { float: right; margin-left: 1.8rem; max-width: 48%; }
+figure.right { float: right; clear: right; margin-left: 1.8rem; max-width: 48%; }
 figure.left { float: left; margin-right: 1.8rem; max-width: 48%; }
 figure.center { text-align: center; }
 img { max-width: 100%; height: auto; }

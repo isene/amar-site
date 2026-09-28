@@ -100,6 +100,40 @@ title: Main Page
 
 <section>
 
+<h2>The world of Amar</h2>
+
+<ul>
+
+<li><a href="Mythology.html">Mythology</a><span>The creation, the gods and the calendar.</span></li>
+
+<li><a href="Gods.html">The Gods</a><span>Every god, with symbol, domain and holy day.</span></li>
+
+<li><a href="The_Kingdom_of_Amar.html">The Kingdom of Amar</a><span>The kingdom, its districts and its cities.</span></li>
+
+<li><a href="Places.html">Places</a><span>Towns, castles and villages across Amar.</span></li>
+
+<li><a href="The_Rise_to_Infamy.html">The Rise to Infamy</a><span>The story of how Amar came to be.</span></li>
+
+</ul>
+
+</section>
+
+<section>
+
+<h2>People and creatures</h2>
+
+<ul>
+
+<li><a href="NPCs.html">NPCs</a><span>The personalities of Amar, with full character sheets.</span></li>
+
+<li><a href="Encounters.html">Encounters</a><span>Animals, peoples and monsters, with 3-tier stats.</span></li>
+
+</ul>
+
+</section>
+
+<section>
+
 <h2>For the Game Master</h2>
 
 <ul>

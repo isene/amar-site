@@ -22,7 +22,7 @@ stats:
 
 ### The Raven Demon
 
-This spell is used by The [Raven Demon](https://d6gaming.org/index.php/Raven_Demon) and the only way to learn the spell is to kill The [Raven Demon](https://d6gaming.org/index.php/Raven_Demon). When the demon is killed the player can take the soul and will immediately learn the spell. When the spell is used by The Raven Demon, his wings starts glowing and a black beam is unleashed at the target.
+This spell is used by The [Raven Demon](Raven_Demon.html) and the only way to learn the spell is to kill The [Raven Demon](Raven_Demon.html). When the demon is killed the player can take the soul and will immediately learn the spell. When the spell is used by The Raven Demon, his wings starts glowing and a black beam is unleashed at the target.
 
 ### The Spell
 

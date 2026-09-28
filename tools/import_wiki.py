@@ -37,7 +37,10 @@ EVM = sorted(t for t in TITLES if t.endswith("(EVM)"))
 SKIP = {"Magick", "Legacy Magick", "Raven Demon"}
 LISTS = cat("Skills") + [t for t in cat("Spells") if t not in SKIP] + cat("Rituals") \
     + cat("Potions") + cat("Natural Magick Items")
-SCOPE = list(dict.fromkeys(RULES + GM + LITE + ADDONS + EVM + LISTS))
+WORLD = ["Mythology", "The World", "The Kingdom of Amar", "The Rise to Infamy", "Encounters",
+         "Antonio The Magician", "Arius", "The Forbidden Library"] \
+    + [t for t in cat("Gods") + cat("Places") + cat("NPCs") + cat("Encounters") if t not in SKIP - {"Raven Demon"}]
+SCOPE = list(dict.fromkeys(RULES + GM + LITE + ADDONS + EVM + LISTS + WORLD))
 
 
 def fname(title):
@@ -92,17 +95,33 @@ def clean(title):
         a = li.find("a")
         if a and "/Legacy_" in a.get("href", ""):
             li.decompose()
-    # the first infobox becomes front matter
-    stats = {}
-    box = root.select_one("table.infobox")
-    if box:
-        for tr in box.find_all("tr"):
-            cells = tr.find_all(["th", "td"])
-            if len(cells) == 2:
-                k, v = (c.get_text(" ", strip=True) for c in cells)
-                if k and v:
-                    stats[k] = v
-        box.decompose()
+    # info boxes: a box of pictures only becomes a figure; the first box with data
+    # becomes front matter (its picture, a god's symbol, shows in the stat card);
+    # any later data box stays a table
+    stats, symbol = {}, None
+    for box in root.select("table.infobox"):
+        pairs = [tr.find_all(["th", "td"]) for tr in box.find_all("tr")]
+        pairs = [(a.get_text(" ", strip=True), b.get_text(" ", strip=True)) for a, b in
+                 (c for c in pairs if len(c) == 2)]
+        imgs = box.find_all("img")
+        if not pairs and imgs:
+            fig = soup.new_tag("div"); fig["class"] = "thumb tright"
+            for im in imgs:
+                fig.append(im.extract())
+            box.replace_with(fig)
+        elif not stats and pairs:
+            stats = {k: v for k, v in pairs if k and v}
+            if imgs:
+                src = imgs[0].get("src", "")
+                name = urllib.parse.unquote(src.split("/")[-1])
+                if "/thumb/" in src:
+                    name = re.sub(r"^\d+px-", "", name)
+                if (WIKI_IMG / name).exists():
+                    symbol = name
+                    USED_IMAGES.add(name)
+            box.decompose()
+        else:
+            box["class"] = "wikitable"
     # layout tables holding side-by-side tables -> the inner tables, stacked
     for outer in [t for t in root.find_all("table") if t.find("table")
                   and "wikitable" not in t.get("class", [])]:
@@ -263,7 +282,7 @@ def clean(title):
             p.decompose()
     for s in root.find_all("span"):
         s.unwrap()
-    return "".join(str(c) for c in root.contents), stats
+    return "".join(str(c) for c in root.contents), stats, symbol
 
 
 def to_markdown(html):
@@ -280,16 +299,18 @@ def front(meta):
 def main():
     only = sys.argv[1:]
     for title in (only or SCOPE):
-        body, stats = clean(title)
+        body, stats, symbol = clean(title)
         meta = {"title": title}
         cats = [c for c in CATS.get(title, []) if c not in ("Pages with broken file links",)]
         if cats:
             meta["categories"] = cats
+        if symbol:
+            meta["symbol"] = "images/" + symbol
         if stats:
             meta["stats"] = stats
         (PAGES / (fname(title) + ".md")).write_text(front(meta) + to_markdown(body))
-    if not only:
-        for t, r in REDIRECTS.items():
+    for t, r in REDIRECTS.items():
+        if not only or r in only:
             (PAGES / (fname(t) + ".md")).write_text(front({"title": t, "redirect": r}))
     # web copies of the images: at most 1600 px wide
     for name in sorted(USED_IMAGES):

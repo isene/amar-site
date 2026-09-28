@@ -23,7 +23,7 @@ stats:
 
 **The Lunar spells require the moon to be visible.**
 
-Transforms the target to a [Werewolf](https://d6gaming.org/index.php/Werewolf) for the duration of the spell. While being transformed the werewolf can't spread the disease of Lycanthropy.
+Transforms the target to a [Werewolf](Werewolf.html) for the duration of the spell. While being transformed the werewolf can't spread the disease of Lycanthropy.
 
 ## Casting
 
