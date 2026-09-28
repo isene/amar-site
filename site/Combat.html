@@ -1,0 +1,2018 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Combat – Amar RPG</title>
+<meta name="description" content="Combat is an essential part of most fantasy.">
+<link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="theme/style.css">
+<link rel="icon" href="theme/icon.png">
+
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to the text</a>
+<input type="checkbox" id="menu" class="menu-toggle" aria-label="Show the menu">
+<header class="bar">
+  <a class="mark" href="index.html">Amar</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <ol id="hits" hidden></ol>
+  </div>
+  <label class="menu-btn" for="menu">Menu</label>
+</header>
+<div class="frame">
+<nav class="side" aria-label="Menu">
+<h2>Start here</h2><ul><li><a href="Introduction.html">Introduction</a></li><li><a href="Amar_rules_101.html">Amar rules 101</a></li></ul>
+<h2>Amar Lite</h2><ul><li><a href="Amar_Lite.html">Amar Lite</a></li><li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a></li></ul>
+<h2>The rules</h2><ul><li><a href="The_Character.html">The Character</a></li><li><a href="Advantages_and_Disadvantages.html">Advantages and Disadvantages</a></li><li><a href="Playable_Races.html">Playable Races</a></li><li><a href="Skills.html">Skills</a></li><li><a href="Combat.html" aria-current="page">Combat</a></li><li><a href="Movement_and_Weather.html">Movement and Weather</a></li><li><a href="Equipment.html">Equipment</a></li></ul>
+<h2>Magick</h2><ul><li><a href="Magick.html">Magick</a></li><li><a href="Spells.html">Spells</a></li><li><a href="Rituals.html">Rituals</a></li><li><a href="Potions.html">Potions</a></li><li><a href="Natural_Magick_Items.html">Natural Magick Items</a></li><li><a href="Incantation_Magic.html">Incantation Magic</a></li><li><a href="Womp.html">Womp</a></li></ul>
+<h2>Game Master</h2><ul><li><a href="Advice_to_the_GM.html">Advice to the GM</a></li><li><a href="GM's_Screen.html">GM&#x27;s Screen</a></li><li><a href="The_First_Adventure.html">The First Adventure</a></li><li><a href="Campaign_tracker.html">Campaign tracker</a></li><li><a href="Compacting_information.html">Compacting information</a></li><li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a></li><li><a href="Other_Resources.html">Other Resources</a></li></ul>
+<h2>Add-ons</h2><ul><li><a href="Universal_Amar.html">Universal Amar</a></li><li><a href="Experimental_Systems.html">Experimental Systems</a></li><li><a href="Evolutionary_Magick.html">Evolutionary Magick</a></li></ul>
+</nav>
+<main id="main">
+<p class="crumbs">The rules</p><h1>Combat</h1><details class="toc" open><summary>On this page</summary><ol><li><a href="#Melee_Combat">Melee Combat</a></li><li><a href="#Melee_Weapons">Melee Weapons</a></li><li><a href="#Armor">Armor</a></li><li><a href="#Combat_Rounds">Combat Rounds</a></li><li><a href="#Movement_in_Combat">Movement in Combat</a></li><li><a href="#The_Attack">The Attack</a></li><li><a href="#Special_actions_(optional)">Special actions (optional)</a></li><li><a href="#Summary_of_Melee_Adjustments">Summary of Melee Adjustments</a></li><li><a href="#Missile_Combat">Missile Combat</a></li><li><a href="#Missile_Weapons">Missile Weapons</a></li><li><a href="#Damage_from_Poison">Damage from Poison</a></li><li><a href="#Disarm">Disarm</a></li><li><a href="#Break_Weapon">Break Weapon</a></li><li><a href="#Critical_and_Fumbles_in_combat">Critical and Fumbles in combat</a></li><li><a href="#Missile_Criticals_and_Fumbles">Missile Criticals and Fumbles</a></li><li><a href="#Hit_Locations_(optional)">Hit Locations (optional)</a></li><li><a href="#Psychic_Combat_(optional)">Psychic Combat (optional)</a></li></ol></details><script>if (innerWidth < 840) document.currentScript.previousElementSibling.open = false</script><div class="text"><p class="lede">Combat is an essential part of most fantasy. It is a way of solving certain problems in many fantasy books and films. It gives the possibility to play out the valiant knight or the barbarian gladiator.</p>
+<h2 id="Melee_Combat">Melee Combat</h2>
+<p>Weapons are divided into 6 categories; unarmed (boxing, karate and the like), knives, one-handed weapons, two-handed weapons, polearms and shields. Dodging is an additional defensive skill.</p>
+<p>The offensive and defensive modifiers along with the other weapon specifications are shown in the melee weapons table.</p>
+<p>In combat a character will have an offensive value and a defensive value. The offensive value is for hitting the opponent and the defensive value is for avoiding getting hit by opponents.</p>
+<p>The offensive value with a weapon is: the skill value + the offensive modifier. This total is noted on the character sheet under off.</p>
+<p>The defensive value with a weapon is: the skill value + the defensive modifier. This total is noted on the character sheet under def.</p>
+<h2 id="Melee_Weapons">Melee Weapons</h2>
+<div class="tw"><table><caption>Melee Weapons</caption>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Type</th>
+<th>Strength</th>
+<th>Initiative</th>
+<th>Off.Mod.</th>
+<th>Def.Mod.</th>
+<th>Damage</th>
+<th>HitPoints</th>
+<th>Weight</th>
+<th>Length</th>
+<th>Radius</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bastard sword 1H</td>
+<td>1 Handed</td>
+<td>6</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>-1</td>
+<td>14</td>
+<td>2.1</td>
+<td>1.0</td>
+<td>1.0</td>
+<td>45</td>
+</tr>
+<tr>
+<td>Bastard sword 2H</td>
+<td>2 Handed</td>
+<td>4</td>
+<td>6</td>
+<td>0</td>
+<td>+1</td>
+<td>0</td>
+<td>14</td>
+<td>2.1</td>
+<td>1.0</td>
+<td>1.2</td>
+<td>45</td>
+</tr>
+<tr>
+<td>Battle axe 1H</td>
+<td>1 Handed</td>
+<td>9</td>
+<td>5</td>
+<td>-1</td>
+<td>-1</td>
+<td>1</td>
+<td>8</td>
+<td>2.1</td>
+<td>0.8</td>
+<td>0.8</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Battle axe 2H</td>
+<td>2 Handed</td>
+<td>5</td>
+<td>5</td>
+<td>-1</td>
+<td>0</td>
+<td>2</td>
+<td>8</td>
+<td>2.1</td>
+<td>0.8</td>
+<td>1.0</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Broad axe</td>
+<td>1 Handed</td>
+<td>5</td>
+<td>4</td>
+<td>-1</td>
+<td>-2</td>
+<td>0</td>
+<td>8</td>
+<td>1.6</td>
+<td>0.6</td>
+<td>0.6</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Buckler</td>
+<td>Shield</td>
+<td>2</td>
+<td>-</td>
+<td>N/A</td>
+<td>+1</td>
+<td>N/A</td>
+<td>8</td>
+<td>2.0</td>
+<td>0.3</td>
+<td>0.2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Club</td>
+<td>1 Handed</td>
+<td>4</td>
+<td>4</td>
+<td>-1</td>
+<td>-2</td>
+<td>-2</td>
+<td>8</td>
+<td>1.2</td>
+<td>0.7</td>
+<td>0.8</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Dodge</td>
+<td>Dodge</td>
+<td>0</td>
+<td>-</td>
+<td>N/A</td>
+<td>-2</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>0.0</td>
+<td>N/A</td>
+</tr>
+<tr>
+<td>Great axe</td>
+<td>2 Handed</td>
+<td>7</td>
+<td>6</td>
+<td>0</td>
+<td>+1</td>
+<td>3</td>
+<td>10</td>
+<td>2.6</td>
+<td>1.2</td>
+<td>1.4</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Great sword</td>
+<td>2 Handed</td>
+<td>6</td>
+<td>7</td>
+<td>+1</td>
+<td>+1</td>
+<td>1</td>
+<td>16</td>
+<td>2.4</td>
+<td>1.2</td>
+<td>1.4</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Halberd</td>
+<td>Polearm</td>
+<td>7</td>
+<td>7</td>
+<td>0</td>
+<td>+2</td>
+<td>1</td>
+<td>7</td>
+<td>2.9</td>
+<td>2.3</td>
+<td>1.6</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Hatchet</td>
+<td>1 Handed</td>
+<td>3</td>
+<td>3</td>
+<td>-2</td>
+<td>-3</td>
+<td>-1</td>
+<td>8</td>
+<td>1.4</td>
+<td>0.4</td>
+<td>0.4</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Heavy mace 1H</td>
+<td>1 Handed</td>
+<td>6</td>
+<td>4</td>
+<td>0</td>
+<td>-1</td>
+<td>-1</td>
+<td>8</td>
+<td>1.7</td>
+<td>0.4</td>
+<td>0.8</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Heavy mace 2H</td>
+<td>2 Handed</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>8</td>
+<td>1.7</td>
+<td>0.4</td>
+<td>1.0</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Hercules club</td>
+<td>2 Handed</td>
+<td>6</td>
+<td>7</td>
+<td>0</td>
+<td>+1</td>
+<td>2</td>
+<td>10</td>
+<td>2.6</td>
+<td>1.2</td>
+<td>1.4</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Kite shield</td>
+<td>Shield</td>
+<td>6</td>
+<td>-</td>
+<td>N/A</td>
+<td>+3</td>
+<td>N/A</td>
+<td>12</td>
+<td>6.0</td>
+<td>1.3</td>
+<td>0.6</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Knife</td>
+<td>Knife</td>
+<td>1</td>
+<td>2</td>
+<td>-2</td>
+<td>-3</td>
+<td>-2</td>
+<td>8</td>
+<td>0.3</td>
+<td>0.3</td>
+<td>0.2</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Light mace</td>
+<td>1 Handed</td>
+<td>3</td>
+<td>3</td>
+<td>-1</td>
+<td>-2</td>
+<td>-2</td>
+<td>8</td>
+<td>1.2</td>
+<td>0.6</td>
+<td>0.6</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Longsword</td>
+<td>1 Handed</td>
+<td>4</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>-1</td>
+<td>12</td>
+<td>1.6</td>
+<td>0.8</td>
+<td>0.8</td>
+<td>25</td>
+</tr>
+<tr>
+<td>Rapier</td>
+<td>1 Handed</td>
+<td>2</td>
+<td>4</td>
+<td>0</td>
+<td>-1</td>
+<td>-2</td>
+<td>7</td>
+<td>0.8</td>
+<td>1.0</td>
+<td>0.6</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Round shield</td>
+<td>Shield</td>
+<td>4</td>
+<td>-</td>
+<td>N/A</td>
+<td>+2</td>
+<td>N/A</td>
+<td>10</td>
+<td>4.0</td>
+<td>0.8</td>
+<td>0.4</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Short sword</td>
+<td>1 Handed</td>
+<td>2</td>
+<td>3</td>
+<td>-1</td>
+<td>-1</td>
+<td>-2</td>
+<td>12</td>
+<td>0.9</td>
+<td>0.6</td>
+<td>0.4</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Spear 1H</td>
+<td>1 Handed</td>
+<td>4</td>
+<td>6</td>
+<td>-1</td>
+<td>-4</td>
+<td>-2</td>
+<td>7</td>
+<td>1.0</td>
+<td>1.5</td>
+<td>0.6</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Spear 2H</td>
+<td>Polearm</td>
+<td>4</td>
+<td>7</td>
+<td>0</td>
+<td>+2</td>
+<td>-1</td>
+<td>7</td>
+<td>1.6</td>
+<td>2.0</td>
+<td>1.2</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Staff</td>
+<td>Polearm</td>
+<td>3</td>
+<td>6</td>
+<td>0</td>
+<td>+2</td>
+<td>-2</td>
+<td>7</td>
+<td>1.4</td>
+<td>1.8</td>
+<td>1.2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Unarmed</td>
+<td>Unarmed</td>
+<td>0</td>
+<td>1</td>
+<td>-2</td>
+<td>-4</td>
+<td>-4</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>N/A</td>
+<td>0.0</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="Radius">Radius</h3>
+<p>This is the radius needed to fight with the weapon without any penalties. If you are restricted to fight with a lesser radius, you get a -1 penalty (both offensive and defensive values). Fighting within half the radius gives a -3 penalty. Fighting within a quarter of the radius is not possible.</p>
+<h3 id="Insufficient_Strength">Insufficient Strength</h3>
+<p>If you have less strength than required for the weapon you are using, the modifiers are as follows: 1 less = -1, 2 less = -3, 3 less = -5. If your strength is more than 3 below the strength requirement you cannot use the weapon.</p>
+<h3 id="Using_a_Weapon_in_Your_Off_Hand">Using a Weapon in Your Off Hand</h3>
+<p>If you are using a weapon other than a shield in your off hand you get -3, and the strength requirement is increased by 2.</p>
+<h3 id="New_Weapons">New Weapons</h3>
+<p>If a character picks up a weapon he has not had any experience with, he will use his weapon skill of choice with the following modifiers: “same weapon” = -1, same category = -3, other category = -5.</p>
+<h3 id="Weapon_combinations">Weapon combinations</h3>
+<p>A weapon combination (Longsword &amp; Shield, Two Knives, Whip/Buckler) is one skill of its own. It is trained, ranked and marked for experience separately from the solo weapon. The character sheet carries the combination as a single weapon row, with the pair's modifiers folded together (e.g. the sword's values plus the shield's defensive modifier).</p>
+<h3 id="Dodging">Dodging</h3>
+<p>Dodge is an <a href="The_Character.html">Athletics</a> skill. It gives +1 in defensive value per full 5 in Dodge skill total.</p>
+<p>Sometimes it is better to dodge than to parry, this depends upon your skills, your opponent’s weapons and other circumstances. When purely dodging (forgoing all attacks), your defensive value is your Dodge total - 2.</p>
+<h3 id="Hitting_opponent&#x27;s_weapon_(optional)">Hitting opponent's weapon (optional)</h3>
+<p>If you parry an attack and your defense roll is no more than 5 above your opponent's attack roll, your weapon is hit. The attacker rolls for damage and you subtract your damage bonus + your weapon's defense bonus and apply the remaining damage to you. If the damage is above the weapon's HitPoints, it also breaks.</p>
+<h2 id="Armor">Armor</h2>
+<p>The armor table gives the armor points and the move quietly penalty. The values listed are for full suits of armor. When wearing partial or mixed armor, the values are adjusted according to how much is covered, i.e. half a suit of ringed mail gives 1 armor point. The AP is subtracted from the damage before it is applied to the BP.</p>
+<div class="tw"><table><caption>Armor</caption>
+<thead>
+<tr>
+<th>Armor</th>
+<th>AP</th>
+<th>MvQt</th>
+<th>Weight</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Heavy cloth</td>
+<td>1</td>
+<td>-2</td>
+<td>4.5</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Leather armor</td>
+<td>1</td>
+<td>-1</td>
+<td>5.0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Leather scale</td>
+<td>2</td>
+<td>-3</td>
+<td>11.0</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Ringed mail</td>
+<td>2</td>
+<td>-1</td>
+<td>8.0</td>
+<td>45</td>
+</tr>
+<tr>
+<td>Cuir-boullie</td>
+<td>2</td>
+<td>-2</td>
+<td>12.0</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Cuir-boullie</td>
+<td>3*</td>
+<td>-2</td>
+<td>19.0</td>
+<td>68</td>
+</tr>
+<tr>
+<td>Chain mail</td>
+<td>4*</td>
+<td>-4</td>
+<td>26.0</td>
+<td>168</td>
+</tr>
+<tr>
+<td>Metal scale</td>
+<td>5*</td>
+<td>-6</td>
+<td>30.0</td>
+<td>318</td>
+</tr>
+</tbody>
+</table></div>
+<div class="tw"><table><caption>Helmets</caption>
+<thead>
+<tr>
+<th>Helmets</th>
+<th>AP</th>
+<th>AWARE</th>
+<th>Weight</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leather hood</td>
+<td>1</td>
+<td>-1</td>
+<td>1.0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Chain hood</td>
+<td>2*</td>
+<td>-1</td>
+<td>2.0</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Open helmet</td>
+<td>3*</td>
+<td>-2</td>
+<td>2.0</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Cask</td>
+<td>4*</td>
+<td>-5</td>
+<td>4.0</td>
+<td>35</td>
+</tr>
+</tbody>
+</table></div>
+<pre><code>*Includes padding
+</code></pre>
+<h2 id="Combat_Rounds">Combat Rounds</h2>
+<p>A combat round lasts for 6 seconds.</p>
+<p>Each opponent makes an initiative roll each round: Start with an action's &quot;Initiative&quot;, add the Reaction Speed skill, any modifier and an open ended dice roll. A weapon has an initiative as seen above in the weapons table.</p>
+<p>Missiles and magick initiative have these initiative scores:</p>
+<div class="tw"><table><caption>Initiative</caption>
+<thead>
+<tr>
+<th>Action</th>
+<th>Initiative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Missile weapons with one or less shots per round</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Missile weapons with two shots per round</td>
+<td>5 &amp; 0 ¹</td>
+</tr>
+<tr>
+<td>Ready aimed missile weapon</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Magick spell</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Innate magick</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div>
+<p>¹ Subtract 5 to determine when the second shot gets fired/thrown.</p>
+<p>Here are the most common initiative modifiers:</p>
+<div class="tw"><table><caption>Initiative modifiers</caption>
+<thead>
+<tr>
+<th>Action</th>
+<th>Initiative modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Per extra attack that round</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Move &amp; Fight</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Move</td>
+<td>-10</td>
+</tr>
+<tr>
+<td>Fast attacking</td>
+<td>+1 per -1 in Offensive or Defensive value</td>
+</tr>
+<tr>
+<td>Fast shooting</td>
+<td>+2 per -1 in Offensive value</td>
+</tr>
+</tbody>
+</table></div>
+<p>A character defends as many times as there are attacks against him. A character who is fighting may not do anything else (like casting spells) that round except move.</p>
+<h3 id="Surprise_attack">Surprise attack</h3>
+<p>In an ambush, someone sneaking up on another, an archer awaiting an attack in a guard tower etc. will get a Surprise attack before the normal combat rounds start.</p>
+<h3 id="Endurance_drain_in_combat_(optional)">Endurance drain in combat (optional)</h3>
+<p>Each opponent in a combat will get -1 in Status (i,e, -1 to every skill roll) for number of combat rounds equal to its Endurance. Example: A PC has 4 in Endurance, and will get -1 in Status every 4 combat rounds.</p>
+<h2 id="Movement_in_Combat">Movement in Combat</h2>
+<p>If you move while fighting, your offensive and defensive values are penalized as described in the table below. The move for humans is 12 m per round (2 m per round in water).</p>
+<p>If you move into a combat during a round, you add the number of seconds you move to the second you would normally attack to get the actual second you attack. If this exceeds 6, you do not get an attack that round. The movement in combat is calculated from the Base Move (See <a href="Movement_and_Weather.html">Movement and Weather</a>): Movement in combat = 0.4 x Base Move.</p>
+<div class="tw"><table><caption>Movement in Combat</caption>
+<thead>
+<tr>
+<th>Movement</th>
+<th>Move</th>
+<th>Off.</th>
+<th>Def.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Run</td>
+<td>x 2</td>
+<td>-10</td>
+<td>-5</td>
+</tr>
+<tr>
+<td>Move</td>
+<td>x 1</td>
+<td>-5</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>Move &amp; Fight</td>
+<td>x 1/2</td>
+<td>-3</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Move in Melee</td>
+<td>x 1/4</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>Disengage</td>
+<td>x 1</td>
+<td>X</td>
+<td>-5</td>
+</tr>
+</tbody>
+</table></div>
+<p>If you try to disengage from a fight, your opponent can decide to follow your movement or get one last attack and let you disengage. You can not attack if your opponent lets you disengage. If your opponent insted chooses to follow your movement, then you both end up with a &quot;Move&quot; (-5/-2 with a full movement, 12 m for humans), but you still will not get to attack that round.</p>
+<p>You can always move 1m per round without penalties.</p>
+<h2 id="The_Attack">The Attack</h2>
+<p>To see if an attack is successful, roll the dice and add the offensive value. The opponent rolls a dice and adds his defensive value. If the attack is greater than this, a hit is scored.</p>
+<h3 id="Damage">Damage</h3>
+<p>The damage equals the damage of the weapon plus the character’s damage bonus. Whenever a hit is scored, roll a dice and add the damage. Subtract any armor points. The result is how much damage you do to your opponent’s BP.</p>
+<p><strong>Optional:</strong> Whenever you are damaged, you are stunned and have to subtract -1 from your rolls for the rest of the round.</p>
+<h3 id="Grapple">Grapple</h3>
+<p>To grapple your opponent instead of doing damage, first make an Unarmed attack. If you hit, roll Hit Location (if those rules are in use), roll D + double damage bonus as the Grapple Roll. If your Grapple Roll is higher than you opponents Grapple Roll (D + double damage bonus), then you hold your opponent. Each round thereafter, both character rolls Strength + O6. If the attacker's roll is above the defender's, the grapple continues.</p>
+<h3 id="Fighting_Several_Opponents">Fighting Several Opponents</h3>
+<p>If you fight more than one opponent, the illustration below shows how much you subtract from your offensive and defensive against each opponent depending on where each is standing relative to the direction you are facing (0).</p>
+<a class="full" href="images/Hexmod.png"><img src="images/Hexmod.png" width="200" alt="Defence modifier" loading="lazy" decoding="async" height="204" class="art"></a>
+<h3 id="Target_not_Defending">Target not Defending</h3>
+<p>If the target is not defending itself, the attack is rolled against a defensive value of -5.</p>
+<h2 id="Special_actions_(optional)">Special actions (optional)</h2>
+<h3 id="Fighting_Offensively">Fighting Offensively</h3>
+<p>If you attack like a berserker without much thought for your own safety, you get +3 in offensive value and -5 in defensive.</p>
+<h3 id="Power_hit">Power hit</h3>
+<p>You may attempt to power hit your opponent by adding your damage bonus again while getting -5 in offensive value.</p>
+<h3 id="Attacking_Earlier">Attacking Earlier</h3>
+<p>You can attack earlier in the round by subtracting 1 from your offensive value for that attack per 1 added to initiative.</p>
+<h3 id="More_Than_One_Attack">More Than One Attack</h3>
+<p>You can get more than one attack roll during a combat round by subtracting 5 from your offensive value that round per extra attack. Attack number two takes place in second 6, attack number three in second 5, etc. You may not attack more than once during the same second.</p>
+<h3 id="Fighting_Defensively">Fighting Defensively</h3>
+<p>If you mainly try to defend yourself, you get +3 in defensive value and -5 in offensive.</p>
+<h3 id="Only_defending">Only defending</h3>
+<p>By giving up all opprtunities to attack, you gain +5 in defensive value.</p>
+<h2 id="Summary_of_Melee_Adjustments">Summary of Melee Adjustments</h2>
+<p>On the melee adjustments table you will find adjustments for several situations.</p>
+<div class="tw"><table><caption>Melee Adjustments</caption>
+<tbody>
+<tr>
+<td colspan="4"><em>Voluntary fighting modifications</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>+3</td>
+<td>-5</td>
+<td>x 1</td>
+<td>Fighting offensively</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>+3</td>
+<td>x 1</td>
+<td>Fighting defensively</td>
+</tr>
+<tr>
+<td>X</td>
+<td>+5</td>
+<td>x 1</td>
+<td>Only defending</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>+0</td>
+<td>x 1</td>
+<td>Attack one more time in a round</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>+0</td>
+<td>x 1</td>
+<td>Subtract one from initiative</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>+0</td>
+<td>x 1</td>
+<td>Remove one Hit Location that you can hit</td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-1</td>
+<td>x 1</td>
+<td>Remove one Hit Location where you can be hit</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>-1</td>
+<td>x 1</td>
+<td>Fighting restricted to less than the weapon's required radius</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1</td>
+<td>Fighting restricted to less than half the weapon's required radius</td>
+</tr>
+<tr>
+<td colspan="4"><em>Motion penalties</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>-10</td>
+<td>-5</td>
+<td>x 2</td>
+<td>Run</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>-2</td>
+<td>x 1</td>
+<td>Move</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-1</td>
+<td>x 1/2</td>
+<td>Move &amp; Fight</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>-1</td>
+<td>x 1/4</td>
+<td>Move in Melee</td>
+</tr>
+<tr>
+<td>X</td>
+<td>-5</td>
+<td>x 1</td>
+<td>Disengage</td>
+</tr>
+<tr>
+<td colspan="4"><em>Position penalties</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-1</td>
+<td>x 1</td>
+<td>Defending against opponent to the left or right</td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-4</td>
+<td>x 1</td>
+<td>Defending against opponent from behind left or right</td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-7</td>
+<td>x 1</td>
+<td>Defending against opponent directly from behind</td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-2</td>
+<td>x 1</td>
+<td>Unable to move backwards</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1/10</td>
+<td>Down on knee</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>-5</td>
+<td>x 1/10</td>
+<td>Down on ground</td>
+</tr>
+<tr>
+<td>+1</td>
+<td>+0</td>
+<td>x 1</td>
+<td>Fighting from higher ground (like in a stair)</td>
+</tr>
+<tr>
+<td>-2</td>
+<td>-2</td>
+<td>x 3/4</td>
+<td>Slippery ground</td>
+</tr>
+<tr>
+<td colspan="4"><em>Defender's condition penalties</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>-2</td>
+<td>-2</td>
+<td>x 3/4</td>
+<td>Half Action (down to 1/2 Body Points)</td>
+</tr>
+<tr>
+<td>-4</td>
+<td>-4</td>
+<td>x 1/2</td>
+<td>Quarter Action (down to 1/4 Body Points)</td>
+</tr>
+<tr>
+<td>+0</td>
+<td>-5</td>
+<td>x 1</td>
+<td>Partially unaware</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1/2</td>
+<td>Stunned</td>
+</tr>
+<tr>
+<td>X</td>
+<td>-10</td>
+<td>x 1</td>
+<td>Unaware</td>
+</tr>
+<tr>
+<td>X</td>
+<td>(-5)</td>
+<td>x 1</td>
+<td>Immobilized (defense is -5 regardless of skills)</td>
+</tr>
+<tr>
+<td colspan="4"><em>Lighting</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>-1</td>
+<td>-2</td>
+<td>x 3/4</td>
+<td>Twillight / torchlight</td>
+</tr>
+<tr>
+<td>-2</td>
+<td>-4</td>
+<td>x 1/2</td>
+<td>Moonlight (full moon)</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-6</td>
+<td>x 1/4</td>
+<td>Starlight</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>-10</td>
+<td>x 1/8</td>
+<td>Darkness</td>
+</tr>
+<tr>
+<td colspan="4"><em>Weapon adjustments</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Def</em></td>
+<td><em>Move</em></td>
+<td><em>Condition</em></td>
+</tr>
+<tr>
+<td>0</td>
+<td>+1</td>
+<td>x 1</td>
+<td>Per full 5 in Dodge skill</td>
+</tr>
+<tr>
+<td>+1</td>
+<td>+1</td>
+<td>x 1</td>
+<td>Per full 5 in Unarmed skill</td>
+</tr>
+<tr>
+<td>+1</td>
+<td>+1</td>
+<td>x 1</td>
+<td>Using a secondary weapon</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>-1</td>
+<td>x 1</td>
+<td>Strength 1 less than required to use weapon</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1</td>
+<td>Strength 2 less than required to use weapon</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>-5</td>
+<td>x 1</td>
+<td>Strength 3 less than required to use weapon</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1</td>
+<td>Using weapon in the "off hand" (Strength requirement is +2)</td>
+</tr>
+<tr>
+<td>-1</td>
+<td>-1</td>
+<td>x 1</td>
+<td>Using a new weapon practically same type as a skilled weapon</td>
+</tr>
+<tr>
+<td>-3</td>
+<td>-3</td>
+<td>x 1</td>
+<td>Using a new weapon in same category as a skilled weapon</td>
+</tr>
+<tr>
+<td>-5</td>
+<td>-5</td>
+<td>x 1</td>
+<td>Using a new weapon in other category as a skilled weapon</td>
+</tr>
+</tbody>
+</table></div>
+<p>All effects are cumulative, but offensive or defensive can never go below -5 total.</p>
+<p>An &quot;X&quot; indicates that no attack is possible.</p>
+<p>Artificial light sources all have a “radius.” Within this radius the penalties due to light conditions are as for torchlight. Up to 2 times this radius the light is equivalent to moonlight. Up to 4 times the radius the light is equivalent to starlight. A candle has a radius of 1 m, a torch has a radius of 5 m and a lantern has a radius of 7 m. The GM has to use his discretion if there are more than 1 light source.</p>
+<h2 id="Missile_Combat">Missile Combat</h2>
+<p>For specifications on missile weapons, see the missile weapons table.</p>
+<p>The difficulty rating for hitting something up to half the normal range of the weapon is 5.</p>
+<p>The DR up to the normal range of the weapon is 10.</p>
+<p>Up to twice the normal range of the weapon, the DR is 15.</p>
+<p>At maximum range the DR is 20.</p>
+<p>When checking for a successful attack, roll the dice and add the skill, the size of the target and any adjustments for a total above the difficulty rating.</p>
+<p>These DRs are for an <strong>unaware</strong> target: one that is surprised, asleep, bound, or holding still on purpose (aiming, casting, climbing). An <strong>aware</strong> target is harder to hit. Add to the DR, at the target's choice:</p>
+<ul>
+<li>the target's own O6 + (Dodge total − 5), or</li>
+<li>a flat +5 (the target moves unpredictably).</li>
+</ul>
+<p>Everyone in a melee counts as aware. Below a Dodge total of 7 the flat +5 is the better choice.</p>
+<p>Damage bonus (DB) is never added to missile damage. Bow, crossbow and sling damage in the table below already carries a −1 adjustment: a missile penetrates, but it does not do the damage a sword does.</p>
+<h2 id="Missile_Weapons">Missile Weapons</h2>
+<div class="tw"><table><caption>Missile Weapons</caption>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>Strength</th>
+<th>Off.Mod.</th>
+<th>Damage</th>
+<th>Range</th>
+<th>MaxRange</th>
+<th>Shots/round</th>
+<th>Weight</th>
+<th>Length</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bow (light)</td>
+<td>2</td>
+<td>0</td>
+<td>-1</td>
+<td>30</td>
+<td>130</td>
+<td>1</td>
+<td>0.6</td>
+<td>1.2</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Bow (medium)</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>35</td>
+<td>160</td>
+<td>1</td>
+<td>0.7</td>
+<td>1.5</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Bow (heavy)</td>
+<td>6</td>
+<td>0</td>
+<td>1</td>
+<td>40</td>
+<td>190</td>
+<td>1</td>
+<td>0.8</td>
+<td>1.8</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Bow (very heavy)</td>
+<td>10</td>
+<td>0</td>
+<td>3</td>
+<td>50</td>
+<td>240</td>
+<td>1</td>
+<td>1.0</td>
+<td>2.1</td>
+<td>35</td>
+</tr>
+<tr>
+<td>Bow (giant’s)</td>
+<td>15</td>
+<td>0</td>
+<td>5</td>
+<td>60</td>
+<td>300</td>
+<td>1</td>
+<td>1.2</td>
+<td>2.4</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Crossbow (light)</td>
+<td>2</td>
+<td>+2</td>
+<td>0</td>
+<td>20</td>
+<td>100</td>
+<td>1/3</td>
+<td>3.0</td>
+<td>0.7</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Crossbow (medium)</td>
+<td>3</td>
+<td>+2</td>
+<td>1</td>
+<td>30</td>
+<td>175</td>
+<td>1/4</td>
+<td>4.0</td>
+<td>0.7</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Crossbow (heavy)</td>
+<td>4</td>
+<td>+2</td>
+<td>2</td>
+<td>40</td>
+<td>250</td>
+<td>1/5</td>
+<td>5.0</td>
+<td>0.7</td>
+<td>55</td>
+</tr>
+<tr>
+<td>Javelin</td>
+<td>3</td>
+<td>-2</td>
+<td>0</td>
+<td>20</td>
+<td>40*</td>
+<td>1</td>
+<td>1.2</td>
+<td>1.7</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Rock</td>
+<td>1</td>
+<td>-2</td>
+<td>-2</td>
+<td>15</td>
+<td>40*</td>
+<td>2</td>
+<td>0.3</td>
+<td>0.05</td>
+<td>X</td>
+</tr>
+<tr>
+<td>Sling</td>
+<td>2</td>
+<td>-3</td>
+<td>-3</td>
+<td>40</td>
+<td>120</td>
+<td>1</td>
+<td>0.1</td>
+<td>1.0</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Throwing knife</td>
+<td>1</td>
+<td>-1</td>
+<td>-3</td>
+<td>15</td>
+<td>25*</td>
+<td>2</td>
+<td>0.3</td>
+<td>0.2</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Pointing**</td>
+<td>0</td>
+<td>+4</td>
+<td>X</td>
+<td>30</td>
+<td>200</td>
+<td>X</td>
+<td>X</td>
+<td>X</td>
+<td>0</td>
+</tr>
+</tbody>
+</table></div>
+<pre><code>* When strength + coordination equals 10.
+
+**The skill of Pointing is used to determine if certain spells such as Lightningbolt and Ice Strike hits its intended target.
+</code></pre>
+<p>Note: It is possible to get bows inbetween these steps.</p>
+<p>Flight arrows have +50% range and -1 damage adjustment.</p>
+<p>Broad point arrows have -25% range and +1 damage adjustment.</p>
+<h3 id="Missile_Adjustment">Missile Adjustment</h3>
+<p>For special adjustments on throwing or shooting with missile weapons, see the missile adjustments table.</p>
+<div class="tw"><table><caption>Missile Adjustments</caption>
+<tbody>
+<tr>
+<td colspan="4"><em>Basic DRs</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Condition</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Close range (up to half normal range)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Normal range (from half to normal range)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Long range (from normal range to double normal range)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td>Very long range (from long range to double long range)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>25</td>
+<td>Max range (from very long range to max range)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+1</td>
+<td>Per size of target</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-3</td>
+<td>Aiming at Hit Location other than body</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4"><em>Motion adjustments</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Condition</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-3</td>
+<td>Target is moving predictably (in a straight line)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-5</td>
+<td>Target is moving unpredictably (randomly)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-O6 &amp;<br />
+-(Dodge − 5)</td>
+<td>Target is aware and dodging (or the target takes the flat -5 above; target's choice)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-5</td>
+<td>Attacker is riding a galloping horse</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-2</td>
+<td>Target is in a melee, occasionally obstructed (a miss by 2-5 means another target was hit)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-4</td>
+<td>Target is in a melee, often obstructed (a miss by 2-5 means another target was hit)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4"><em>Crossbow support</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Condition</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+1</td>
+<td>Kneeling with crossbow</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Bracing crossbow</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4"><em>Lighting</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Condition</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-1</td>
+<td>Twillight / Torchlight</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-3</td>
+<td>Moonlight (full moon)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-5</td>
+<td>Starlight</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-10</td>
+<td>Darkness</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td colspan="4"><em>Small target size</em></td>
+</tr>
+<tr>
+<td><em>Off</em></td>
+<td><em>Condition</em></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-7</td>
+<td>Target 5 cm diameter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-4</td>
+<td>Target 10 cm diameter</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>-2</td>
+<td>Target 15 cm diameter</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p>Adjustments are cummulative.</p>
+<h3 id="Firing_into_a_Melee">Firing into a Melee</h3>
+<p>If you fire at a target in a melee and the target is occasionally or much obstructed, the modifiers are -2 and -4 respectively. If you miss by 2–5, roll a new dice to see who else is hit. This is determined by assigning each of the nearby targets a number from 1 and up to a maximum of 6. If there are only for instance 4 nearby targets, a roll of 5 or 6 indicates a miss.</p>
+<h3 id="Damage_and_Extra_Damage">Damage and Extra Damage</h3>
+<p>Use the same procedure as for melee combat.</p>
+<h3 id="Shields_against_Missiles">Shields against Missiles</h3>
+<p>A round shield counts as 1 armor point and a kite shield as 2 against missiles if it is obstructing the target.</p>
+<h3 id="Dodging_Missiles">Dodging Missiles</h3>
+<p>An aware target adds its own O6 + (Dodge total − 5) to the missile DR, or a flat +5 for moving unpredictably, whichever the target prefers. See Missile Combat above.</p>
+<h3 id="Breath_Weapon">Breath Weapon</h3>
+<p>Acts as a missile attack against all within the area covered by the breath weapon.</p>
+<h3 id="Damage_Bonus">Damage Bonus</h3>
+<p>Damage bonus for throwing weapons equals 1 per full 5 in strength.</p>
+<h2 id="Damage_from_Poison">Damage from Poison</h2>
+<p>Damage from poison varies a lot (from d-5 to d+5 for a small dose) and it has a delayed effect after injection or consumption. We have not included a complete poison system here, so it is left to the GM’s discretion for the moment. One guideline though: a small dose of an average poison will do d in damage and take effect 10 minutes after injection. No naturally occurring poison on Amar will take effect less than 3 minutes after injection.</p>
+<p>Antidotes injected before the poison takes effect will neutralize it. Nausea and vomiting is a standard side effect of most poisons.</p>
+<h2 id="Disarm">Disarm</h2>
+<p>If you want to disarm your opponent in melee combat, you state so and resolve the attack. If your opponent is using a 1handed weapon, he is disarmed if you do more than his strength in damage. If your opponent is using a 2-handed weapon, he is disarmed if you do more than twice his strength in damage.</p>
+<h2 id="Break_Weapon">Break Weapon</h2>
+<p>If you want to break your opponent’s weapon in melee combat, you state so and resolve the attack. If you do more in damage than your opponent’s weapon has hit points, it breaks.</p>
+<h2 id="Critical_and_Fumbles_in_combat">Critical and Fumbles in combat</h2>
+<p>If a character gets a double 6 on the dice (any time during the open ended roll) on an attack roll, it is a critical hit. Roll on the critical table below. If the result on the table is inapplicable to the situation, pick the one above. Roll first for the category, then for the specific critical.</p>
+<p>If a character gets a double 1 on the dice (any time during the open ended roll) on an attack roll, it is a fumble. Roll on the fumble table. If the result is inapplicable to the situation, pick the one below on the Fumble table. Roll first for the category, then for the specific fumble.</p>
+<p>A Critical is always a success (within reasonable limits (it's not a success if you try something impossible), while a Fumble is always a failure. If a Critical attack is countered by a Critical defense, then the hit is only a success if the attack was higher than the defense.</p>
+<div class="tw"><table><caption>Criticals</caption>
+<tbody>
+<tr>
+<td colspan="2"><em>1 = Impression</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Looks really cool</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Impressive, adjacent friends get +1 next round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Very impressive, adjacent friends gets +1 next D rounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Fearsome, foe rolls on fear table with +9 adjustment</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Awesome, foe rolls on fear table with +6 adjustment</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Wild, foe rolls on fear table with +3 adjustment</td>
+</tr>
+<tr>
+<td colspan="2"><em>2 = Side effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Opponent off balance, subtract 1 in Status next round</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Opponent confused, subtract 3 in status next round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Opponent stunned, subtract 3 in status for 3 rounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Opponent staggered, subtract D in status for D rounds</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Opponent reeling, subtract O in status for O rounds</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Opponent shocked, subtract O+3 in status for the rest of the fight</td>
+</tr>
+<tr>
+<td colspan="2"><em>3 = Increased effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Good hit, add 1 to damage done</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tough hit, add 3 to damage done</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Great hit, add D+1 to damage done</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Greater hit, add O+2 to damage done</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Power hit, double damage done (after subtracting Armor Points)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Opportunity found, you immediately get an extra free attack</td>
+</tr>
+<tr>
+<td colspan="2"><em>4 = Added effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Foe knocked down if a Tumble roll of DR 8 fails</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foe knocked down if a Tumble roll of DR 12 fails</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Roll for disarming the opponent</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Damage also done to opponents weapon</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Damage also done to opponents weapon (double damage to weapon)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Opponent loses equipment (GM's discretion)</td>
+</tr>
+<tr>
+<td colspan="2"><em>5 = Special</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Bleeding -1 BP per minute</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bleeding -1 BP per round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Muscle strained, opponent subtracts 3 from Status until a Medical Lore roll of 8 is made</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Disable special location (muscle, eye, nose, finger... GM's discretion), Medical Lore roll of 8 to fix</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Disable special location (muscle, eye, nose, finger... GM's discretion), Medical Lore roll of 12 to fix</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Opponent faints, Medical Lore roll of 8 to awaken</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>6 = Roll twice on this table, ignoring any subsequent 6s, add one experience mark</em></p>
+<div class="tw"><table><caption>Fumbles</caption>
+<tbody>
+<tr>
+<td colspan="2"><em>1 = Roll twice on this table, ignoring any subsequent 1s, subtract one experience mark</em></td>
+</tr>
+<tr>
+<td colspan="2"><em>2 = Special</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Lose next attack, opponent gets +10 to next attack</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Hit self</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hit nearest friend</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hit nearest friend, half damage</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Obstruct nearest friend, friend gets -3 in status next round</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Muscle strained, subtracts 3 from Status until a Medical Lore roll of 8 is made</td>
+</tr>
+<tr>
+<td colspan="2"><em>3 = Unwanted effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Lose equipment (GM's discretion)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Damage done to own weapon</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Weapon stuck, Strength roll of 10 to unstuck</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Lose weapon (no attack until retrieved, -5 in defense)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Fall if a Tumble roll of DR 12 fails</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Fall if a Tumble roll of DR 8 fails</td>
+</tr>
+<tr>
+<td colspan="2"><em>4 = Stun effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Shocked, subtract O+3 in status for the rest of the fight</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Reeling, subtract O in status for O rounds</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Staggered, subtract D in status for D rounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Stunned, subtract 3 in status for 3 rounds</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Confused, subtract 3 in status next round</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Off balance, subtract 1 in Status next round</td>
+</tr>
+<tr>
+<td colspan="2"><em>5 = Added effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Very fatigued, subtract 3 from Endurance for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Very tired, subtract 3 from Strength for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Very dazed, subtract 3 from Reaction Speed and Awareness for the rest of the fight</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Fatigued, subtract 1 from Endurance for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tired, subtract 1 from Strength for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Dazed, subtract 1 from Reaction Speed and Awareness for the rest of the fight</td>
+</tr>
+<tr>
+<td colspan="2"><em>6 = Impression</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Terrible for morale, friends get -1 in all rolls for the next D rounds</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Very bad for morale, friends get -1 in all rolls for the rest of the round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bad for morale, friends get -1 in attack for the rest of the round</td>
+</tr>
+<tr>
+<td>4</td>
+<td>You make a fool out of yourself, laughter is heard</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Botched it, giggles are heard</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Awkward looking</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="Missile_Criticals_and_Fumbles">Missile Criticals and Fumbles</h2>
+<p>When a critical or fumble is rolled with a missile weapon, use these tables instead of the generic ones above.</p>
+<div class="tw"><table><caption>Missile Criticals</caption>
+<tbody>
+<tr>
+<td colspan="2"><em>1 = Impression</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>A shot they'll talk about</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Impressive, friends who saw it get +1 next round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Very impressive, friends get +1 next D rounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Fearsome, foe rolls on fear table with +9 adjustment</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Awesome, foe rolls on fear table with +6 adjustment</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Wild, foe rolls on fear table with +3 adjustment</td>
+</tr>
+<tr>
+<td colspan="2"><em>2 = Side effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Foe flinches, subtract 1 in Status next round</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Foe cowers, subtract 3 in Status next round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Foe dives for cover, loses next action</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foe suppressed, subtract D in Status for D rounds</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Foe panicked, subtract O in Status for O rounds</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Foe shocked, subtract O+3 in Status for the rest of the fight</td>
+</tr>
+<tr>
+<td colspan="2"><em>3 = Increased effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Good hit, add 1 to damage done</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Tough hit, add 3 to damage done</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Great hit, add D+1 to damage done</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Greater hit, add O+2 to damage done</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Power hit, double damage done (after subtracting Armor Points)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Perfect rhythm, you immediately get an extra free shot</td>
+</tr>
+<tr>
+<td colspan="2"><em>4 = Added effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Missile ignores shield cover</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Missile ignores armor (AP 0)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>You hit the exact location aimed at</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Foe's weapon struck, damage done to the weapon</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Foe knocked down if a Tumble roll of DR 12 fails</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Foe pinned to ground or wall, Strength roll of 10 to break free</td>
+</tr>
+<tr>
+<td colspan="2"><em>5 = Special</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Bleeding -1 BP per minute</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Bleeding -1 BP per round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Through-and-through, also hits foe directly behind (half damage)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Disable special location (muscle, eye, nose, finger... GM's discretion), Medical Lore roll of 8 to fix</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Disable special location (muscle, eye, nose, finger... GM's discretion), Medical Lore roll of 12 to fix</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Foe faints, Medical Lore roll of 8 to awaken</td>
+</tr>
+</tbody>
+</table></div>
+<p><em>6 = Roll twice on this table, ignoring any subsequent 6s, add one experience mark</em></p>
+<div class="tw"><table><caption>Missile Fumbles</caption>
+<tbody>
+<tr>
+<td colspan="2"><em>1 = Roll twice on this table, ignoring any subsequent 1s, subtract one experience mark</em></td>
+</tr>
+<tr>
+<td colspan="2"><em>2 = Special</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Hit the friend nearest the target</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Hit the friend nearest the target, half damage</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Hit a random bystander (GM's discretion)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Graze own hand, 1 in damage, -1 Offensive for the rest of the fight</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Missile lands among friends, they subtract 1 in Status next round</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Wrenched shoulder, subtracts 3 from Status until a Medical Lore roll of 8 is made</td>
+</tr>
+<tr>
+<td colspan="2"><em>3 = Equipment</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Bowstring or mechanism snaps, D rounds to fix</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Damage done to own weapon</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Drop the weapon</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Drop your ammunition, D rounds to gather</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Ammunition breaks</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Lose the missile (never found)</td>
+</tr>
+<tr>
+<td colspan="2"><em>4 = Stun effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Shocked, subtract O+3 in status for the rest of the fight</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Reeling, subtract O in status for O rounds</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Staggered, subtract D in status for D rounds</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Fumble the reload, lose next shot</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Confused, subtract 3 in status next round</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Off balance, subtract 1 in Status next round</td>
+</tr>
+<tr>
+<td colspan="2"><em>5 = Added effect</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>String burn, -3 Offensive for the rest of the fight</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Strained draw arm, subtract 3 from Strength for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Very dazed, subtract 3 from Reaction Speed and Awareness for the rest of the fight</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Sore fingers, -1 Offensive for the rest of the fight</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tired, subtract 1 from Strength for the rest of the fight (no less than 1)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Dazed, subtract 1 from Reaction Speed and Awareness for the rest of the fight</td>
+</tr>
+<tr>
+<td colspan="2"><em>6 = Impression</em></td>
+</tr>
+<tr>
+<td>1</td>
+<td>Terrible for morale, friends get -1 in all rolls for the next D rounds</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Very bad for morale, friends get -1 in all rolls for the rest of the round</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Bad for morale, friends get -1 in attack for the rest of the round</td>
+</tr>
+<tr>
+<td>4</td>
+<td>You make a fool out of yourself, laughter is heard</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Botched it, giggles are heard</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Awkward looking</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="Hit_Locations_(optional)">Hit Locations (optional)</h2>
+<p>To add more realism the body may be divided into different hit locations in order to determine which part of the body is hit. See the illustrations below to see how different types of bodies are divided into hit locations.</p>
+<p>A human has 50 % of his body points in the head and arms and 80 % in the body and legs. See the Creatures booklet for other creatures.</p>
+<p>If you get your BP in a vital location (head, body) in damage in one blow, you are helpless. If you get double the BP in a vital location in damage in one blow, you are dead.</p>
+<p>If you get the BP in a non-vital location (legs, arms, etc.) in damage in one blow, you cannot use that location. If you get double the BP in a non-vital location in damage in one blow, the location is severed, crushed, etc. and needs magic healing to mend.</p>
+<h3 id="Armor_and_Hit_Loctions">Armor and Hit Loctions</h3>
+<p>Armor protects only the location(s) it covers. It gives full protection to those locations it covers and partial protection to those it partially covers.</p>
+<p>Weight and cost is 20 % of a full suit per location covered.</p>
+<h3 id="Hit_Locations_in_Melee">Hit Locations in Melee</h3>
+<p>When a hit is made, roll a dice to determine which hit location is hit. If the number rolled is shared by two locations (certain animals and monsters have this), roll a dice: 1–3 is the left, 4–6 is the right.</p>
+<h3 id="Aiming_in_Melee">Aiming in Melee</h3>
+<p>When aiming at a certain location or locations, subtract 1 from your offensive for every location you do not want to hit.</p>
+<p>If you aim at more than one location and hit, roll to see which one of the locations aimed at is hit.</p>
+<h3 id="Aiming_with_Missiles">Aiming with Missiles</h3>
+<p>If you get 3 more than you need to hit, you hit the location aimed at. If you get up to 2 more than you need, you hit a random location. If you aim at a location other than the body, the DR is increased by 3.</p>
+<h3 id="Shields_against_Missiles_2">Shields against Missiles</h3>
+<p>If the shield covers the location hit, it acts as armor. Half cover of location hit gives half AP as for armor. A buckler has a diameter of 0.3 m and 4 AP, a round shield has a diameter of 0.8 m and 5 AP, and a kite shield is 0.7 x 1.3 m and has 5 AP.</p>
+<h3 id="Hit_Locations_for_a_set_of_creatures">Hit Locations for a set of creatures</h3>
+<img src="images/Hitlocations.png" width="720" alt="Hitlocations.png" loading="lazy" decoding="async" height="993" class="art">
+<h2 id="Psychic_Combat_(optional)">Psychic Combat (optional)</h2>
+<p>Psychic combat is an ability that very few living creatures have, as this ability is generally hard to achieve while a spirit inhabits a body. Disembodied spirits such as ghosts and wraiths quite often possess this ability to attack using their psychic strength.</p>
+<p>Psychic Combat is similar to normal mellee combat. The attacker rolls an open-ended dice and adds the Magic Defense. The defender does the same - roll the dice and add the MD. If the attacker's total is higher than the defender's total, the defender suffers 1 in damage. The damage is inflicted on the defender's Endurance or Magical Aptitude - at the defender's choice. The attacker may decide to try to inflict up to an additional 3 in damage (but no more than the attackers remaining Endurance plus Magical Aptitude). If the attack is successful, the defender suffers the additional damage. If the attack fails, the attacker suffers the additional damage.</p>
+<p>As the opponents takes damage to their Endurance/Magical Aptitude, their MD will suffer as a consequence. When an opponent reaches 0 in Endurance, that person passes out. Endurance and Magical aptitude lost in psychic combat will be regained after a good night's sleep.</p>
+<p>An opponent that carries an MA storing crystal may use it to take any damage inflicted.</p>
+<p>If the attacker rolls a critical, the defender must make a roll on the Fear Table. If the attacker rolls a fumble, the attacker must roll on the Fear table.</p>
+<p>Next: <a href="Equipment.html">Equipment</a></p>
+</div>
+</main>
+</div>
+<footer class="foot">
+  <p>The Amar RPG, created by Geir Isene (Isy Allon) with Bent Brakas (Ben Brakas) and Jonatan Isene.</p>
+  <p><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/">The Amar wiki</a></p>
+</footer>
+<script src="theme/search.js" defer></script>
+</body>
+</html>

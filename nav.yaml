@@ -1,0 +1,42 @@
+# The menu on every page. Each section lists page titles in order.
+# Pages not listed here sit under their parent (see PARENT in build.py).
+- section: Start here
+  pages:
+    - Introduction
+    - Amar rules 101
+- section: Amar Lite
+  pages:
+    - Amar Lite
+    - The first Amar Lite adventure
+- section: The rules
+  pages:
+    - The Character
+    - Advantages and Disadvantages
+    - Playable Races
+    - Skills
+    - Combat
+    - Movement and Weather
+    - Equipment
+- section: Magick
+  pages:
+    - Magick
+    - Spells
+    - Rituals
+    - Potions
+    - Natural Magick Items
+    - Incantation Magic
+    - Womp
+- section: Game Master
+  pages:
+    - Advice to the GM
+    - GM's Screen
+    - The First Adventure
+    - Campaign tracker
+    - Compacting information
+    - Conversion from other RPGs
+    - Other Resources
+- section: Add-ons
+  pages:
+    - Universal Amar
+    - Experimental Systems
+    - Evolutionary Magick

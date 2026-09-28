@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Movement and Weather – Amar RPG</title>
+<meta name="description" content="Base movement in flat terrain (plains) for every creature is covered under each encounter (&quot;Move&quot;).">
+<link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="theme/style.css">
+<link rel="icon" href="theme/icon.png">
+
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to the text</a>
+<input type="checkbox" id="menu" class="menu-toggle" aria-label="Show the menu">
+<header class="bar">
+  <a class="mark" href="index.html">Amar</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <ol id="hits" hidden></ol>
+  </div>
+  <label class="menu-btn" for="menu">Menu</label>
+</header>
+<div class="frame">
+<nav class="side" aria-label="Menu">
+<h2>Start here</h2><ul><li><a href="Introduction.html">Introduction</a></li><li><a href="Amar_rules_101.html">Amar rules 101</a></li></ul>
+<h2>Amar Lite</h2><ul><li><a href="Amar_Lite.html">Amar Lite</a></li><li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a></li></ul>
+<h2>The rules</h2><ul><li><a href="The_Character.html">The Character</a></li><li><a href="Advantages_and_Disadvantages.html">Advantages and Disadvantages</a></li><li><a href="Playable_Races.html">Playable Races</a></li><li><a href="Skills.html">Skills</a></li><li><a href="Combat.html">Combat</a></li><li><a href="Movement_and_Weather.html" aria-current="page">Movement and Weather</a></li><li><a href="Equipment.html">Equipment</a></li></ul>
+<h2>Magick</h2><ul><li><a href="Magick.html">Magick</a></li><li><a href="Spells.html">Spells</a></li><li><a href="Rituals.html">Rituals</a></li><li><a href="Potions.html">Potions</a></li><li><a href="Natural_Magick_Items.html">Natural Magick Items</a></li><li><a href="Incantation_Magic.html">Incantation Magic</a></li><li><a href="Womp.html">Womp</a></li></ul>
+<h2>Game Master</h2><ul><li><a href="Advice_to_the_GM.html">Advice to the GM</a></li><li><a href="GM's_Screen.html">GM&#x27;s Screen</a></li><li><a href="The_First_Adventure.html">The First Adventure</a></li><li><a href="Campaign_tracker.html">Campaign tracker</a></li><li><a href="Compacting_information.html">Compacting information</a></li><li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a></li><li><a href="Other_Resources.html">Other Resources</a></li></ul>
+<h2>Add-ons</h2><ul><li><a href="Universal_Amar.html">Universal Amar</a></li><li><a href="Experimental_Systems.html">Experimental Systems</a></li><li><a href="Evolutionary_Magick.html">Evolutionary Magick</a></li></ul>
+</nav>
+<main id="main">
+<p class="crumbs">The rules</p><h1>Movement and Weather</h1><div class="text"><h2 id="Movement">Movement</h2>
+<figure class="right">
+<a class="full" href="images/Oseina_hills.jpg"><img src="images/Oseina_hills.jpg" width="360" alt="Oseina hills.jpg" loading="lazy" decoding="async" height="639"></a>
+</figure>
+<p>Base movement in flat terrain (plains) for every creature is covered under each <a class="wiki" title="On the old wiki" href="https://d6gaming.org/index.php/Encounters">encounter</a> (&quot;Move&quot;). The base movement for humans is 30 kilometers per day. This includes carrying equipment/weapons/armor, resting and meal breaks and travelling 10 hours per day. The movement in combat is the base movement in meters x0.4 per round (i.e. 12 for humans).</p>
+<p>The table below gives the movement in kilometers per day for humans. Movement for other creatures should be adjusted proportionally.</p>
+<div class="tw"><table><caption>Movement in various terrains</caption>
+<thead>
+<tr>
+<th></th>
+<th>Plains</th>
+<th>Rough</th>
+<th>Hills</th>
+<th>Mountains</th>
+<th>Woodlands</th>
+<th>Forest</th>
+<th>Swamp</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Walking</td>
+<td>30</td>
+<td>25</td>
+<td>25</td>
+<td>15</td>
+<td>25</td>
+<td>20</td>
+<td>10</td>
+</tr>
+<tr>
+<td>… w/trail</td>
+<td>30</td>
+<td>30</td>
+<td>25</td>
+<td>20</td>
+<td>30</td>
+<td>30</td>
+<td>15</td>
+</tr>
+<tr>
+<td>… w/road</td>
+<td>35</td>
+<td>35</td>
+<td>30</td>
+<td>25</td>
+<td>35</td>
+<td>35</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Riding</td>
+<td>55</td>
+<td>45</td>
+<td>50</td>
+<td>15</td>
+<td>40</td>
+<td>20</td>
+<td>5</td>
+</tr>
+<tr>
+<td>… w/trail</td>
+<td>60</td>
+<td>60</td>
+<td>55</td>
+<td>25</td>
+<td>50</td>
+<td>40</td>
+<td>10</td>
+</tr>
+<tr>
+<td>… w/road</td>
+<td>60</td>
+<td>60</td>
+<td>55</td>
+<td>50</td>
+<td>60</td>
+<td>60</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Chariot</td>
+<td>40</td>
+<td>25</td>
+<td>35</td>
+<td>5</td>
+<td>15</td>
+<td>2</td>
+<td>50¹</td>
+</tr>
+<tr>
+<td>… w/road</td>
+<td>55</td>
+<td>55</td>
+<td>50</td>
+<td>45</td>
+<td>55</td>
+<td>55</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Wagon</td>
+<td>25</td>
+<td>15</td>
+<td>20</td>
+<td>2</td>
+<td>5</td>
+<td>1</td>
+<td>10¹</td>
+</tr>
+<tr>
+<td>… w/road</td>
+<td>40</td>
+<td>40</td>
+<td>35</td>
+<td>30</td>
+<td>40</td>
+<td>40</td>
+<td>-</td>
+</tr>
+</tbody>
+</table><p class="note">¹Distance in meters per day.</p></div>
+<p>For the normal movement in the table above, a person will have -1 i status after half a day of travel and -2 after the full day (10 hours of travel including breaks).</p>
+<p>It is possible to travel longer by moving faster and spending more hours during a day. Travelling 50% longer requires 13 hours of travel time (including breaks) and will result in -2 in status after half a day and -4 after the full day. Travelling 100% longer requires 16 hours of travel and yields -3 after half a day and -6 after the full day.</p>
+<p>One recovers 1 in status per hour of sleep.</p>
+<h2 id="Weather">Weather</h2>
+<figure class="right">
+<a class="full" href="images/Shipwreck.jpg"><img src="images/Shipwreck.jpg" width="360" alt="Shipwreck.jpg" loading="lazy" decoding="async" height="636"></a>
+</figure>
+<p>To get randomly generated weather for a whole month, use the <a href="http://isene.org/cgi-bin/html_weather_input.rb">random weather generator for Amar</a>.</p>
+<p>Or, for a simpler, manual dice generator; roll on the table below for the initial weather condition.</p>
+<div class="tw"><table><caption>Weather condition</caption>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Heavy weather</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Rain</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Variable but heavily clouded</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Cloudy</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Variable but nice</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Nice</td>
+</tr>
+</tbody>
+</table></div>
+<p>Each day, roll on the table below for changes in the weather (applied to the Weather table above). If you get a &quot;+2&quot; and you are already on weather condition &quot;6&quot;, the roll bounces &quot;off the wall&quot; back to &quot;4&quot;. Same if you are on weather condition &quot;1&quot; and get a &quot;2&quot; on the D6, the weather becomes a &quot;2&quot;.</p>
+<div class="tw"><table><caption>Weather change</caption>
+<thead>
+<tr>
+<th>Dice</th>
+<th>Winter</th>
+<th>Spring</th>
+<th>Summer</th>
+<th>Autumn</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+<td>+2</td>
+</tr>
+<tr>
+<td>2</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+<td>+1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>+1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>-1</td>
+<td>0</td>
+<td>0</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>-2</td>
+<td>-1</td>
+<td>-1</td>
+<td>-1</td>
+</tr>
+<tr>
+<td>6</td>
+<td>-3</td>
+<td>-2</td>
+<td>-2</td>
+<td>-2</td>
+</tr>
+</tbody>
+</table></div>
+<p>Next: <a class="wiki" title="On the old wiki" href="https://d6gaming.org/index.php/Encounters">Encounters</a></p>
+</div>
+</main>
+</div>
+<footer class="foot">
+  <p>The Amar RPG, created by Geir Isene (Isy Allon) with Bent Brakas (Ben Brakas) and Jonatan Isene.</p>
+  <p><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/">The Amar wiki</a></p>
+</footer>
+<script src="theme/search.js" defer></script>
+</body>
+</html>

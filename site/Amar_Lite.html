@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Amar Lite – Amar RPG</title>
+<meta name="description" content="Amar Lite is the simplified version of the Amar Role-Playing Game.">
+<link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="theme/style.css">
+<link rel="icon" href="theme/icon.png">
+
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to the text</a>
+<input type="checkbox" id="menu" class="menu-toggle" aria-label="Show the menu">
+<header class="bar">
+  <a class="mark" href="index.html">Amar</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <ol id="hits" hidden></ol>
+  </div>
+  <label class="menu-btn" for="menu">Menu</label>
+</header>
+<div class="frame">
+<nav class="side" aria-label="Menu">
+<h2>Start here</h2><ul><li><a href="Introduction.html">Introduction</a></li><li><a href="Amar_rules_101.html">Amar rules 101</a></li></ul>
+<h2>Amar Lite</h2><ul><li><a href="Amar_Lite.html" aria-current="page">Amar Lite</a></li><li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a></li></ul>
+<h2>The rules</h2><ul><li><a href="The_Character.html">The Character</a></li><li><a href="Advantages_and_Disadvantages.html">Advantages and Disadvantages</a></li><li><a href="Playable_Races.html">Playable Races</a></li><li><a href="Skills.html">Skills</a></li><li><a href="Combat.html">Combat</a></li><li><a href="Movement_and_Weather.html">Movement and Weather</a></li><li><a href="Equipment.html">Equipment</a></li></ul>
+<h2>Magick</h2><ul><li><a href="Magick.html">Magick</a></li><li><a href="Spells.html">Spells</a></li><li><a href="Rituals.html">Rituals</a></li><li><a href="Potions.html">Potions</a></li><li><a href="Natural_Magick_Items.html">Natural Magick Items</a></li><li><a href="Incantation_Magic.html">Incantation Magic</a></li><li><a href="Womp.html">Womp</a></li></ul>
+<h2>Game Master</h2><ul><li><a href="Advice_to_the_GM.html">Advice to the GM</a></li><li><a href="GM's_Screen.html">GM&#x27;s Screen</a></li><li><a href="The_First_Adventure.html">The First Adventure</a></li><li><a href="Campaign_tracker.html">Campaign tracker</a></li><li><a href="Compacting_information.html">Compacting information</a></li><li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a></li><li><a href="Other_Resources.html">Other Resources</a></li></ul>
+<h2>Add-ons</h2><ul><li><a href="Universal_Amar.html">Universal Amar</a></li><li><a href="Experimental_Systems.html">Experimental Systems</a></li><li><a href="Evolutionary_Magick.html">Evolutionary Magick</a></li></ul>
+</nav>
+<main id="main">
+<p class="crumbs">Amar Lite</p><h1>Amar Lite</h1><div class="text"><figure class="right">
+<a class="full" href="images/Castle_Laerthian.jpg"><img src="images/Castle_Laerthian.jpg" width="360" alt="Castle Laerthian.jpg" loading="lazy" decoding="async" height="635"></a>
+</figure>
+<p>Amar Lite is the simplified version of the Amar Role-Playing Game. It is reduced to its simplest form to get absolute beginners a taste for role-playing games. Use it as an introduction or keep using it if you want to have the simplest or rules for your campaign. Any dice roll involved is done simply with a normal 6-sided dice. Here is <a href="https://isene.org/2018/10/Podcast-AmarLite.html">the podcast introducing the Amar Lite RPG</a>.</p>
+<h3 id="The_character">The character</h3>
+<p>A character is described by a set of characteristics:</p>
+<div class="tw"><table><caption>Amar Lite Characteristics</caption>
+<thead>
+<tr>
+<th>Characteristic</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>STRENGTH</strong></td>
+<td>The physical strength of a character. This determines how much the character can carry and how big a weapon he or she can use.</td>
+</tr>
+<tr>
+<td><strong>BODY POINTS</strong></td>
+<td>The amount of damage a character can take.</td>
+</tr>
+<tr>
+<td><strong>AWARENESS</strong></td>
+<td>The character's alertness.</td>
+</tr>
+<tr>
+<td><strong>MAGICAL APTITUDE</strong></td>
+<td>How many magic spells a character can cast.</td>
+</tr>
+<tr>
+<td><strong>SPELL CASTING</strong></td>
+<td>The skill of casting magic spells.</td>
+</tr>
+<tr>
+<td><strong>SNEAKING</strong></td>
+<td>The ability to sneak around without being noticed.</td>
+</tr>
+<tr>
+<td><strong>SLEIGHT</strong></td>
+<td>The ability to pick pockets and locks.</td>
+</tr>
+<tr>
+<td><strong>CLIMBING</strong></td>
+<td>The character's skill in climbing</td>
+</tr>
+<tr>
+<td><strong>SWIMMING</strong></td>
+<td>The skill of swimming.</td>
+</tr>
+<tr>
+<td><strong>MELEE SKILL</strong></td>
+<td>Ability to fight in close combat.</td>
+</tr>
+<tr>
+<td><strong>MISSILE SKILL</strong></td>
+<td>Ability to hit a target with a ranged weapon.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The range for all of these are normally 0 to 8 for humans. BODY POINTS range from 4 to 10 for humans. A zero in any of them indicates an inability to perform any action related to that characteristic.</p>
+<p>BODY POINTS and MAGICAL APTITUDE are characteristics that can be temporarily lowered. BODY POINTS are lowered when you take physical damage and MAGICAL APTITUDE when you cast magic spells. Both get recharged. BODY POINTS is recharged one per week of rest or by magic healing or potions. MAGICAL APTITUDE is fully recharged by one good night of sleep.</p>
+<h3 id="Encumbrance">Encumbrance</h3>
+<p>A character can carry as much as his or her strength without incurring any penalties. A weapon, armor or any other equipment has a certain encumbrance (ENC). Subtract one on every roll for each point in encumbrance above the character's strength (except when rolling for damage inflicted). Example: If your character has 3 in strength and carries 5 in ENC, you must subtract 2 from every roll. If you have a bow and discard that during melee combat, it no longer counts as encumbrance.</p>
+<h3 id="Armor">Armor</h3>
+<p>Armor reduces the damage inflicted to a character. Each Armor Point (AP) subtracts one from any damage inflicted.</p>
+<div class="tw"><table><caption>Armor types</caption>
+<thead>
+<tr>
+<th>Armor</th>
+<th>AP</th>
+<th>ENC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Shield</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Leather</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Ringed mail</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Cuirboullie</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Chain mail</td>
+<td>4</td>
+<td>4</td>
+</tr>
+</tbody>
+</table></div>
+<p>Shields can be used in addition to any other armor worn.</p>
+<h3 id="Weapons">Weapons</h3>
+<p>Weapons does a certain amount of damage (DAM) when it hits.</p>
+<div class="tw"><table><caption>Weapon types</caption>
+<thead>
+<tr>
+<th>Weapon</th>
+<th>DAM</th>
+<th>ENC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unarmed</td>
+<td>-2</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Small weapon</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Medium weapon</td>
+<td>2</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Large weapon</td>
+<td>4</td>
+<td>3</td>
+</tr>
+</tbody>
+</table></div>
+<p>Unarmed can obviously only be used in melee combat.</p>
+<p>Small melee weapons are knife, hatchet, light mace, staff and short sword. Medium melee weapons are long sword, heavy mace, club, spear and flail. Heavy melee weapons are great sword, Hercules club, halberd and great axe.</p>
+<p>Small missile weapons are throwing weapons (knife, hatchet, spear) or sling. They have a normal range of 15 meters. Medium missile weapons are bow and light crossbow and have a normal range of 30 meters. Large missile weapons are large bow and heavy crossbow with a normal range of 40 meters. Throwing weapons, sling and bows can fire once per combat round. Crossbows can fire every second round.</p>
+<h3 id="The_game_play">The game play</h3>
+<p>Whenever a character attempts to do something that has an uncertain outcome, a dice roll will determine if the action is successful. Every roll made is against a Difficulty Rating (DR). Roll a dice and add the characteristic used. If the total matches the DR, it is successful. Example: If your character attempts to climb a castle wall with a DR of 8 and the character has 4 in CLIMBING, you need to roll a 4 or better on the dice to succeed.</p>
+<p>When you attempt an action against a foe, you roll a dice, add the characteristic used and that becomes the DR that your foe needs to match.</p>
+<p>Example: You strike a foe with your weapon. You have 3 in MELEE SKILL and roll a 5. The total is 8 which is then the DR that your foe needs to match in order to block your attack. He has 4 in MELEE SKILL and needs to roll a 4 to make the total match your attack. The foe only rolls a 2 and is hit. You use a medium weapon and roll for damage (dice plus the weapon's damage of 2). You get a 3 on the dice and the total damage inflicted is 5. Subtract the foe's armor points of 2. You inflict a resulting 3 in damage to his BODY POINTS. When the BODY POINTS reaches zero, he passes out. When it reaches the negative of his normal BODY POINTS, he is dead.</p>
+<p>Another example: You attempt to sneak up on an enemy. You roll a dice and add your SNEAK score for a total of 9. This becomes the enemy's DR when he rolls a dice and adds his AWARENESS. If he gets a total of 9 or more, you are busted. The same if you use SLEIGHT to pick the pockets of someone in a town. You roll a dice and add your SLEIGHT score. The someone rolls a dice and adds her AWARENESS. If her total is less than your total, you get the loot.</p>
+<p>A combat round is 6 seconds. Each combatant rolls a dice and add his or her AWARENESS. The one with the highest total goes first, the second highest goes second and so on until every combatant has attacked. If a combatant reaches 0 or lower in BODY POINTS before it is his turn, well... he will not get a turn.</p>
+<p>You can only attack once per combat round, but you defend as many times as you are attacked.</p>
+<p>When firing a missile weapon, the DR is 5 to hit any target within half normal range, 10 up to normal range and 15 up to double normal range.</p>
+<p>These are the DRs for CLIMBING. Roll for every 5 meters to climb. If you fail, you will fall from the hight you started that CLIMBING roll and take a dice roll in damage +1 per 2 meters you fall.</p>
+<div class="tw"><table><caption>DRs for CLIMBING</caption>
+<thead>
+<tr>
+<th>Type</th>
+<th>DR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Steep slope</td>
+<td>2</td>
+</tr>
+<tr>
+<td>A tree</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Cliff</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Castle wall</td>
+<td>8</td>
+</tr>
+<tr>
+<td>A rope or difficult castle wall</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are the DRs for SWIMMING. Roll for every 50 meters to swim.</p>
+<div class="tw"><table><caption>DRs for SWIMMING</caption>
+<thead>
+<tr>
+<th>Type</th>
+<th>DR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Calm waters</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Undercurrents</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Strong undercurrents</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Rapids</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Strong rapids</td>
+<td>10</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="Magic">Magic</h3>
+<p>If a character can learn to cast a spell if he or she has at least one in SPELL CASTING and in MAGICAL APTITUDE. When casting a spell, you roll a dice and add your score in SPELL CASTING to match the DR for that spell. You can cast one spell per combat round (6 seconds).</p>
+<div class="tw"><table><caption>Magic Spells</caption>
+<thead>
+<tr>
+<th>Spell</th>
+<th>DR</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Healing</td>
+<td>6</td>
+<td>Roll a dice to see how many BODY POINTS the target is instantly healed.</td>
+</tr>
+<tr>
+<td>Fireball</td>
+<td>8</td>
+<td>Casts a ball of fire up to 10 meters from the spell caster. Roll a dice +1 for damage to all creatures within 3 meters of the blast.</td>
+</tr>
+<tr>
+<td>Silence</td>
+<td>6</td>
+<td>Makes a target completely silent for 1 minute.</td>
+</tr>
+<tr>
+<td>Invisibility</td>
+<td>10</td>
+<td>Makes a target invisible for 1 minute.</td>
+</tr>
+<tr>
+<td>Lightning bolt</td>
+<td>6</td>
+<td>Casts a bolt of lightning up to 10 meters. Roll a dice +2 for damage to the target.</td>
+</tr>
+<tr>
+<td>Water breathing</td>
+<td>8</td>
+<td>Lets the target breath in water for 1 minute</td>
+</tr>
+<tr>
+<td>Freeze</td>
+<td>6</td>
+<td>Gives the target -2 to all rolls for 1 minute. The target rolls a dice and add its MAGICAL APTITUDE for a total of 8 to cancel the effect.</td>
+</tr>
+<tr>
+<td>Magic Armor</td>
+<td>6</td>
+<td>Gives the target an additional 2 in armor for 1 minute.</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="Experience_and_training">Experience and training</h3>
+<p>When you have 10 successful rolls using a characteristic, you gain one in that characteristic. If you spend one month training in a characteristic it will also increase by one. You cannot increase your BODY POINTS except through rare magic.</p>
+<h2 id="Starting_characters">Starting characters</h2>
+<p>The above is the complete rules set for Amar Lite. Now, to help getting into the game, here are a few starting characters you can use.</p>
+<img src="images/Aleena.jpg" width="200" alt="Aleena" loading="lazy" decoding="async" height="442">
+<pre><code>Name: Aleena         Race: Human       Description: Female thief
+STRENGTH:         3  ENCUMBRANCE:   3  BODY POINTS:   6  AP: 1 (Leather)
+AWARENESS:        3  SNEAKING:      6  SLEIGHT:       5
+CLIMBING:         5  SWIMMING:      5
+MELEE SKILL:      4  Weapon: Knives (Dam 0)
+MISSILE SKILL:    4  Weapon: Knives (Dam 0)
+MAGICAL APTITUDE: 0  SPELL CASTING: 0
+SPELLS: None
+</code></pre>
+<a class="full" href="images/Endragoel.jpg"><img src="images/Endragoel.jpg" width="200" alt="Endragoel" loading="lazy" decoding="async" height="324"></a>
+<pre><code>Name: Endragoel      Race: Human       Description: Male wizard
+STRENGTH:         2  ENCUMBRANCE:   1  BODY POINTS:   6  AP: 0 (none)
+AWARENESS:        1  SNEAKING:      1  SLEIGHT:       1
+CLIMBING:         1  SWIMMING:      1
+MELEE SKILL:      3  Weapon: Staff  (Dam 0)
+MISSILE SKILL:    1  Weapon: None
+MAGICAL APTITUDE: 5  SPELL CASTING: 5
+SPELLS: Freeze, Magic Armor, Fireball, Water Breathing
+</code></pre>
+<a class="full" href="images/Barghan.jpg"><img src="images/Barghan.jpg" width="350" alt="Barghan" loading="lazy" decoding="async" height="236" class="art"></a>
+<pre><code>Name: Barghan        Race: Dwarf       Description: Male warrior
+STRENGTH:         6  ENCUMBRANCE:   6  BODY POINTS:   8  AP: 3 (Cuirboullie)
+AWARENESS:        1  SNEAKING:      1  SLEIGHT:       1
+CLIMBING:         0  SWIMMING:      0
+MELEE SKILL:      5  Weapon: Great axe (Dam 4)
+MISSILE SKILL:    2  Weapon: Heavy crossbow (Dam 4)
+MAGICAL APTITUDE: 0  SPELL CASTING: 0
+SPELLS: None
+</code></pre>
+<a class="full" href="images/Sivirda.jpg"><img src="images/Sivirda.jpg" width="200" alt="Sivirda" loading="lazy" decoding="async" height="302"></a>
+<pre><code>Name: Sivirda        Race: Dwarf       Description: Female guard
+STRENGTH:         5  ENCUMBRANCE:   5  BODY POINTS:   7  AP: 2 (Ringed mail)
+AWARENESS:        1  SNEAKING:      2  SLEIGHT:       1
+CLIMBING:         1  SWIMMING:      0
+MELEE SKILL:      3  Weapon: Staff  (Dam 0)
+MISSILE SKILL:    6  Weapon: Heavy Crossbow (Dam 4)
+MAGICAL APTITUDE: 0  SPELL CASTING: 0
+SPELLS: None
+</code></pre>
+<a class="full" href="images/Tharian.jpg"><img src="images/Tharian.jpg" width="200" alt="Tharian" loading="lazy" decoding="async" height="273"></a>
+<pre><code>Name: Tharian        Race: Half-elf    Description: Male hunter
+STRENGTH:         2  ENCUMBRANCE:   2  BODY POINTS:   5  AP: 1 (Leather)
+AWARENESS:        5  SNEAKING:      5  SLEIGHT:       1
+CLIMBING:         3  SWIMMING:      2
+MELEE SKILL:      3  Weapon: Staff  (Dam 0)
+MISSILE SKILL:    5  Weapon: Bow    (Dam 2)
+MAGICAL APTITUDE: 0  SPELL CASTING: 0
+SPELLS: None
+</code></pre>
+<a class="full" href="images/Alathriel.jpg"><img src="images/Alathriel.jpg" width="200" alt="Alathriel" loading="lazy" decoding="async" height="278"></a>
+<pre><code>Name: Alathriel      Race: Half-elf    Description: Female wizard
+STRENGTH:         1  ENCUMBRANCE:   1  BODY POINTS:   4  AP: 0 (none)
+AWARENESS:        3  SNEAKING:      2  SLEIGHT:       1
+CLIMBING:         1  SWIMMING:      0
+MELEE SKILL:      2  Weapon: Staff  (Dam 0)
+MISSILE SKILL:    1  Weapon: None
+MAGICAL APTITUDE: 6  SPELL CASTING: 5
+SPELLS: Silence, Invisibility, Lightning bolt, Healing
+</code></pre>
+<h2 id="The_first_Amar_Lite_adventure">The first Amar Lite adventure</h2>
+<p>Now you should have a few players gathered, each with a character to play. It is time to kick off the game with the first quest: <a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a></p>
+<h2 id="An_even_simpler_system:_Amar_Lite_Lite">An even simpler system: Amar Lite Lite</h2>
+<p>The simplest I can come up with would be this:</p>
+<p>Each character has 4 SKILLS: Thievery, Melee, Missile and Magic. You start with 2 in Thievery, Melee and Missile and 0 in Magic and add 4 to one of them. You can only play a human. All characters have 7 Body Points. Damage done is a six sided dice - both for melee and missile hits. This is the extent of your starting character.</p>
+<p>Combat is resolved by each player rolling for attack and defense, your melee skill plus a dice versus your opponent's melee skill plus a dice. If you score higher on your attack than your opponent's total defense, you score a hit, doing one dice in damage. Then your opponent rolls for attack and you for defense. The attacks happen simultaneously. For missile weapons, you roll just as described for Amar Lite above.</p>
+<p>Any other skills like climb, track, tumble, swim, ride, sneak, etc. are based on your Thievery skill. You roll a dice and add your Thievery to get a total score. Use the tables for Amar Lite for Difficulty Ratings.</p>
+<p>Magic is resolved as in Amar Lite. You can cast as many spells per day as your Magic skill.</p>
+<p>The GM decides when a character increases in any of the four skills.</p>
+<p>This makes for an Role-Playing Game system usable for kids down to 4 or adults up to 104.</p>
+</div>
+</main>
+</div>
+<footer class="foot">
+  <p>The Amar RPG, created by Geir Isene (Isy Allon) with Bent Brakas (Ben Brakas) and Jonatan Isene.</p>
+  <p><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/">The Amar wiki</a></p>
+</footer>
+<script src="theme/search.js" defer></script>
+</body>
+</html>

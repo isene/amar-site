@@ -1,0 +1,44 @@
+---
+title: Warmth
+categories:
+- Advanced Spells
+- Air Magick
+- Earth Magick
+- Fire Magick
+- Heat Magick
+- Life Magick
+- Protection Magick
+- Spells
+- Water Magick
+stats:
+  Domain: Air, Earth, Fire, Heat, Life, Protection, Water
+  Encumbrance: '2'
+  Cooldown: 4 hours
+  Casting Time: 1 round
+  Active/Passive: Active
+  Restrictions: None
+  DR: '6'
+  Cost: 1 Mental Fortitude
+  Distance: 0m
+  Duration: 1 hour
+  Area of Effect: Self
+  Effects: See below
+  Receiving: Air, Earth, Fire, Heat, Life, Protection, Water Attunement 1
+  Giving: Ritual 1 week
+---
+
+Keeps the caster warm (feels like it is up to 10°C warmer per level).
+
+## Casting
+
+To cast Warmth:
+
+- **Roll**: O6 + SPIRIT + Attunement + Air, Earth, Fire, Heat, Life, Protection, Water vs DR 6
+- **Cost**: 1 Mental Fortitude
+- **Time**: 1 round
+- **Cooldown**: 4 hours
+
+## Transfer Requirements
+
+- **Receiving**: Requires Air, Earth, Fire, Heat, Life, Protection, Water Attunement 1 or higher
+- **Giving**: 1 week ritual to transfer spell ownership

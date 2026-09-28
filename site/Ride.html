@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ride – Amar RPG</title>
+<meta name="description" content="The difficulty ratings in the table are for horseback riding.">
+<link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="theme/style.css">
+<link rel="icon" href="theme/icon.png">
+
+</head>
+<body class="">
+<a class="skip" href="#main">Skip to the text</a>
+<input type="checkbox" id="menu" class="menu-toggle" aria-label="Show the menu">
+<header class="bar">
+  <a class="mark" href="index.html">Amar</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <ol id="hits" hidden></ol>
+  </div>
+  <label class="menu-btn" for="menu">Menu</label>
+</header>
+<div class="frame">
+<nav class="side" aria-label="Menu">
+<h2>Start here</h2><ul><li><a href="Introduction.html">Introduction</a></li><li><a href="Amar_rules_101.html">Amar rules 101</a></li></ul>
+<h2>Amar Lite</h2><ul><li><a href="Amar_Lite.html">Amar Lite</a></li><li><a href="The_first_Amar_Lite_adventure.html">The first Amar Lite adventure</a></li></ul>
+<h2>The rules</h2><ul><li><a href="The_Character.html">The Character</a></li><li><a href="Advantages_and_Disadvantages.html">Advantages and Disadvantages</a></li><li><a href="Playable_Races.html">Playable Races</a></li><li><a href="Skills.html" class="here">Skills</a></li><li><a href="Combat.html">Combat</a></li><li><a href="Movement_and_Weather.html">Movement and Weather</a></li><li><a href="Equipment.html">Equipment</a></li></ul>
+<h2>Magick</h2><ul><li><a href="Magick.html">Magick</a></li><li><a href="Spells.html">Spells</a></li><li><a href="Rituals.html">Rituals</a></li><li><a href="Potions.html">Potions</a></li><li><a href="Natural_Magick_Items.html">Natural Magick Items</a></li><li><a href="Incantation_Magic.html">Incantation Magic</a></li><li><a href="Womp.html">Womp</a></li></ul>
+<h2>Game Master</h2><ul><li><a href="Advice_to_the_GM.html">Advice to the GM</a></li><li><a href="GM's_Screen.html">GM&#x27;s Screen</a></li><li><a href="The_First_Adventure.html">The First Adventure</a></li><li><a href="Campaign_tracker.html">Campaign tracker</a></li><li><a href="Compacting_information.html">Compacting information</a></li><li><a href="Conversion_from_other_RPGs.html">Conversion from other RPGs</a></li><li><a href="Other_Resources.html">Other Resources</a></li></ul>
+<h2>Add-ons</h2><ul><li><a href="Universal_Amar.html">Universal Amar</a></li><li><a href="Experimental_Systems.html">Experimental Systems</a></li><li><a href="Evolutionary_Magick.html">Evolutionary Magick</a></li></ul>
+</nav>
+<main id="main">
+<p class="crumbs">The rules / <a href="Skills.html">Skills</a></p><h1>Ride</h1><div class="text"><p>The difficulty ratings in the table are for horseback riding. The GM should make adjustments for other animals.</p>
+<div class="tw"><table><caption>Riding</caption>
+<thead>
+<tr>
+<th>DR</th>
+<th>Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Trot or gallop on road</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Trot or gallop in terrain</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Gallop through forest / jump easy obstacle</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Gallop through dense forest / jump obstacle 1.5 m high*</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Jump obstacle 2 meters high*</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Jump obstacle 2 meters high* with little room</td>
+</tr>
+<tr>
+<td>+3</td>
+<td>Without saddle</td>
+</tr>
+</tbody>
+</table></div>
+<pre><code>* How high you can jump depends on the horse. Given heights assume the horse can jump this high.
+</code></pre>
+<p>When fighting from horseback, the character gets a penalty in all weapon skills and dodge. The amount depends upon the horse, see the mounted combat table.</p>
+<p>Each round of combat from horseback, a ride roll is made to see if the character controls the horse. If the roll is not successful, the character may not attack that round, and gets an additional -5 in parry or dodge. If the roll fails by more than 5, the character falls off (counts as a 2 meter fall). DR is given in the mounted combat table.</p>
+<div class="tw"><table><caption>Mounted Combat</caption>
+<thead>
+<tr>
+<th>Horse</th>
+<th>Penalty</th>
+<th>DR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>War horse</td>
+<td>1</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Battle-trained horse</td>
+<td>3</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Riding horse</td>
+<td>5</td>
+<td>15</td>
+</tr>
+</tbody>
+</table></div>
+</div><p class="cats">Listed under <a href="Physical_Skills.html">Physical Skills</a>, <a href="Skills.html">Skills</a>.</p>
+</main>
+</div>
+<footer class="foot">
+  <p>The Amar RPG, created by Geir Isene (Isy Allon) with Bent Brakas (Ben Brakas) and Jonatan Isene.</p>
+  <p><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/">The Amar wiki</a></p>
+</footer>
+<script src="theme/search.js" defer></script>
+</body>
+</html>

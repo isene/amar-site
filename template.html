@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="theme/style.css">
+<link rel="icon" href="theme/icon.png">
+{head}
+</head>
+<body class="{cls}">
+<a class="skip" href="#main">Skip to the text</a>
+<input type="checkbox" id="menu" class="menu-toggle" aria-label="Show the menu">
+<header class="bar">
+  <a class="mark" href="index.html">Amar</a>
+  <div class="search">
+    <input id="q" type="search" placeholder="Search the rules" autocomplete="off" aria-label="Search the rules">
+    <ol id="hits" hidden></ol>
+  </div>
+  <label class="menu-btn" for="menu">Menu</label>
+</header>
+<div class="frame">
+<nav class="side" aria-label="Menu">
+{nav}
+</nav>
+<main id="main">
+{content}
+</main>
+</div>
+<footer class="foot">
+  <p>The Amar RPG, created by Geir Isene (Isy Allon) with Bent Brakas (Ben Brakas) and Jonatan Isene.</p>
+  <p><a href="https://isene.com/x/2026-08-24_Amar-RPG.pdf">The Amar RPG book (PDF)</a> <a href="https://d6gaming.org/">The Amar wiki</a></p>
+</footer>
+<script src="theme/search.js" defer></script>
+</body>
+</html>
