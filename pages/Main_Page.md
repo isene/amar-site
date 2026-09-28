@@ -190,7 +190,7 @@ title: Main Page
 
 <ul>
 
-<li><a href="https://isene.com/amar3.html">Amar Tools</a><span>Online generators for NPCs, encounters, towns, weather and more.</span></li>
+<li><a href="https://d6gaming.org/tools/">Amar Tools</a><span>Online generators for NPCs, encounters, towns, weather and more.</span></li>
 
 <li><a href="Advice_to_the_GM.html">Advice to the GM</a><span>Tips for new Game Masters.</span></li>
 
