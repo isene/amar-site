@@ -12,22 +12,6 @@ title: Main Page
 
 <p class="tag">A realistic role-playing game you learn in an evening, played with one six-sided die.</p>
 
-<div class="roll">
-
-<img class="diagram" src="images/BasicSystem.jpg" width="305" alt="The skill value plus the die roll must reach the Difficulty Rating.">
-
-<div>
-
-<p class="eq">Skill + O6 ≥ DR</p>
-
-<p>Every roll works the same way. Add your skill to an open-ended die roll (O6) and meet or beat the Difficulty Rating (DR).</p>
-
-<p>Roll a 6 and you roll again, adding 1 for every 4 or higher. Roll a 1 and you roll again, taking away 1 for every 3 or lower.</p>
-
-</div>
-
-</div>
-
 <div class="doors">
 
 <p><a class="first" href="Amar_Lite.html">New to role-playing? Start with Amar Lite</a></p>
@@ -71,6 +55,44 @@ title: Main Page
 </ul>
 
 <p>This site covers the rules of the game as well as information about the Amar fantasy world.</p>
+
+</section>
+
+<section class="how">
+
+<div>
+
+<h3>How does a roll work?</h3>
+
+<p class="eq">Skill + O6 ≥ DR</p>
+
+<p>When your character tries something risky, like climbing a cliff or hitting a troll, you roll one die.</p>
+
+<ol>
+
+<li>The GM says how hard it is. That number is the Difficulty Rating (DR).</li>
+
+<li>You roll the die and add your skill.</li>
+
+<li>If the total reaches the DR, you make it.</li>
+
+</ol>
+
+<p>The die is an O6, an open-ended die. A 2, 3, 4 or 5 is simply your roll. A 6 or a 1 makes you roll again:</p>
+
+<ul>
+
+<li>Roll a 6? Lucky. Every 4, 5 or 6 that follows adds 1, and you roll again. A 1, 2 or 3 ends it.</li>
+
+<li>Roll a 1? Unlucky. Every 1, 2 or 3 that follows takes away 1, and you roll again. A 4, 5 or 6 ends it.</li>
+
+</ul>
+
+<p>So now and then a beginner does the impossible, and a master slips. Two 6s in a row is a critical success; two 1s in a row is a fumble. Amar Lite keeps it even simpler: one plain roll of the die.</p>
+
+</div>
+
+<img class="inline" src="theme/o6.svg" alt="">
 
 </section>
 

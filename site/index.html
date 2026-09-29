@@ -8,7 +8,7 @@
 <meta name="description" content="Amar, a realistic and simple role-playing game played with one six-sided die.">
 <link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
 <script>try { var s = localStorage, d = document.documentElement.dataset; ["theme", "font", "edit"].forEach(function (k) { var v = s.getItem(k); if (v) d[k] = v }) } catch (e) {}</script>
-<link rel="stylesheet" href="theme/style.css?v=7c1c5328">
+<link rel="stylesheet" href="theme/style.css?v=260369a9">
 <link rel="icon" href="theme/icon.png">
 </head>
 <body class="home">
@@ -42,14 +42,6 @@
 <div>
 <h1>Amar</h1>
 <p class="tag">A realistic role-playing game you learn in an evening, played with one six-sided die.</p>
-<div class="roll">
-<img class="art diagram" src="images/BasicSystem.jpg" width="305" alt="The skill value plus the die roll must reach the Difficulty Rating." loading="lazy" decoding="async" height="480">
-<div>
-<p class="eq">Skill + O6 ≥ DR</p>
-<p>Every roll works the same way. Add your skill to an open-ended die roll (O6) and meet or beat the Difficulty Rating (DR).</p>
-<p>Roll a 6 and you roll again, adding 1 for every 4 or higher. Roll a 1 and you roll again, taking away 1 for every 3 or lower.</p>
-</div>
-</div>
 <div class="doors">
 <p><a class="first" href="Amar_Lite.html">New to role-playing? Start with Amar Lite</a></p>
 <p><a href="Introduction.html">Read the full rules</a></p>
@@ -72,6 +64,61 @@
 <li>A fantasy world where the game play takes place.</li>
 </ul>
 <p>This site covers the rules of the game as well as information about the Amar fantasy world.</p>
+</section>
+<section class="how">
+<div>
+<h3 id="How_does_a_roll_work?">How does a roll work?</h3>
+<p class="eq">Skill + O6 ≥ DR</p>
+<p>When your character tries something risky, like climbing a cliff or hitting a troll, you roll one die.</p>
+<ol>
+<li>The GM says how hard it is. That number is the Difficulty Rating (DR).</li>
+<li>You roll the die and add your skill.</li>
+<li>If the total reaches the DR, you make it.</li>
+</ol>
+<p>The die is an O6, an open-ended die. A 2, 3, 4 or 5 is simply your roll. A 6 or a 1 makes you roll again:</p>
+<ul>
+<li>Roll a 6? Lucky. Every 4, 5 or 6 that follows adds 1, and you roll again. A 1, 2 or 3 ends it.</li>
+<li>Roll a 1? Unlucky. Every 1, 2 or 3 that follows takes away 1, and you roll again. A 4, 5 or 6 ends it.</li>
+</ul>
+<p>So now and then a beginner does the impossible, and a master slips. Two 6s in a row is a critical success; two 1s in a row is a fumble. Amar Lite keeps it even simpler: one plain roll of the die.</p>
+</div>
+<svg class="o6" viewBox="0 0 360 396" role="img" aria-label="Climbing a cliff: skill 5 plus a roll of 4 is 9, which reaches DR 8. Rolls: a 3 is 3. A 6, then 5 and 4 add 1 each and a 2 stops: 8. A 1, then a 3 takes 1 away and a 5 stops: 0.">
+<defs>
+<symbol id="d1" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="20" cy="20" r="3.8"/></g></symbol>
+<symbol id="d2" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="29" cy="11" r="3.8"/><circle cx="11" cy="29" r="3.8"/></g></symbol>
+<symbol id="d3" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="29" cy="11" r="3.8"/><circle cx="20" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/></g></symbol>
+<symbol id="d4" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+<symbol id="d5" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="20" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+<symbol id="d6" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="11" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="29" cy="20" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+</defs>
+<text class="cap" x="0" y="14">Climbing a cliff</text>
+<rect class="box" x="0" y="26" width="64" height="46" rx="4"/><text class="num" x="32" y="58">5</text><text class="lab" x="32" y="92">skill</text>
+<text class="op" x="80" y="57">+</text>
+<use class="die" href="#d4" x="96" y="29" width="40" height="40"/><text class="lab" x="116" y="92">die</text>
+<text class="op" x="152" y="57">=</text>
+<text class="num tot" x="176" y="58">9</text><text class="lab" x="176" y="92">total</text>
+<text class="op" x="204" y="57">≥</text>
+<rect class="box" x="220" y="26" width="64" height="46" rx="4"/><text class="num" x="252" y="58">8</text><text class="lab" x="252" y="92">DR</text>
+<text class="num tot" x="322" y="58">✓</text><text class="lab" x="322" y="92">made it</text>
+<line class="rule" x1="0" y1="112" x2="360" y2="112"/>
+<text class="cap" x="0" y="140">Roll 2, 3, 4 or 5: that is your roll</text>
+<use class="die" href="#d3" x="0" y="150" width="40" height="40"/>
+<text class="num tot end" x="360" y="178">= 3</text>
+<text class="cap" x="0" y="226">Roll a 6: lucky! Roll again</text>
+<use class="die six" href="#d6" x="0" y="236" width="40" height="40"/>
+<use class="die" href="#d5" x="50" y="236" width="40" height="40"/>
+<use class="die" href="#d4" x="100" y="236" width="40" height="40"/>
+<use class="die stop" href="#d2" x="150" y="236" width="40" height="40"/>
+<text class="lab" x="70" y="294">+1</text><text class="lab" x="120" y="294">+1</text><text class="lab" x="170" y="294">stop</text>
+<text class="num tot end" x="360" y="264">= 8</text>
+<text class="cap" x="0" y="326">Roll a 1: unlucky! Roll again</text>
+<use class="die one" href="#d1" x="0" y="336" width="40" height="40"/>
+<use class="die" href="#d3" x="50" y="336" width="40" height="40"/>
+<use class="die stop" href="#d5" x="100" y="336" width="40" height="40"/>
+<text class="lab" x="70" y="394">−1</text><text class="lab" x="120" y="394">stop</text>
+<text class="num tot end" x="360" y="364">= 0</text>
+</svg>
+
 </section>
 </div>
 <div class="mood">

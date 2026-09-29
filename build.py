@@ -146,6 +146,9 @@ def polish(body, title):
     # a footnote line right under a table belongs inside its frame
     body = re.sub(r'</table></div>\s*<p><em>([¹²³⁴⁵*†][^<]*)</em></p>', r'</table><p class="note">\1</p></div>', body)
 
+    # a drawing that follows the light and dark colours goes into the page whole
+    body = re.sub(r'<img class="inline" src="([^"]+\.svg)"[^>]*>', lambda m: (OUT / m.group(1)).read_text(), body)
+
     def img(m):
         tag = m.group(0)
         src = re.search(r'src="([^"]+)"', tag).group(1)

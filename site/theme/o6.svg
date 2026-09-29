@@ -1,0 +1,36 @@
+<svg class="o6" viewBox="0 0 360 396" role="img" aria-label="Climbing a cliff: skill 5 plus a roll of 4 is 9, which reaches DR 8. Rolls: a 3 is 3. A 6, then 5 and 4 add 1 each and a 2 stops: 8. A 1, then a 3 takes 1 away and a 5 stops: 0.">
+<defs>
+<symbol id="d1" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="20" cy="20" r="3.8"/></g></symbol>
+<symbol id="d2" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="29" cy="11" r="3.8"/><circle cx="11" cy="29" r="3.8"/></g></symbol>
+<symbol id="d3" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="29" cy="11" r="3.8"/><circle cx="20" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/></g></symbol>
+<symbol id="d4" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+<symbol id="d5" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="20" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+<symbol id="d6" viewBox="0 0 40 40"><rect x="1.5" y="1.5" width="37" height="37" rx="7"/><g fill="currentColor" stroke="none"><circle cx="11" cy="11" r="3.8"/><circle cx="11" cy="20" r="3.8"/><circle cx="11" cy="29" r="3.8"/><circle cx="29" cy="11" r="3.8"/><circle cx="29" cy="20" r="3.8"/><circle cx="29" cy="29" r="3.8"/></g></symbol>
+</defs>
+<text class="cap" x="0" y="14">Climbing a cliff</text>
+<rect class="box" x="0" y="26" width="64" height="46" rx="4"/><text class="num" x="32" y="58">5</text><text class="lab" x="32" y="92">skill</text>
+<text class="op" x="80" y="57">+</text>
+<use class="die" href="#d4" x="96" y="29" width="40" height="40"/><text class="lab" x="116" y="92">die</text>
+<text class="op" x="152" y="57">=</text>
+<text class="num tot" x="176" y="58">9</text><text class="lab" x="176" y="92">total</text>
+<text class="op" x="204" y="57">≥</text>
+<rect class="box" x="220" y="26" width="64" height="46" rx="4"/><text class="num" x="252" y="58">8</text><text class="lab" x="252" y="92">DR</text>
+<text class="num tot" x="322" y="58">✓</text><text class="lab" x="322" y="92">made it</text>
+<line class="rule" x1="0" y1="112" x2="360" y2="112"/>
+<text class="cap" x="0" y="140">Roll 2, 3, 4 or 5: that is your roll</text>
+<use class="die" href="#d3" x="0" y="150" width="40" height="40"/>
+<text class="num tot end" x="360" y="178">= 3</text>
+<text class="cap" x="0" y="226">Roll a 6: lucky! Roll again</text>
+<use class="die six" href="#d6" x="0" y="236" width="40" height="40"/>
+<use class="die" href="#d5" x="50" y="236" width="40" height="40"/>
+<use class="die" href="#d4" x="100" y="236" width="40" height="40"/>
+<use class="die stop" href="#d2" x="150" y="236" width="40" height="40"/>
+<text class="lab" x="70" y="294">+1</text><text class="lab" x="120" y="294">+1</text><text class="lab" x="170" y="294">stop</text>
+<text class="num tot end" x="360" y="264">= 8</text>
+<text class="cap" x="0" y="326">Roll a 1: unlucky! Roll again</text>
+<use class="die one" href="#d1" x="0" y="336" width="40" height="40"/>
+<use class="die" href="#d3" x="50" y="336" width="40" height="40"/>
+<use class="die stop" href="#d5" x="100" y="336" width="40" height="40"/>
+<text class="lab" x="70" y="394">−1</text><text class="lab" x="120" y="394">stop</text>
+<text class="num tot end" x="360" y="364">= 0</text>
+</svg>
