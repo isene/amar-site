@@ -18,6 +18,8 @@ title: Main Page
 
 <p><a href="Introduction.html">Read the full rules</a></p>
 
+<p><a href="The_Eliminator_game.html">Learn the rules in a game</a></p>
+
 </div>
 
 </div>
