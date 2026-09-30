@@ -4,11 +4,14 @@ title: The Eliminator game
 
 <div class="game">
 <canvas id="eliminator" aria-label="The Eliminator, a game played by the Amar rules"></canvas>
-<p class="game-bar"><button type="button" onclick="document.getElementById('eliminator').requestFullscreen()">Full screen</button> Click the game, then play with the keyboard. The sound starts with your first key.</p>
+<div class="pad" id="pad" hidden></div>
+<p class="game-bar"><button type="button" id="full">Full screen</button> <button type="button" id="pad-toggle">Keys on screen</button></p>
 </div>
 
 <script src="play/funkey.js"></script>
-<script>funkey.play(document.getElementById("eliminator"), "play/eliminator.wasm")</script>
+<script src="play/eliminator.js"></script>
+
+Click the game, then play with the keyboard. On a phone the keys show under the game; turn it sideways and tap Full screen. The sound starts with your first key.
 
 A game that teaches the Amar rules while you play it. Every roll is shown: the dice, the totals and the sum.
 
@@ -23,7 +26,5 @@ New to Amar? Press `I` on the title screen. Three short pages show [the three ti
 - `F` fires your crossbow or throws. `P` drinks a potion. `M` bandages. `R` rests.
 - `T` puts out or lights your torch. `G` takes what lies here. `<` or `Enter` climbs. `S` waits.
 - `?` shows the rules as the game plays them.
-
-The game needs a keyboard, so play it on a computer.
 
 The Eliminator is part of [funkey](https://isene.org/funkey/), a set of free games that also run in a terminal.

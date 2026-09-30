@@ -5,10 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>The Eliminator game – Amar RPG</title>
-<meta name="description" content="A game that teaches the Amar rules while you play it.">
+<meta name="description" content="Click the game, then play with the keyboard.">
 <link rel="preload" href="theme/fonts/garamond.woff2" as="font" type="font/woff2" crossorigin>
 <script>try { var s = localStorage, d = document.documentElement.dataset; ["theme", "font", "edit"].forEach(function (k) { var v = s.getItem(k); if (v) d[k] = v }) } catch (e) {}</script>
-<link rel="stylesheet" href="theme/style.css?v=13320ccd">
+<link rel="stylesheet" href="theme/style.css?v=fdb6f5d1">
 <link rel="icon" href="theme/icon.png">
 </head>
 <body class="">
@@ -39,10 +39,12 @@
 <main id="main">
 <p class="crumbs">Start here</p><h1>The Eliminator game</h1><div class="text"><div class="game">
 <canvas id="eliminator" aria-label="The Eliminator, a game played by the Amar rules"></canvas>
-<p class="game-bar"><button type="button" onclick="document.getElementById('eliminator').requestFullscreen()">Full screen</button> Click the game, then play with the keyboard. The sound starts with your first key.</p>
+<div class="pad" id="pad" hidden></div>
+<p class="game-bar"><button type="button" id="full">Full screen</button> <button type="button" id="pad-toggle">Keys on screen</button></p>
 </div>
 <script src="play/funkey.js"></script>
-<script>funkey.play(document.getElementById("eliminator"), "play/eliminator.wasm")</script>
+<script src="play/eliminator.js"></script>
+<p>Click the game, then play with the keyboard. On a phone the keys show under the game; turn it sideways and tap Full screen. The sound starts with your first key.</p>
 <p>A game that teaches the Amar rules while you play it. Every roll is shown: the dice, the totals and the sum.</p>
 <p>Beneath the royal castle lies <a href="The_Kingdom_of_Amar.html#The_Eliminator">the Eliminator</a>, a maze that picks the King's followers. Every year contenders go down. For every ten that enter, one comes out, and the King makes them a noble. You start at the bottom. Climb five levels, and beat the Raven Demon at the gate.</p>
 <p>New to Amar? Press <code>I</code> on the title screen. Three short pages show <a href="The_Character.html#The_Three-Tier_System">the three tiers</a> of a character, <a href="Introduction.html#Dice">the O6</a> and one blow of <a href="Combat.html#Melee_Combat">combat</a>, with dice to roll on each.</p>
@@ -54,7 +56,6 @@
 <li><code>T</code> puts out or lights your torch. <code>G</code> takes what lies here. <code>&lt;</code> or <code>Enter</code> climbs. <code>S</code> waits.</li>
 <li><code>?</code> shows the rules as the game plays them.</li>
 </ul>
-<p>The game needs a keyboard, so play it on a computer.</p>
 <p>The Eliminator is part of <a href="https://isene.org/funkey/">funkey</a>, a set of free games that also run in a terminal.</p>
 </div><p class="edit"><a href="https://github.com/isene/amar-site/edit/main/pages/The_Eliminator_game.md">Edit this page</a> <a href="https://github.com/isene/amar-site/commits/main/pages/The_Eliminator_game.md">History</a></p>
 </main>

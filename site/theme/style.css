@@ -349,11 +349,41 @@ ul.news b { font-variant-numeric: lining-nums; font-weight: normal; color: var(-
   .key, .cats, figcaption, .hero .tag, .quote) { font-style: normal; }
 :root[data-font="sans"] .lede::first-letter { float: none; font: inherit; color: inherit; padding: 0; margin: 0; }
 
-/* the game on "The Eliminator game": the full width, square pixels, full screen on request */
+/* the game on "The Eliminator game": the full width, square pixels, keys on the screen
+   for phones, and full screen with the keys at the sides when the phone lies sideways */
 .game { margin: 0 0 1.4rem; }
 .game canvas { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
-.game canvas:focus { outline: 2px solid var(--gold); outline-offset: 2px; }
-.game canvas:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; object-fit: contain; outline: none; }
-.game-bar { font-size: 0.92rem; color: var(--ink-soft); margin: 0.5rem 0 0; }
-.game-bar button { font: inherit; color: var(--ink); background: var(--pane); border: 1px solid var(--rule);
-  border-radius: 3px; padding: 0.15rem 0.6rem; margin-right: 0.6rem; cursor: pointer; }
+.fk.on canvas { outline: 2px solid var(--gold); outline-offset: 2px; }
+.game-bar { margin: 0.5rem 0 0; }
+.game-bar button { font: inherit; font-size: 0.92rem; color: var(--ink); background: var(--pane); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 0.15rem 0.6rem; margin-right: 0.4rem; cursor: pointer; }
+.pad { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 0.8rem; margin: 0.6rem 0 0;
+  user-select: none; -webkit-user-select: none; }
+.pad[hidden] { display: none; }
+.pad-move { display: grid; grid-template-columns: repeat(3, 3.3rem); grid-auto-rows: 3.3rem; gap: 0.3rem; }
+.pad-keys { display: grid; grid-template-columns: repeat(5, 3.3rem); grid-auto-rows: 2.9rem; gap: 0.3rem; }
+.pad button { font: 600 1rem/1.05 var(--text); color: var(--ink); background: var(--pane); border: 1px solid var(--rule);
+  border-radius: 6px; padding: 0; touch-action: none; -webkit-touch-callout: none; cursor: pointer; }
+.pad button small { display: block; font-size: 0.62rem; font-weight: 400; color: var(--ink-soft); }
+.pad button.down { background: var(--gold); color: #000; }
+@media (max-width: 30rem) {
+  .pad { gap: 0.5rem; }
+  .pad-move { grid-template-columns: repeat(3, 2.4rem); grid-auto-rows: 2.4rem; gap: 0.25rem; }
+  .pad-keys { grid-template-columns: repeat(4, 2.3rem); grid-auto-rows: 2.3rem; gap: 0.25rem; }
+  .pad button { font-size: 0.85rem; }
+  .pad button small { font-size: 0.55rem; }
+}
+.game:fullscreen { background: #000; box-sizing: border-box; padding: 0.5rem; margin: 0; display: grid; gap: 0.5rem;
+  grid-template: "screen" 1fr "pad" auto / 1fr; }
+.game:fullscreen .fk { grid-area: screen; min-height: 0; }
+.game:fullscreen .fk, .game:fullscreen canvas { width: 100%; height: 100%; }
+.game:fullscreen canvas { aspect-ratio: auto; object-fit: contain; }
+.game:fullscreen .fk.on canvas { outline: none; }
+.game:fullscreen .pad { grid-area: pad; margin: 0; }
+.game:fullscreen .game-bar { display: none; }
+@media (orientation: landscape) {
+  .game:fullscreen { grid-template: "move screen keys" 1fr / auto 1fr auto; align-items: center; }
+  .game:fullscreen .pad:not([hidden]) { display: contents; }
+  .game:fullscreen .pad-move { grid-area: move; grid-template-columns: repeat(3, 2.7rem); grid-auto-rows: 2.7rem; }
+  .game:fullscreen .pad-keys { grid-area: keys; grid-template-columns: repeat(4, 2.6rem); grid-auto-rows: 2.2rem; }
+}
