@@ -183,6 +183,17 @@ tbody tr:nth-child(even) { background: color-mix(in srgb, var(--vellum-2) 70%, t
 td em:only-child { color: var(--oxblood); }
 table.list td:first-child { white-space: nowrap; }
 td a { text-decoration: none; }
+
+/* an NPC's sheet: BODY, MIND and SPIRIT side by side, as on the printed character sheet */
+.sheet { clear: both; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0 1.4rem;
+  align-items: start; }
+.sheet .tw { display: block; margin: 0.4rem 0 1rem; }
+.sheet table { width: 100%; }
+.sheet th { border-top: 3px solid var(--oxblood); }
+.sheet .tw:nth-child(2) th { border-top-color: #4F6F86; }
+.sheet .tw:nth-child(3) th { border-top-color: #7A4E7E; }
+.sheet td:first-child:not(:has(strong)) { padding-left: 1.2rem; }
+.sheet :is(th, td):not(:first-child) { text-align: right; width: 2.2rem; padding-right: 0.35rem; }
 .key { font-size: 0.9rem; font-style: italic; color: var(--ink-soft); }
 .jump { line-height: 1.9; }
 .jump a { margin-right: 0.8rem; white-space: nowrap; }

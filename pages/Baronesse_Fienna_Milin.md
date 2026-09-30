@@ -12,85 +12,57 @@ Baroness of Calaronir, the King's cousin. Determined, respected, very strict; ru
 
 ## Character Sheet
 
-| Name   | Baronesse Fienna Milin |
-|--------|------------------------|
-| Type   | Baroness of Calaronir  |
-| Area   | Calaronir              |
-| Race   | Human                  |
-| Sex    | Female                 |
-| Age    | 41                     |
-| Height | 174 cm                 |
-| Weight | 62 kg                  |
-| SIZE   | 3.0                    |
+|  |  |
+|---|---|
+| **Type** | Baroness of Calaronir |
+| **Area** | Calaronir |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 41 |
+| **SIZE** | 3.0 |
+| **Height** | 174 cm |
+| **Weight** | 62 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 6 |
+| **Wealth** | 45000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 2
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Athletics** | 2 | 3 |
+| Ride | 3 | 6 |
+| **Melee Combat** | 0 | 1 |
+| Knife | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 4 | 7 |
+| Literacy | 4 | 11 |
+| Social Lore | 6 | 13 |
+| Spoken Language | 4 | 11 |
+| **Awareness** | 4 | 7 |
+| Alertness | 4 | 11 |
+| Reaction Speed | 1 | 8 |
+| Sense Emotions | 6 | 13 |
+| **Willpower** | 4 | 7 |
+| Mental Fortitude | 6 | 13 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Casting** | 4 | 6 |
+| **Attunement** | 4 | 6 |
+| Air | 5 | 11 |
+| Mind | 4 | 10 |
+| **Worship** | 2 | 4 |
 
-- **Endurance**: 2 (Total with BODY: 3)
-- **Athletics**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 4 (Total with MIND: 7)
-- **Awareness**: 4 (Total with MIND: 7)
-- **Willpower**: 4 (Total with MIND: 7)
-
-#### SPIRIT
-
-- **Casting**: 4 (Total with SPIRIT: 6)
-- **Attunement**: 4 (Total with SPIRIT: 6)
-- **Worship**: 2 (Total with SPIRIT: 4)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Athletics
-
-- **Ride**: 3 (Total: 6)
-
-#### BODY → Melee Combat
-
-- **Knife**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 4 (Total: 11)
-- **Social Lore**: 6 (Total: 13)
-- **Spoken Language**: 4 (Total: 11)
-
-#### MIND → Awareness
-
-- **Alertness**: 4 (Total: 11)
-- **Reaction Speed**: 1 (Total: 8)
-- **Sense Emotions**: 6 (Total: 13)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 6 (Total: 13)
-
-#### SPIRIT → Attunement
-
-- **Air**: 5 (Total: 11)
-- **Mind**: 4 (Total: 10)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 6 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 45000
-- **Equipment**: Seal of Calaronir
+**Equipment**: Seal of Calaronir
 
 ### Weapons
 

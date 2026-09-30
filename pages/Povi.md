@@ -12,92 +12,61 @@ One of the three playful wizards (Air). The three prank each other from towers a
 
 ## Character Sheet
 
-| Name   | Povi             |
-|--------|------------------|
-| Type   | Air/Magic wizard |
-| Area   | The three towers |
-| Race   | Human            |
-| Sex    | Male             |
-| Age    | 58               |
-| Height | 170 cm           |
-| Weight | 65 kg            |
-| SIZE   | 3.0              |
+|  |  |
+|---|---|
+| **Type** | Air/Magic wizard |
+| **Area** | The three towers |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 58 |
+| **SIZE** | 3.0 |
+| **Height** | 170 cm |
+| **Weight** | 65 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 8 |
+| **Wealth** | 20000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 3
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 5 |
+| Magick Rituals | 3 | 8 |
+| **Social Knowledge** | 2 | 5 |
+| Literacy | 3 | 8 |
+| Mythology | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Awareness** | 3 | 6 |
+| Alertness | 1 | 7 |
+| Reaction Speed | 1 | 7 |
+| Sense Magick | 3 | 9 |
+| **Willpower** | 3 | 6 |
+| Mental Fortitude | 5 | 11 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 5 | 8 |
+| Area of Effect | 6 | 14 |
+| Duration | 6 | 14 |
+| Number of Targets | 3 | 11 |
+| Range | 7 | 15 |
+| Weight | 3 | 11 |
+| **Attunement** | 5 | 8 |
+| Air | 8 | 16 |
+| Self | 5 | 13 |
 
-- **Endurance**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 5)
-- **Social Knowledge**: 2 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 6)
-- **Willpower**: 3 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 5 (Total with SPIRIT: 8)
-- **Attunement**: 5 (Total with SPIRIT: 8)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Nature Knowledge
-
-- **Magick Rituals**: 3 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 8)
-- **Mythology**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 7)
-- **Reaction Speed**: 1 (Total: 7)
-- **Sense Magick**: 3 (Total: 9)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 5 (Total: 11)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 6 (Total: 14)
-- **Duration**: 6 (Total: 14)
-- **Number of Targets**: 3 (Total: 11)
-- **Range**: 7 (Total: 15)
-- **Weight**: 3 (Total: 11)
-
-#### SPIRIT → Attunement
-
-- **Air**: 8 (Total: 16)
-- **Self**: 5 (Total: 13)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 8 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 20000
-- **Equipment**: Tower key, Half-finished prank apparatus
+**Equipment**: Tower key, Half-finished prank apparatus
 
 ### Weapons
 

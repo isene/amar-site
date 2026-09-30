@@ -12,108 +12,70 @@ Warrior-sorceress; leader of the renowned Wayanah-party of high-level adventurer
 
 ## Character Sheet
 
-| Name   | Wayanah           |
-|--------|-------------------|
-| Type   | Warrior-sorceress |
-| Area   | Travelling        |
-| Race   | Human             |
-| Sex    | Female            |
-| Age    | 38                |
-| Height | 179 cm            |
-| Weight | 72 kg             |
-| SIZE   | 3.0               |
+|  |  |
+|---|---|
+| **Type** | Warrior-sorceress |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 38 |
+| **SIZE** | 3.0 |
+| **Height** | 179 cm |
+| **Weight** | 72 kg |
+| **Body Points** | 10 |
+| **Damage Bonus** | 5 |
+| **Magick Defense** | 8 |
+| **Armor** | Enchanted chain (AP 5) |
+| **Wealth** | 80000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 2
-- **SPIRIT**: 3
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 4 | 7 |
+| Wield Weapon | 6 | 13 |
+| **Endurance** | 4 | 7 |
+| Combat Tenacity | 5 | 12 |
+| Fortitude | 6 | 13 |
+| **Athletics** | 4 | 7 |
+| Dodge | 6 | 13 |
+| **Melee Combat** | 5 | 8 |
+| Great Sword | 9 | 17 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 4 |
+| Magick Rituals | 3 | 7 |
+| **Social Knowledge** | 2 | 4 |
+| Literacy | 3 | 7 |
+| Mythology | 3 | 7 |
+| Spoken Language | 2 | 6 |
+| **Awareness** | 4 | 6 |
+| Alertness | 5 | 11 |
+| Reaction Speed | 2 | 8 |
+| Sense Ambush | 4 | 10 |
+| Sense Magick | 3 | 9 |
+| **Willpower** | 4 | 6 |
+| Courage | 7 | 13 |
+| Mental Fortitude | 6 | 12 |
+| Pain Tolerance | 2 | 8 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 4 | 7 |
+| Area of Effect | 5 | 12 |
+| Duration | 5 | 12 |
+| Number of Targets | 3 | 10 |
+| Range | 6 | 13 |
+| Weight | 3 | 10 |
+| **Attunement** | 4 | 7 |
+| Earth | 6 | 13 |
+| Self | 5 | 12 |
 
-- **Strength**: 4 (Total with BODY: 7)
-- **Endurance**: 4 (Total with BODY: 7)
-- **Athletics**: 4 (Total with BODY: 7)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 4)
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 4 (Total with MIND: 6)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 4 (Total with SPIRIT: 7)
-- **Attunement**: 4 (Total with SPIRIT: 7)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 6 (Total: 13)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 5 (Total: 12)
-- **Fortitude**: 6 (Total: 13)
-
-#### BODY → Athletics
-
-- **Dodge**: 6 (Total: 13)
-
-#### BODY → Melee Combat
-
-- **Great Sword**: 9 (Total: 17)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Nature Knowledge
-
-- **Magick Rituals**: 3 (Total: 7)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 7)
-- **Mythology**: 3 (Total: 7)
-- **Spoken Language**: 2 (Total: 6)
-
-#### MIND → Awareness
-
-- **Alertness**: 5 (Total: 11)
-- **Reaction Speed**: 2 (Total: 8)
-- **Sense Ambush**: 4 (Total: 10)
-- **Sense Magick**: 3 (Total: 9)
-
-#### MIND → Willpower
-
-- **Courage**: 7 (Total: 13)
-- **Mental Fortitude**: 6 (Total: 12)
-- **Pain Tolerance**: 2 (Total: 8)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 5 (Total: 12)
-- **Duration**: 5 (Total: 12)
-- **Number of Targets**: 3 (Total: 10)
-- **Range**: 6 (Total: 13)
-- **Weight**: 3 (Total: 10)
-
-#### SPIRIT → Attunement
-
-- **Earth**: 6 (Total: 13)
-- **Self**: 5 (Total: 12)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 10 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 5 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 8 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Enchanted chain (AP 5)
-- **Wealth**: 80000
-- **Equipment**: Runed great sword, Trophies of a dozen campaigns
+**Equipment**: Runed great sword, Trophies of a dozen campaigns
 
 ### Weapons
 

@@ -12,92 +12,61 @@ Wizard of The Guards; a Life and Protection wizard, full of humour and joy, love
 
 ## Character Sheet
 
-| Name   | Yaloosi                |
-|--------|------------------------|
-| Type   | Life/Protection wizard |
-| Area   | Travelling             |
-| Race   | Human                  |
-| Sex    | Male                   |
-| Age    | 47                     |
-| Height | 172 cm                 |
-| Weight | 68 kg                  |
-| SIZE   | 3.0                    |
+|  |  |
+|---|---|
+| **Type** | Life/Protection wizard |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 47 |
+| **SIZE** | 3.0 |
+| **Height** | 172 cm |
+| **Weight** | 68 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 7 |
+| **Wealth** | 15000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 2
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 5 |
+| Magick Rituals | 3 | 8 |
+| **Social Knowledge** | 2 | 5 |
+| Literacy | 4 | 9 |
+| Mythology | 3 | 8 |
+| Spoken Language | 3 | 8 |
+| **Awareness** | 3 | 6 |
+| Alertness | 1 | 7 |
+| Reaction Speed | 1 | 7 |
+| Sense Magick | 3 | 9 |
+| **Willpower** | 3 | 6 |
+| Mental Fortitude | 4 | 10 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Casting** | 4 | 6 |
+| Area of Effect | 5 | 11 |
+| Duration | 4 | 10 |
+| Number of Targets | 3 | 9 |
+| Range | 6 | 12 |
+| Weight | 4 | 10 |
+| **Attunement** | 4 | 6 |
+| Life | 5 | 11 |
+| Self | 4 | 10 |
 
-- **Endurance**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 5)
-- **Social Knowledge**: 2 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 6)
-- **Willpower**: 3 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 4 (Total with SPIRIT: 6)
-- **Attunement**: 4 (Total with SPIRIT: 6)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Nature Knowledge
-
-- **Magick Rituals**: 3 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 4 (Total: 9)
-- **Mythology**: 3 (Total: 8)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 7)
-- **Reaction Speed**: 1 (Total: 7)
-- **Sense Magick**: 3 (Total: 9)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 4 (Total: 10)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 5 (Total: 11)
-- **Duration**: 4 (Total: 10)
-- **Number of Targets**: 3 (Total: 9)
-- **Range**: 6 (Total: 12)
-- **Weight**: 4 (Total: 10)
-
-#### SPIRIT → Attunement
-
-- **Life**: 5 (Total: 11)
-- **Self**: 4 (Total: 10)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 7 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 15000
-- **Equipment**: Component pouches, Contract copies (annotated)
+**Equipment**: Component pouches, Contract copies (annotated)
 
 ### Weapons
 

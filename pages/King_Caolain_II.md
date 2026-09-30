@@ -10,98 +10,67 @@ King of Amar; a Walmaer worshipper. Big and sturdy, somewhat rude but trying to 
 
 ## Character Sheet
 
-| Name   | King Caolain II |
-|--------|-----------------|
-| Type   | King of Amar    |
-| Area   | Amaronir        |
-| Race   | Human           |
-| Sex    | Male            |
-| Age    | 52              |
-| Height | 188 cm          |
-| Weight | 102 kg          |
-| SIZE   | 4.0             |
+|  |  |
+|---|---|
+| **Type** | King of Amar |
+| **Area** | Amaronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 52 |
+| **SIZE** | 4.0 |
+| **Height** | 188 cm |
+| **Weight** | 102 kg |
+| **Body Points** | 11 |
+| **Damage Bonus** | 5 |
+| **Magick Defense** | 3 |
+| **Armor** | Royal plate (AP 5) |
+| **Wealth** | 100000 |
+| **Deity** | Walmaer |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 1
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 7 |
+| Carrying | 2 | 9 |
+| Wield Weapon | 4 | 11 |
+| **Endurance** | 4 | 6 |
+| Combat Tenacity | 3 | 9 |
+| Fortitude | 5 | 11 |
+| Running | 3 | 9 |
+| **Athletics** | 4 | 6 |
+| Climb | 3 | 9 |
+| Dodge | 4 | 10 |
+| Ride | 6 | 12 |
+| Swim | 4 | 10 |
+| **Melee Combat** | 5 | 7 |
+| Bastard Sword & Kite Shield | 7 | 14 |
+| Unarmed | 1 | 8 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 4 | 6 |
+| Literacy | 3 | 9 |
+| Social Lore | 5 | 11 |
+| Spoken Language | 4 | 10 |
+| **Practical Knowledge** | 3 | 5 |
+| **Awareness** | 3 | 5 |
+| Alertness | 4 | 9 |
+| Reaction Speed | 2 | 7 |
+| Sense Emotions | 2 | 7 |
+| **Willpower** | 3 | 5 |
+| Courage | 6 | 11 |
+| Mental Fortitude | 4 | 9 |
+| Pain Tolerance | 2 | 7 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
+| **Worship** | 3 | 4 |
+| Walmaer | 5 | 9 |
 
-- **Strength**: 5 (Total with BODY: 7)
-- **Endurance**: 4 (Total with BODY: 6)
-- **Athletics**: 4 (Total with BODY: 6)
-- **Melee Combat**: 5 (Total with BODY: 7)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 4 (Total with MIND: 6)
-- **Practical Knowledge**: 3 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 3 (Total with MIND: 5)
-
-#### SPIRIT
-
-- **Worship**: 3 (Total with SPIRIT: 4)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Carrying**: 2 (Total: 9)
-- **Wield Weapon**: 4 (Total: 11)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 3 (Total: 9)
-- **Fortitude**: 5 (Total: 11)
-- **Running**: 3 (Total: 9)
-
-#### BODY → Athletics
-
-- **Climb**: 3 (Total: 9)
-- **Dodge**: 4 (Total: 10)
-- **Ride**: 6 (Total: 12)
-- **Swim**: 4 (Total: 10)
-
-#### BODY → Melee Combat
-
-- **Bastard Sword & Kite Shield**: 7 (Total: 14)
-- **Unarmed**: 1 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 9)
-- **Social Lore**: 5 (Total: 11)
-- **Spoken Language**: 4 (Total: 10)
-
-#### MIND → Awareness
-
-- **Alertness**: 4 (Total: 9)
-- **Reaction Speed**: 2 (Total: 7)
-- **Sense Emotions**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Courage**: 6 (Total: 11)
-- **Mental Fortitude**: 4 (Total: 9)
-- **Pain Tolerance**: 2 (Total: 7)
-
-#### SPIRIT → Worship
-
-- **Walmaer**: 5 (Total: 9)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 11 (SIZE 4.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 5 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 3 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Royal plate (AP 5)
-- **Wealth**: 100000
-- **Equipment**: Crown of Amar, Signet ring, Royal regalia
+**Equipment**: Crown of Amar, Signet ring, Royal regalia
 
 ### Weapons
 
@@ -109,10 +78,6 @@ King of Amar; a Walmaer worshipper. Big and sturdy, somewhat rude but trying to 
 |-----------------------------|-------|------|-----|-----|-----|-----|-------|
 | Unarmed                     | 8     | 8    | 6   | 6   | 1   | \-  | \-    |
 | Bastard Sword & Kite Shield | 14    | 13   | 14  | 19  | 4   | 14  | \-    |
-
-### Worship
-
-- **Deity**: Walmaer — SPIRIT → Worship → Walmaer: 9
 
 ### GM Notes
 

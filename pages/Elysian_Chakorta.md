@@ -16,94 +16,62 @@ File:Elysian Chakorta.jpg
 
 **Elysian Chakorta - The White Knight**
 
-| Name   | Elysian Chakorta |
-|--------|------------------|
-| Type   | The White Knight |
-| Area   | Amaronir         |
-| Race   | Human            |
-| Sex    | Male             |
-| Age    | 36               |
-| Height | 186 cm           |
-| Weight | 101 kg           |
-| SIZE   | 4.0              |
+|  |  |
+|---|---|
+| **Type** | The White Knight |
+| **Area** | Amaronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 36 |
+| **SIZE** | 4.0 |
+| **Height** | 186 cm |
+| **Weight** | 101 kg |
+| **Body Points** | 12 |
+| **Damage Bonus** | 6 |
+| **Magick Defense** | 4 |
+| **Armor** | Full plate (AP 6) |
+| **Wealth** | 35000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 2
-- **SPIRIT**: 2
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 8 |
+| Wield Weapon | 6 | 14 |
+| **Endurance** | 4 | 7 |
+| Combat Tenacity | 6 | 13 |
+| Fortitude | 6 | 13 |
+| **Athletics** | 4 | 7 |
+| Dodge | 6 | 13 |
+| Ride | 5 | 12 |
+| **Melee Combat** | 5 | 8 |
+| Longsword & Shield | 8 | 16 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 2 | 4 |
+| Literacy | 3 | 7 |
+| Mythology | 3 | 7 |
+| Social Lore | 4 | 8 |
+| Spoken Language | 2 | 6 |
+| **Awareness** | 3 | 5 |
+| Alertness | 2 | 7 |
+| Reaction Speed | 2 | 7 |
+| Sense Emotions | 2 | 7 |
+| **Willpower** | 4 | 6 |
+| Courage | 7 | 13 |
+| Mental Fortitude | 5 | 11 |
+| Pain Tolerance | 2 | 8 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Worship** | 5 | 7 |
+| Cal Amae | 9 | 16 |
 
-- **Strength**: 5 (Total with BODY: 8)
-- **Endurance**: 4 (Total with BODY: 7)
-- **Athletics**: 4 (Total with BODY: 7)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Worship**: 5 (Total with SPIRIT: 7)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 6 (Total: 14)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 6 (Total: 13)
-- **Fortitude**: 6 (Total: 13)
-
-#### BODY → Athletics
-
-- **Dodge**: 6 (Total: 13)
-- **Ride**: 5 (Total: 12)
-
-#### BODY → Melee Combat
-
-- **Longsword & Shield**: 8 (Total: 16)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 7)
-- **Mythology**: 3 (Total: 7)
-- **Social Lore**: 4 (Total: 8)
-- **Spoken Language**: 2 (Total: 6)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 7)
-- **Reaction Speed**: 2 (Total: 7)
-- **Sense Emotions**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Courage**: 7 (Total: 13)
-- **Mental Fortitude**: 5 (Total: 11)
-- **Pain Tolerance**: 2 (Total: 8)
-
-#### SPIRIT → Worship
-
-- **Cal Amae**: 9 (Total: 16)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 12 (SIZE 4.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 6 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 4 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Full plate (AP 6)
-- **Wealth**: 35000
-- **Equipment**: Cal Amae regalia
+**Equipment**: Cal Amae regalia
 
 ### Weapons
 

@@ -12,99 +12,65 @@ Baron of Rauinir; a Walmaer Lord and eager fisherman, said to commune with the f
 
 ## Character Sheet
 
-| Name   | Baron Fer Chalun                |
-|--------|---------------------------------|
-| Type   | Baron of Rauinir / Walmaer Lord |
-| Area   | Rauinir                         |
-| Race   | Human                           |
-| Sex    | Male                            |
-| Age    | 56                              |
-| Height | 178 cm                          |
-| Weight | 92 kg                           |
-| SIZE   | 3.5                             |
+|  |  |
+|---|---|
+| **Type** | Baron of Rauinir / Walmaer Lord |
+| **Area** | Rauinir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 56 |
+| **SIZE** | 3.5 |
+| **Height** | 178 cm |
+| **Weight** | 92 kg |
+| **Body Points** | 9 |
+| **Damage Bonus** | 3 |
+| **Magick Defense** | 3 |
+| **Wealth** | 40000 |
+| **Deity** | Walmaer |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 2
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Strength** | 3 | 5 |
+| **Endurance** | 3 | 5 |
+| Fortitude | 1 | 6 |
+| **Athletics** | 4 | 6 |
+| Balance | 4 | 10 |
+| Ride | 3 | 9 |
+| Swim | 7 | 13 |
+| **Melee Combat** | 2 | 4 |
+| Spear | 3 | 7 |
+| Unarmed | 1 | 5 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 4 |
+| Animal Lore | 3 | 7 |
+| **Social Knowledge** | 2 | 4 |
+| Literacy | 3 | 7 |
+| Mythology | 3 | 7 |
+| Social Lore | 4 | 8 |
+| Spoken Language | 2 | 6 |
+| **Practical Knowledge** | 4 | 6 |
+| Fishing | 8 | 14 |
+| Survival Lore | 4 | 10 |
+| Weather Lore | 6 | 12 |
+| **Awareness** | 3 | 5 |
+| Alertness | 3 | 8 |
+| Reaction Speed | 1 | 6 |
+| Sense Emotions | 2 | 7 |
+| **Willpower** | 3 | 5 |
+| Mental Fortitude | 3 | 8 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Worship** | 5 | 7 |
+| Walmaer | 8 | 15 |
 
-- **Strength**: 3 (Total with BODY: 5)
-- **Endurance**: 3 (Total with BODY: 5)
-- **Athletics**: 4 (Total with BODY: 6)
-- **Melee Combat**: 2 (Total with BODY: 4)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 4)
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Practical Knowledge**: 4 (Total with MIND: 6)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 3 (Total with MIND: 5)
-
-#### SPIRIT
-
-- **Worship**: 5 (Total with SPIRIT: 7)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 6)
-
-#### BODY → Athletics
-
-- **Balance**: 4 (Total: 10)
-- **Ride**: 3 (Total: 9)
-- **Swim**: 7 (Total: 13)
-
-#### BODY → Melee Combat
-
-- **Spear**: 3 (Total: 7)
-- **Unarmed**: 1 (Total: 5)
-
-#### MIND → Nature Knowledge
-
-- **Animal Lore**: 3 (Total: 7)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 7)
-- **Mythology**: 3 (Total: 7)
-- **Social Lore**: 4 (Total: 8)
-- **Spoken Language**: 2 (Total: 6)
-
-#### MIND → Practical Knowledge
-
-- **Fishing**: 8 (Total: 14)
-- **Survival Lore**: 4 (Total: 10)
-- **Weather Lore**: 6 (Total: 12)
-
-#### MIND → Awareness
-
-- **Alertness**: 3 (Total: 8)
-- **Reaction Speed**: 1 (Total: 6)
-- **Sense Emotions**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 3 (Total: 8)
-
-#### SPIRIT → Worship
-
-- **Walmaer**: 8 (Total: 15)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 9 (SIZE 3.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 3 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 3 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 40000
-- **Equipment**: Baron's seal of Rauinir, Blessed fishing tackle
+**Equipment**: Baron's seal of Rauinir, Blessed fishing tackle
 
 ### Weapons
 
@@ -112,10 +78,6 @@ Baron of Rauinir; a Walmaer Lord and eager fisherman, said to commune with the f
 |---------|-------|------|-----|-----|-----|-----|-------|
 | Unarmed | 5     | 7    | 3   | 2   | -1  | \-  | \-    |
 | Spear   | 7     | 12   | 6   | 4   | 1   | 7   | \-    |
-
-### Worship
-
-- **Deity**: Walmaer — SPIRIT → Worship → Walmaer: 15
 
 ### GM Notes
 

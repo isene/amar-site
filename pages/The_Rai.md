@@ -12,96 +12,65 @@ Leader of the Magick Circle, the eight most powerful wizards of Amar; a summonin
 
 ## Character Sheet
 
-| Name   | The Rai                     |
-|--------|-----------------------------|
-| Type   | Leader of the Magick Circle |
-| Area   | Unknown                     |
-| Race   | Human                       |
-| Sex    | Male                        |
-| Age    | 73                          |
-| Height | 177 cm                      |
-| Weight | 68 kg                       |
-| SIZE   | 3.0                         |
+|  |  |
+|---|---|
+| **Type** | Leader of the Magick Circle |
+| **Area** | Unknown |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 73 |
+| **SIZE** | 3.0 |
+| **Height** | 177 cm |
+| **Weight** | 68 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 10 |
+| **Wealth** | 50000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 3
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 5 |
+| Magick Rituals | 3 | 8 |
+| **Social Knowledge** | 4 | 7 |
+| Legend Lore | 3 | 10 |
+| Literacy | 6 | 13 |
+| Mythology | 7 | 14 |
+| Spoken Language | 4 | 11 |
+| **Awareness** | 4 | 7 |
+| Alertness | 1 | 8 |
+| Reaction Speed | 1 | 8 |
+| Sense Magick | 3 | 10 |
+| **Willpower** | 5 | 8 |
+| Mental Fortitude | 8 | 16 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 5 | 8 |
+| Area of Effect | 7 | 15 |
+| Duration | 7 | 15 |
+| Number of Targets | 7 | 15 |
+| Range | 8 | 16 |
+| Weight | 6 | 14 |
+| **Attunement** | 5 | 8 |
+| Air | 6 | 14 |
+| Death | 5 | 13 |
+| Mind | 8 | 16 |
+| Self | 7 | 15 |
+| **Worship** | 2 | 5 |
 
-- **Endurance**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 5)
-- **Social Knowledge**: 4 (Total with MIND: 7)
-- **Awareness**: 4 (Total with MIND: 7)
-- **Willpower**: 5 (Total with MIND: 8)
-
-#### SPIRIT
-
-- **Casting**: 5 (Total with SPIRIT: 8)
-- **Attunement**: 5 (Total with SPIRIT: 8)
-- **Worship**: 2 (Total with SPIRIT: 5)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Nature Knowledge
-
-- **Magick Rituals**: 3 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Legend Lore**: 3 (Total: 10)
-- **Literacy**: 6 (Total: 13)
-- **Mythology**: 7 (Total: 14)
-- **Spoken Language**: 4 (Total: 11)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 8)
-- **Reaction Speed**: 1 (Total: 8)
-- **Sense Magick**: 3 (Total: 10)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 8 (Total: 16)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 7 (Total: 15)
-- **Duration**: 7 (Total: 15)
-- **Number of Targets**: 7 (Total: 15)
-- **Range**: 8 (Total: 16)
-- **Weight**: 6 (Total: 14)
-
-#### SPIRIT → Attunement
-
-- **Air**: 6 (Total: 14)
-- **Death**: 5 (Total: 13)
-- **Mind**: 8 (Total: 16)
-- **Self**: 7 (Total: 15)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 10 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 50000
-- **Equipment**: Staff of summoning, The Circle's signet
+**Equipment**: Staff of summoning, The Circle's signet
 
 ### Weapons
 

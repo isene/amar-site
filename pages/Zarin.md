@@ -12,83 +12,59 @@ Travelling alchemist; merchant in useful potions with fair pricing.
 
 ## Character Sheet
 
-| Name   | Zarin                |
-|--------|----------------------|
-| Type   | Travelling alchemist |
-| Area   | The roads of Amar    |
-| Race   | Human                |
-| Sex    | Male                 |
-| Age    | 50                   |
-| Height | 171 cm               |
-| Weight | 74 kg                |
-| SIZE   | 3.0                  |
+|  |  |
+|---|---|
+| **Type** | Travelling alchemist |
+| **Area** | The roads of Amar |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 50 |
+| **SIZE** | 3.0 |
+| **Height** | 171 cm |
+| **Weight** | 74 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 2 |
+| **Armor** | Leather (AP 2) |
+| **Wealth** | 12000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 1
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Athletics** | 2 | 3 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
+| **Missile Combat** | 0 | 1 |
+| Sling | 3 | 4 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 5 | 8 |
+| Alchemy | 8 | 16 |
+| Medical Lore | 5 | 13 |
+| Plant Lore | 6 | 14 |
+| **Social Knowledge** | 4 | 7 |
+| Appraise | 3 | 10 |
+| Bargain | 6 | 13 |
+| Social Lore | 4 | 11 |
+| Spoken Language | 4 | 11 |
+| **Practical Knowledge** | 3 | 6 |
+| Survival Lore | 4 | 10 |
+| **Awareness** | 3 | 6 |
+| Alertness | 3 | 9 |
+| Reaction Speed | 1 | 7 |
+| **Willpower** | 2 | 5 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
 
-- **Endurance**: 2 (Total with BODY: 3)
-- **Athletics**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 5 (Total with MIND: 8)
-- **Social Knowledge**: 4 (Total with MIND: 7)
-- **Practical Knowledge**: 3 (Total with MIND: 6)
-- **Awareness**: 3 (Total with MIND: 6)
-- **Willpower**: 2 (Total with MIND: 5)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### BODY → Missile Combat
-
-- **Sling**: 3 (Total: 4)
-
-#### MIND → Nature Knowledge
-
-- **Alchemy**: 8 (Total: 16)
-- **Medical Lore**: 5 (Total: 13)
-- **Plant Lore**: 6 (Total: 14)
-
-#### MIND → Social Knowledge
-
-- **Appraise**: 3 (Total: 10)
-- **Bargain**: 6 (Total: 13)
-- **Social Lore**: 4 (Total: 11)
-- **Spoken Language**: 4 (Total: 11)
-
-#### MIND → Practical Knowledge
-
-- **Survival Lore**: 4 (Total: 10)
-
-#### MIND → Awareness
-
-- **Alertness**: 3 (Total: 9)
-- **Reaction Speed**: 1 (Total: 7)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 2 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Leather (AP 2)
-- **Wealth**: 12000
-- **Equipment**: Potion cart, Alchemy kit, Fair scales
+**Equipment**: Potion cart, Alchemy kit, Fair scales
 
 ### Weapons
 

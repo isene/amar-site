@@ -12,85 +12,58 @@ The princess; singer, painter, poet and flautist. An Ielina initiate with the Mo
 
 ## Character Sheet
 
-| Name   | Princess Ianira            |
-|--------|----------------------------|
-| Type   | Princess / Ielina initiate |
-| Area   | Amaronir                   |
-| Race   | Human                      |
-| Sex    | Female                     |
-| Age    | 21                         |
-| Height | 168 cm                     |
-| Weight | 54 kg                      |
-| SIZE   | 3.0                        |
+|  |  |
+|---|---|
+| **Type** | Princess / Ielina initiate |
+| **Area** | Amaronir |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 21 |
+| **SIZE** | 3.0 |
+| **Height** | 168 cm |
+| **Weight** | 54 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 4 |
+| **Wealth** | 20000 |
+| **Deity** | Ielina |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 3
-- **SPIRIT**: 2
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Athletics** | 2 | 3 |
+| Ride | 3 | 6 |
+| **Melee Combat** | 0 | 1 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 3 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 5 | 8 |
+| Legend Lore | 3 | 11 |
+| Literacy | 5 | 13 |
+| Mythology | 4 | 12 |
+| Social Lore | 4 | 12 |
+| Spoken Language | 4 | 12 |
+| **Awareness** | 4 | 7 |
+| Alertness | 1 | 8 |
+| Listening | 3 | 10 |
+| Reaction Speed | 1 | 8 |
+| Sense Emotions | 4 | 11 |
+| **Willpower** | 2 | 5 |
+| Mental Fortitude | 3 | 8 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Attunement** | 2 | 4 |
+| **Worship** | 3 | 5 |
+| Ielina | 5 | 10 |
 
-- **Endurance**: 2 (Total with BODY: 3)
-- **Athletics**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 5 (Total with MIND: 8)
-- **Awareness**: 4 (Total with MIND: 7)
-- **Willpower**: 2 (Total with MIND: 5)
-
-#### SPIRIT
-
-- **Attunement**: 2 (Total with SPIRIT: 4)
-- **Worship**: 3 (Total with SPIRIT: 5)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Athletics
-
-- **Ride**: 3 (Total: 6)
-
-#### BODY → Melee Combat
-
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Social Knowledge
-
-- **Legend Lore**: 3 (Total: 11)
-- **Literacy**: 5 (Total: 13)
-- **Mythology**: 4 (Total: 12)
-- **Social Lore**: 4 (Total: 12)
-- **Spoken Language**: 4 (Total: 12)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 8)
-- **Listening**: 3 (Total: 10)
-- **Reaction Speed**: 1 (Total: 8)
-- **Sense Emotions**: 4 (Total: 11)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 3 (Total: 8)
-
-#### SPIRIT → Worship
-
-- **Ielina**: 5 (Total: 10)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 4 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 20000
-- **Equipment**: Flute, Paints and brushes, Poetry journals
+**Equipment**: Flute, Paints and brushes, Poetry journals
 
 ### Weapons
 
@@ -106,10 +79,6 @@ The princess; singer, painter, poet and flautist. An Ielina initiate with the Mo
 | [Pleasant Sleep](Pleasant_Sleep.html) | Life | 6 | 1 | 1 round | 0m | 1 period of sleep |
 | [Change Emotion](Change_Emotion.html) | Life, Perception, Black | 7 | 1 | 1 round | 86m | 5 min. |
 | [Charm I](Charm_I.html) | Life | 11 | 3 | 1 round | 16m | 5 rounds |
-
-### Worship
-
-- **Deity**: Ielina — SPIRIT → Worship → Ielina: 10
 
 ### GM Notes
 

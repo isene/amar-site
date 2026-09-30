@@ -12,93 +12,62 @@ Baron of Feronir; ex-Moltan initiate, now self-proclaimed ruler, judge, jury and
 
 ## Character Sheet
 
-| Name   | Baron Garos Maella |
-|--------|--------------------|
-| Type   | Baron of Feronir   |
-| Area   | Feronir            |
-| Race   | Human              |
-| Sex    | Male               |
-| Age    | 58                 |
-| Height | 182 cm             |
-| Weight | 90 kg              |
-| SIZE   | 3.5                |
+|  |  |
+|---|---|
+| **Type** | Baron of Feronir |
+| **Area** | Feronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 58 |
+| **SIZE** | 3.5 |
+| **Height** | 182 cm |
+| **Weight** | 90 kg |
+| **Body Points** | 10 |
+| **Damage Bonus** | 4 |
+| **Magick Defense** | 4 |
+| **Armor** | Chain mail (AP 4) |
+| **Wealth** | 35000 |
+| **Deity** | Moltan |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 1
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Strength** | 4 | 6 |
+| Wield Weapon | 4 | 10 |
+| **Endurance** | 3 | 5 |
+| Combat Tenacity | 3 | 8 |
+| Fortitude | 4 | 9 |
+| **Athletics** | 3 | 5 |
+| Dodge | 4 | 9 |
+| Ride | 5 | 10 |
+| **Melee Combat** | 5 | 7 |
+| Longsword & Round Shield | 6 | 13 |
+| Unarmed | 1 | 8 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 3 | 5 |
+| Literacy | 4 | 9 |
+| Social Lore | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Awareness** | 3 | 5 |
+| Alertness | 2 | 7 |
+| Reaction Speed | 2 | 7 |
+| Sense Emotions | 4 | 9 |
+| **Willpower** | 4 | 6 |
+| Courage | 4 | 10 |
+| Mental Fortitude | 5 | 11 |
+| Pain Tolerance | 2 | 8 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
+| **Worship** | 3 | 4 |
+| Moltan | 6 | 10 |
 
-- **Strength**: 4 (Total with BODY: 6)
-- **Endurance**: 3 (Total with BODY: 5)
-- **Athletics**: 3 (Total with BODY: 5)
-- **Melee Combat**: 5 (Total with BODY: 7)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 3 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Worship**: 3 (Total with SPIRIT: 4)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 4 (Total: 10)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 3 (Total: 8)
-- **Fortitude**: 4 (Total: 9)
-
-#### BODY → Athletics
-
-- **Dodge**: 4 (Total: 9)
-- **Ride**: 5 (Total: 10)
-
-#### BODY → Melee Combat
-
-- **Longsword & Round Shield**: 6 (Total: 13)
-- **Unarmed**: 1 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 4 (Total: 9)
-- **Social Lore**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 7)
-- **Reaction Speed**: 2 (Total: 7)
-- **Sense Emotions**: 4 (Total: 9)
-
-#### MIND → Willpower
-
-- **Courage**: 4 (Total: 10)
-- **Mental Fortitude**: 5 (Total: 11)
-- **Pain Tolerance**: 2 (Total: 8)
-
-#### SPIRIT → Worship
-
-- **Moltan**: 6 (Total: 10)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 10 (SIZE 3.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 4 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 4 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Chain mail (AP 4)
-- **Wealth**: 35000
-- **Equipment**: Seal of Feronir, The Book of Judgements
+**Equipment**: Seal of Feronir, The Book of Judgements
 
 ### Weapons
 
@@ -106,10 +75,6 @@ Baron of Feronir; ex-Moltan initiate, now self-proclaimed ruler, judge, jury and
 |--------------------------|-------|------|-----|-----|-----|-----|-------|
 | Unarmed                  | 8     | 8    | 6   | 5   | 0   | \-  | \-    |
 | Longsword & Round Shield | 13    | 12   | 13  | 16  | 3   | 12  | \-    |
-
-### Worship
-
-- **Deity**: Moltan — SPIRIT → Worship → Moltan: 10
 
 ### GM Notes
 

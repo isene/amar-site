@@ -12,82 +12,55 @@ Fighter of the Wayanah-party; a mountain that walks. His intelligence is not up 
 
 ## Character Sheet
 
-| Name   | Boran      |
-|--------|------------|
-| Type   | Fighter    |
-| Area   | Travelling |
-| Race   | Human      |
-| Sex    | Male       |
-| Age    | 41         |
-| Height | 192 cm     |
-| Weight | 110 kg     |
-| SIZE   | 4.0        |
+|  |  |
+|---|---|
+| **Type** | Fighter |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 41 |
+| **SIZE** | 4.0 |
+| **Height** | 192 cm |
+| **Weight** | 110 kg |
+| **Body Points** | 13 |
+| **Damage Bonus** | 6 |
+| **Magick Defense** | 1 |
+| **Armor** | Chain mail (AP 4) |
+| **Wealth** | 15000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 0
-- **SPIRIT**: 0
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 8 |
+| Carrying | 5 | 13 |
+| Wield Weapon | 6 | 14 |
+| **Endurance** | 5 | 8 |
+| Combat Tenacity | 6 | 14 |
+| Fortitude | 7 | 15 |
+| **Athletics** | 2 | 5 |
+| Dodge | 4 | 9 |
+| **Melee Combat** | 5 | 8 |
+| Hercules Club | 8 | 16 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 0 | Val | Tot |
+|---|---|---|
+| **Awareness** | 2 | 2 |
+| Alertness | 2 | 4 |
+| Reaction Speed | 2 | 4 |
+| **Willpower** | 3 | 3 |
+| Courage | 6 | 9 |
+| Pain Tolerance | 6 | 9 |
+| **Social Knowledge** | 0 | 0 |
+| Spoken Language | 2 | 2 |
 
-#### BODY
+| SPIRIT 0 | Val | Tot |
+|---|---|---|
 
-- **Strength**: 5 (Total with BODY: 8)
-- **Endurance**: 5 (Total with BODY: 8)
-- **Athletics**: 2 (Total with BODY: 5)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Awareness**: 2 (Total with MIND: 2)
-- **Willpower**: 3 (Total with MIND: 3)
-
-#### SPIRIT
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Carrying**: 5 (Total: 13)
-- **Wield Weapon**: 6 (Total: 14)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 6 (Total: 14)
-- **Fortitude**: 7 (Total: 15)
-
-#### BODY → Athletics
-
-- **Dodge**: 4 (Total: 9)
-
-#### BODY → Melee Combat
-
-- **Hercules Club**: 8 (Total: 16)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Social Knowledge
-
-- **Spoken Language**: 2 (Total: 2)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 4)
-- **Reaction Speed**: 2 (Total: 4)
-
-#### MIND → Willpower
-
-- **Courage**: 6 (Total: 9)
-- **Pain Tolerance**: 6 (Total: 9)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 13 (SIZE 4.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 6 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 1 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Chain mail (AP 4)
-- **Wealth**: 15000
-- **Equipment**: A bigger axe, for emergencies
+**Equipment**: A bigger axe, for emergencies
 
 ### Weapons
 

@@ -12,100 +12,66 @@ King of the dwarves, ruling from Borgheim in the Dvergfjellene. Old as oaks, har
 
 ## Character Sheet
 
-| Name   | King Gorm           |
-|--------|---------------------|
-| Type   | King of the Dwarves |
-| Area   | Borgheim            |
-| Race   | Dwarf               |
-| Sex    | Male                |
-| Age    | 210                 |
-| Height | 142 cm              |
-| Weight | 95 kg               |
-| SIZE   | 3.5                 |
+|  |  |
+|---|---|
+| **Type** | King of the Dwarves |
+| **Area** | Borgheim |
+| **Race** | Dwarf |
+| **Sex** | Male |
+| **Age** | 210 |
+| **SIZE** | 3.5 |
+| **Height** | 142 cm |
+| **Weight** | 95 kg |
+| **Body Points** | 12 |
+| **Damage Bonus** | 6 |
+| **Magick Defense** | 5 |
+| **Armor** | Dwarven plate (AP 6) |
+| **Wealth** | 200000 |
+| **Deities** | Alesia, Barg |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 2
-- **SPIRIT**: 2
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 8 |
+| Wield Weapon | 6 | 14 |
+| **Endurance** | 5 | 8 |
+| Combat Tenacity | 3 | 11 |
+| Fortitude | 8 | 16 |
+| **Athletics** | 2 | 5 |
+| Dodge | 3 | 8 |
+| Ride | 3 | 8 |
+| **Melee Combat** | 5 | 8 |
+| Battle Axe & Round Shield | 8 | 16 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 4 | 6 |
+| Appraise | 7 | 13 |
+| Literacy | 3 | 9 |
+| Social Lore | 5 | 11 |
+| Spoken Language | 3 | 9 |
+| **Practical Knowledge** | 2 | 4 |
+| Mining Lore | 4 | 8 |
+| **Awareness** | 3 | 5 |
+| Alertness | 2 | 7 |
+| Reaction Speed | 2 | 7 |
+| Sense Emotions | 2 | 7 |
+| **Willpower** | 5 | 7 |
+| Courage | 7 | 14 |
+| Mental Fortitude | 6 | 13 |
+| Pain Tolerance | 2 | 9 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Worship** | 4 | 6 |
+| Alesia | 4 | 10 |
+| Barg | 7 | 13 |
 
-- **Strength**: 5 (Total with BODY: 8)
-- **Endurance**: 5 (Total with BODY: 8)
-- **Athletics**: 2 (Total with BODY: 5)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 4 (Total with MIND: 6)
-- **Practical Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 5 (Total with MIND: 7)
-
-#### SPIRIT
-
-- **Worship**: 4 (Total with SPIRIT: 6)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 6 (Total: 14)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 3 (Total: 11)
-- **Fortitude**: 8 (Total: 16)
-
-#### BODY → Athletics
-
-- **Dodge**: 3 (Total: 8)
-- **Ride**: 3 (Total: 8)
-
-#### BODY → Melee Combat
-
-- **Battle Axe & Round Shield**: 8 (Total: 16)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Social Knowledge
-
-- **Appraise**: 7 (Total: 13)
-- **Literacy**: 3 (Total: 9)
-- **Social Lore**: 5 (Total: 11)
-- **Spoken Language**: 3 (Total: 9)
-
-#### MIND → Practical Knowledge
-
-- **Mining Lore**: 4 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 7)
-- **Reaction Speed**: 2 (Total: 7)
-- **Sense Emotions**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Courage**: 7 (Total: 14)
-- **Mental Fortitude**: 6 (Total: 13)
-- **Pain Tolerance**: 2 (Total: 9)
-
-#### SPIRIT → Worship
-
-- **Alesia**: 4 (Total: 10)
-- **Barg**: 7 (Total: 13)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 12 (SIZE 3.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 6 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 5 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Dwarven plate (AP 6)
-- **Wealth**: 200000
-- **Equipment**: Crown of Borgheim, Ancestor-rune hammer (ceremonial)
+**Equipment**: Crown of Borgheim, Ancestor-rune hammer (ceremonial)
 
 ### Weapons
 
@@ -121,11 +87,6 @@ King of the dwarves, ruling from Borgheim in the Dvergfjellene. Old as oaks, har
 | [Armor](Armor.html) | Earth, Protection | 11 | 3 | 1 round | Touch | 5 rounds |
 | [Divine Rune of Power](Divine_Rune_of_Power.html) | Earth | 11 | 3 | 1 min. | 17m | 2 rounds |
 | [Repair](Repair.html) | Earth | 9 | 2 | 10 min. | Touch | Instant. |
-
-### Worship
-
-- **Deity**: Alesia — SPIRIT → Worship → Alesia: 10
-- **Deity**: Barg — SPIRIT → Worship → Barg: 13
 
 ### GM Notes
 

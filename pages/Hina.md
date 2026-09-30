@@ -12,81 +12,54 @@ Warrior of the Wayanah-party; the shield-wall made person.
 
 ## Character Sheet
 
-| Name   | Hina       |
-|--------|------------|
-| Type   | Warrior    |
-| Area   | Travelling |
-| Race   | Human      |
-| Sex    | Female     |
-| Age    | 33         |
-| Height | 175 cm     |
-| Weight | 70 kg      |
-| SIZE   | 3.0        |
+|  |  |
+|---|---|
+| **Type** | Warrior |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 33 |
+| **SIZE** | 3.0 |
+| **Height** | 175 cm |
+| **Weight** | 70 kg |
+| **Body Points** | 10 |
+| **Damage Bonus** | 5 |
+| **Magick Defense** | 2 |
+| **Armor** | Cuirbolli (AP 3) |
+| **Wealth** | 25000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 1
-- **SPIRIT**: 1
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 4 | 7 |
+| Wield Weapon | 5 | 12 |
+| **Endurance** | 5 | 8 |
+| Combat Tenacity | 6 | 14 |
+| Fortitude | 6 | 14 |
+| **Athletics** | 4 | 7 |
+| Dodge | 6 | 13 |
+| **Melee Combat** | 5 | 8 |
+| Heavy Mace & Round Shield | 8 | 16 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 1 | Val | Tot |
+|---|---|---|
+| **Awareness** | 3 | 4 |
+| Alertness | 2 | 6 |
+| Reaction Speed | 2 | 6 |
+| **Willpower** | 4 | 5 |
+| Courage | 6 | 11 |
+| Pain Tolerance | 5 | 10 |
+| **Social Knowledge** | 0 | 1 |
+| Spoken Language | 2 | 3 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
 
-- **Strength**: 4 (Total with BODY: 7)
-- **Endurance**: 5 (Total with BODY: 8)
-- **Athletics**: 4 (Total with BODY: 7)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Awareness**: 3 (Total with MIND: 4)
-- **Willpower**: 4 (Total with MIND: 5)
-
-#### SPIRIT
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 5 (Total: 12)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 6 (Total: 14)
-- **Fortitude**: 6 (Total: 14)
-
-#### BODY → Athletics
-
-- **Dodge**: 6 (Total: 13)
-
-#### BODY → Melee Combat
-
-- **Heavy Mace & Round Shield**: 8 (Total: 16)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Social Knowledge
-
-- **Spoken Language**: 2 (Total: 3)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 6)
-- **Reaction Speed**: 2 (Total: 6)
-
-#### MIND → Willpower
-
-- **Courage**: 6 (Total: 11)
-- **Pain Tolerance**: 5 (Total: 10)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 10 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 5 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 2 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Cuirbolli (AP 3)
-- **Wealth**: 25000
-- **Equipment**: Campaign gear
+**Equipment**: Campaign gear
 
 ### Weapons
 

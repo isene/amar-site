@@ -16,89 +16,58 @@ File:Lor Aigilos.jpg
 
 **Lor Aigilos - The Warrior**
 
-| Name   | Lor Aigilos |
-|--------|-------------|
-| Type   | The Warrior |
-| Area   | Amaronir    |
-| Race   | Human       |
-| Sex    | Male        |
-| Age    | 47          |
-| Height | 188 cm      |
-| Weight | 127 kg      |
-| SIZE   | 4.5         |
+|  |  |
+|---|---|
+| **Type** | The Warrior |
+| **Area** | Amaronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 47 |
+| **SIZE** | 4.5 |
+| **Height** | 188 cm |
+| **Weight** | 127 kg |
+| **Body Points** | 14 |
+| **Damage Bonus** | 6 |
+| **Magick Defense** | 2 |
+| **Armor** | Full plate (AP 6) |
+| **Wealth** | 40000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 2
-- **SPIRIT**: 2
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 8 |
+| Wield Weapon | 7 | 15 |
+| **Endurance** | 5 | 8 |
+| Combat Tenacity | 7 | 15 |
+| Fortitude | 7 | 15 |
+| **Athletics** | 4 | 7 |
+| Dodge | 6 | 13 |
+| Ride | 5 | 12 |
+| **Melee Combat** | 5 | 8 |
+| Bastard Sword & Kite Shield | 9 | 17 |
+| Great Sword | 7 | 15 |
+| Unarmed | 1 | 9 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Awareness** | 3 | 5 |
+| Alertness | 2 | 7 |
+| Reaction Speed | 2 | 7 |
+| **Willpower** | 4 | 6 |
+| Courage | 8 | 14 |
+| Pain Tolerance | 6 | 12 |
+| **Social Knowledge** | 0 | 2 |
+| Spoken Language | 2 | 4 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Worship** | 4 | 6 |
+| Taroc | 6 | 12 |
 
-- **Strength**: 5 (Total with BODY: 8)
-- **Endurance**: 5 (Total with BODY: 8)
-- **Athletics**: 4 (Total with BODY: 7)
-- **Melee Combat**: 5 (Total with BODY: 8)
+</div>
 
-#### MIND
-
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Worship**: 4 (Total with SPIRIT: 6)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 7 (Total: 15)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 7 (Total: 15)
-- **Fortitude**: 7 (Total: 15)
-
-#### BODY → Athletics
-
-- **Dodge**: 6 (Total: 13)
-- **Ride**: 5 (Total: 12)
-
-#### BODY → Melee Combat
-
-- **Bastard Sword & Kite Shield**: 9 (Total: 17)
-- **Great Sword**: 7 (Total: 15)
-- **Unarmed**: 1 (Total: 9)
-
-#### MIND → Social Knowledge
-
-- **Spoken Language**: 2 (Total: 4)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 7)
-- **Reaction Speed**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Courage**: 8 (Total: 14)
-- **Pain Tolerance**: 6 (Total: 12)
-
-#### SPIRIT → Worship
-
-- **Taroc**: 6 (Total: 12)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 14 (SIZE 4.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 6 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 2 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Full plate (AP 6)
-- **Wealth**: 40000
-- **Equipment**: Trophies of countless duels
+**Equipment**: Trophies of countless duels
 
 ### Weapons
 

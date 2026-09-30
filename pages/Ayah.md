@@ -12,112 +12,74 @@ Respected adventurer, travelling with Ran-Asar and the puma Mira.
 
 ## Character Sheet
 
-| Name   | Ayah                      |
-|--------|---------------------------|
-| Type   | Life/Protection sorceress |
-| Area   | The Rift                  |
-| Race   | Human                     |
-| Sex    | Female                    |
-| Age    | 37                        |
-| Height | 173 cm                    |
-| Weight | 64 kg                     |
-| SIZE   | 3.0                       |
+|  |  |
+|---|---|
+| **Type** | Life/Protection sorceress |
+| **Area** | The Rift |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 37 |
+| **SIZE** | 3.0 |
+| **Height** | 173 cm |
+| **Weight** | 64 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 2 |
+| **Magick Defense** | 8 |
+| **Armor** | Leather (AP 2) |
+| **Wealth** | 25000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 3
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 4 |
+| Fortitude | 1 | 5 |
+| **Athletics** | 4 | 6 |
+| Dodge | 4 | 10 |
+| Move Quietly | 5 | 11 |
+| Ride | 4 | 10 |
+| **Melee Combat** | 3 | 5 |
+| Knife | 2 | 7 |
+| Staff | 5 | 10 |
+| Unarmed | 1 | 6 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 4 | 6 |
+| Animal Handling | 4 | 10 |
+| Animal Lore | 6 | 12 |
+| Magick Rituals | 3 | 9 |
+| Medical Lore | 4 | 10 |
+| Plant Lore | 4 | 10 |
+| **Social Knowledge** | 2 | 4 |
+| Literacy | 3 | 7 |
+| Mythology | 3 | 7 |
+| Spoken Language | 2 | 6 |
+| **Practical Knowledge** | 2 | 4 |
+| Survival Lore | 4 | 8 |
+| **Awareness** | 4 | 6 |
+| Alertness | 5 | 11 |
+| Reaction Speed | 1 | 7 |
+| Sense Emotions | 5 | 11 |
+| Sense Magick | 3 | 9 |
+| **Willpower** | 4 | 6 |
+| Mental Fortitude | 5 | 11 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 3 | 6 |
+| Area of Effect | 3 | 9 |
+| Duration | 5 | 11 |
+| Number of Targets | 3 | 9 |
+| Range | 4 | 10 |
+| Weight | 3 | 9 |
+| **Attunement** | 4 | 7 |
+| Life | 6 | 13 |
+| Self | 5 | 12 |
 
-- **Endurance**: 2 (Total with BODY: 4)
-- **Athletics**: 4 (Total with BODY: 6)
-- **Melee Combat**: 3 (Total with BODY: 5)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 4 (Total with MIND: 6)
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Practical Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 4 (Total with MIND: 6)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 3 (Total with SPIRIT: 6)
-- **Attunement**: 4 (Total with SPIRIT: 7)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 5)
-
-#### BODY → Athletics
-
-- **Dodge**: 4 (Total: 10)
-- **Move Quietly**: 5 (Total: 11)
-- **Ride**: 4 (Total: 10)
-
-#### BODY → Melee Combat
-
-- **Knife**: 2 (Total: 7)
-- **Staff**: 5 (Total: 10)
-- **Unarmed**: 1 (Total: 6)
-
-#### MIND → Nature Knowledge
-
-- **Animal Handling**: 4 (Total: 10)
-- **Animal Lore**: 6 (Total: 12)
-- **Magick Rituals**: 3 (Total: 9)
-- **Medical Lore**: 4 (Total: 10)
-- **Plant Lore**: 4 (Total: 10)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 7)
-- **Mythology**: 3 (Total: 7)
-- **Spoken Language**: 2 (Total: 6)
-
-#### MIND → Practical Knowledge
-
-- **Survival Lore**: 4 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 5 (Total: 11)
-- **Reaction Speed**: 1 (Total: 7)
-- **Sense Emotions**: 5 (Total: 11)
-- **Sense Magick**: 3 (Total: 9)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 5 (Total: 11)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 3 (Total: 9)
-- **Duration**: 5 (Total: 11)
-- **Number of Targets**: 3 (Total: 9)
-- **Range**: 4 (Total: 10)
-- **Weight**: 3 (Total: 9)
-
-#### SPIRIT → Attunement
-
-- **Life**: 6 (Total: 13)
-- **Self**: 5 (Total: 12)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 2 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 8 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Leather (AP 2)
-- **Wealth**: 25000
-- **Equipment**: Mira's harness (rarely used)
+**Equipment**: Mira's harness (rarely used)
 
 ### Weapons
 

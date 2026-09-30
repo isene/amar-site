@@ -12,103 +12,67 @@ Principal of Aleresir; a young, single Anashina priestess with a strong belief i
 
 ## Character Sheet
 
-| Name   | Lady Serena Chiall                         |
-|--------|--------------------------------------------|
-| Type   | Principal of Aleresir / Anashina priestess |
-| Area   | Aleresir                                   |
-| Race   | Human                                      |
-| Sex    | Female                                     |
-| Age    | 34                                         |
-| Height | 170 cm                                     |
-| Weight | 58 kg                                      |
-| SIZE   | 3.0                                        |
+|  |  |
+|---|---|
+| **Type** | Principal of Aleresir / Anashina priestess |
+| **Area** | Aleresir |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 34 |
+| **SIZE** | 3.0 |
+| **Height** | 170 cm |
+| **Weight** | 58 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 3 |
+| **Armor** | Leather (AP 2) |
+| **Wealth** | 25000 |
+| **Deity** | Anashina |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 2
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 4 |
+| Fortitude | 1 | 5 |
+| **Athletics** | 3 | 5 |
+| Move Quietly | 3 | 8 |
+| Ride | 4 | 9 |
+| **Missile Combat** | 3 | 5 |
+| Light Bow | 4 | 9 |
+| **Melee Combat** | 0 | 2 |
+| Knife | 2 | 4 |
+| Unarmed | 1 | 3 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 4 | 6 |
+| Animal Handling | 4 | 10 |
+| Animal Lore | 5 | 11 |
+| Medical Lore | 3 | 9 |
+| Plant Lore | 6 | 12 |
+| **Social Knowledge** | 3 | 5 |
+| Literacy | 3 | 8 |
+| Mythology | 3 | 8 |
+| Social Lore | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Practical Knowledge** | 2 | 4 |
+| Survival Lore | 4 | 8 |
+| **Awareness** | 4 | 6 |
+| Alertness | 4 | 10 |
+| Reaction Speed | 1 | 7 |
+| Sense Emotions | 4 | 10 |
+| **Willpower** | 3 | 5 |
+| Mental Fortitude | 3 | 8 |
 
-#### BODY
+| SPIRIT 2 | Val | Tot |
+|---|---|---|
+| **Worship** | 4 | 6 |
+| Anashina | 7 | 13 |
 
-- **Endurance**: 2 (Total with BODY: 4)
-- **Athletics**: 3 (Total with BODY: 5)
-- **Missile Combat**: 3 (Total with BODY: 5)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 4 (Total with MIND: 6)
-- **Social Knowledge**: 3 (Total with MIND: 5)
-- **Practical Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 4 (Total with MIND: 6)
-- **Willpower**: 3 (Total with MIND: 5)
-
-#### SPIRIT
-
-- **Worship**: 4 (Total with SPIRIT: 6)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 5)
-
-#### BODY → Athletics
-
-- **Move Quietly**: 3 (Total: 8)
-- **Ride**: 4 (Total: 9)
-
-#### BODY → Melee Combat
-
-- **Knife**: 2 (Total: 4)
-- **Unarmed**: 1 (Total: 3)
-
-#### BODY → Missile Combat
-
-- **Light Bow**: 4 (Total: 9)
-
-#### MIND → Nature Knowledge
-
-- **Animal Handling**: 4 (Total: 10)
-- **Animal Lore**: 5 (Total: 11)
-- **Medical Lore**: 3 (Total: 9)
-- **Plant Lore**: 6 (Total: 12)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 3 (Total: 8)
-- **Mythology**: 3 (Total: 8)
-- **Social Lore**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Practical Knowledge
-
-- **Survival Lore**: 4 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 4 (Total: 10)
-- **Reaction Speed**: 1 (Total: 7)
-- **Sense Emotions**: 4 (Total: 10)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 3 (Total: 8)
-
-#### SPIRIT → Worship
-
-- **Anashina**: 7 (Total: 13)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 3 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Leather (AP 2)
-- **Wealth**: 25000
-- **Equipment**: Seal of Aleresir, Living-wood circlet
+**Equipment**: Seal of Aleresir, Living-wood circlet
 
 ### Weapons
 
@@ -127,10 +91,6 @@ Principal of Aleresir; a young, single Anashina priestess with a strong belief i
 | [Forest Hands](Forest_Hands.html) | Swamp, Anashina | 7 | 1 | 1 round | 47m | 2 rounds |
 | [Minor Healing](Minor_Healing.html) | Life | 6 | 1 | 1 round | Touch | 1 week\* |
 | [Night Vision](Night_Vision.html) | Life, Perception | 9 | 2 | 1 min. | Touch | 10 min. |
-
-### Worship
-
-- **Deity**: Anashina — SPIRIT → Worship → Anashina: 13
 
 ### GM Notes
 

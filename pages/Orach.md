@@ -12,82 +12,55 @@ Warrior of The Guards; the company's anvil.
 
 ## Character Sheet
 
-| Name   | Orach      |
-|--------|------------|
-| Type   | Warrior    |
-| Area   | Travelling |
-| Race   | Human      |
-| Sex    | Male       |
-| Age    | 41         |
-| Height | 188 cm     |
-| Weight | 104 kg     |
-| SIZE   | 4.0        |
+|  |  |
+|---|---|
+| **Type** | Warrior |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 41 |
+| **SIZE** | 4.0 |
+| **Height** | 188 cm |
+| **Weight** | 104 kg |
+| **Body Points** | 12 |
+| **Damage Bonus** | 6 |
+| **Magick Defense** | 1 |
+| **Armor** | Chain mail (AP 4) |
+| **Wealth** | 10000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 1
-- **SPIRIT**: 0
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 5 | 8 |
+| Carrying | 4 | 12 |
+| Wield Weapon | 6 | 14 |
+| **Endurance** | 4 | 7 |
+| Combat Tenacity | 5 | 12 |
+| Fortitude | 6 | 13 |
+| **Athletics** | 2 | 5 |
+| Dodge | 3 | 8 |
+| **Melee Combat** | 4 | 7 |
+| Halberd | 7 | 14 |
+| Unarmed | 1 | 8 |
 
-### Attributes
+| MIND 1 | Val | Tot |
+|---|---|---|
+| **Awareness** | 2 | 3 |
+| Alertness | 2 | 5 |
+| Reaction Speed | 2 | 5 |
+| **Willpower** | 3 | 4 |
+| Courage | 5 | 9 |
+| Pain Tolerance | 5 | 9 |
+| **Social Knowledge** | 0 | 1 |
+| Spoken Language | 2 | 3 |
 
-#### BODY
+| SPIRIT 0 | Val | Tot |
+|---|---|---|
 
-- **Strength**: 5 (Total with BODY: 8)
-- **Endurance**: 4 (Total with BODY: 7)
-- **Athletics**: 2 (Total with BODY: 5)
-- **Melee Combat**: 4 (Total with BODY: 7)
+</div>
 
-#### MIND
-
-- **Awareness**: 2 (Total with MIND: 3)
-- **Willpower**: 3 (Total with MIND: 4)
-
-#### SPIRIT
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Carrying**: 4 (Total: 12)
-- **Wield Weapon**: 6 (Total: 14)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 5 (Total: 12)
-- **Fortitude**: 6 (Total: 13)
-
-#### BODY → Athletics
-
-- **Dodge**: 3 (Total: 8)
-
-#### BODY → Melee Combat
-
-- **Halberd**: 7 (Total: 14)
-- **Unarmed**: 1 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Spoken Language**: 2 (Total: 3)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 5)
-- **Reaction Speed**: 2 (Total: 5)
-
-#### MIND → Willpower
-
-- **Courage**: 5 (Total: 9)
-- **Pain Tolerance**: 5 (Total: 9)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 12 (SIZE 4.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 6 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 1 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Chain mail (AP 4)
-- **Wealth**: 10000
-- **Equipment**: Wall-breaker maul (on the mule)
+**Equipment**: Wall-breaker maul (on the mule)
 
 ### Weapons
 

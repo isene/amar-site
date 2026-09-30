@@ -12,108 +12,69 @@ Priestess of The Guards; wife of Kator. An Anashina priestess with a big heart �
 
 ## Character Sheet
 
-| Name   | Eris               |
-|--------|--------------------|
-| Type   | Anashina priestess |
-| Area   | Travelling         |
-| Race   | Human              |
-| Sex    | Female             |
-| Age    | 36                 |
-| Height | 169 cm             |
-| Weight | 60 kg              |
-| SIZE   | 3.0                |
+|  |  |
+|---|---|
+| **Type** | Anashina priestess |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Female |
+| **Age** | 36 |
+| **SIZE** | 3.0 |
+| **Height** | 169 cm |
+| **Weight** | 60 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 7 |
+| **Armor** | Leather (AP 2) |
+| **Wealth** | 12000 |
+| **Deity** | Anashina |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 2
-- **SPIRIT**: 3
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Athletics** | 2 | 3 |
+| Move Quietly | 2 | 5 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 2 | 4 |
+| Animal Handling | 4 | 8 |
+| Animal Lore | 4 | 8 |
+| Medical Lore | 4 | 8 |
+| Plant Lore | 4 | 8 |
+| **Social Knowledge** | 2 | 4 |
+| Literacy | 2 | 6 |
+| Mythology | 3 | 7 |
+| Spoken Language | 2 | 6 |
+| **Practical Knowledge** | 2 | 4 |
+| Survival Lore | 4 | 8 |
+| **Awareness** | 3 | 5 |
+| Alertness | 1 | 6 |
+| Reaction Speed | 1 | 6 |
+| Sense Emotions | 4 | 9 |
+| **Willpower** | 4 | 6 |
+| Mental Fortitude | 5 | 11 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 3 | 6 |
+| Duration | 5 | 11 |
+| Number of Targets | 4 | 10 |
+| **Attunement** | 4 | 7 |
+| Life | 6 | 13 |
+| Self | 4 | 11 |
+| **Worship** | 5 | 8 |
+| Anashina | 7 | 15 |
 
-- **Endurance**: 2 (Total with BODY: 3)
-- **Athletics**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 2 (Total with MIND: 4)
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Practical Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 3 (Total with SPIRIT: 6)
-- **Attunement**: 4 (Total with SPIRIT: 7)
-- **Worship**: 5 (Total with SPIRIT: 8)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Athletics
-
-- **Move Quietly**: 2 (Total: 5)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Nature Knowledge
-
-- **Animal Handling**: 4 (Total: 8)
-- **Animal Lore**: 4 (Total: 8)
-- **Medical Lore**: 4 (Total: 8)
-- **Plant Lore**: 4 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 2 (Total: 6)
-- **Mythology**: 3 (Total: 7)
-- **Spoken Language**: 2 (Total: 6)
-
-#### MIND → Practical Knowledge
-
-- **Survival Lore**: 4 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 6)
-- **Reaction Speed**: 1 (Total: 6)
-- **Sense Emotions**: 4 (Total: 9)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 5 (Total: 11)
-
-#### SPIRIT → Casting
-
-- **Duration**: 5 (Total: 11)
-- **Number of Targets**: 4 (Total: 10)
-
-#### SPIRIT → Attunement
-
-- **Life**: 6 (Total: 13)
-- **Self**: 4 (Total: 11)
-
-#### SPIRIT → Worship
-
-- **Anashina**: 7 (Total: 15)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 7 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Leather (AP 2)
-- **Wealth**: 12000
-- **Equipment**: Field shrine, Healer's kit
+**Equipment**: Field shrine, Healer's kit
 
 ### Weapons
 
@@ -132,10 +93,6 @@ Priestess of The Guards; wife of Kator. An Anashina priestess with a big heart �
 | [Ease Pain](Ease_Pain.html) | Life | 7 | 1 | 1 round | Touch | 1 hour |
 | [Animal Sense](Animal_Sense.html) | Air, Earth, Fire, Life, Perception, Water | 9 | 2 | 5 rounds | 1000m | 5 min. |
 | [Forest Hands](Forest_Hands.html) | Swamp, Anashina | 7 | 1 | 1 round | 47m | 2 rounds |
-
-### Worship
-
-- **Deity**: Anashina — SPIRIT → Worship → Anashina: 15
 
 ### GM Notes
 

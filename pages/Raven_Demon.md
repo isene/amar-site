@@ -21,114 +21,73 @@ Xetus, the Raven Demon, is a summoned trader of forbidden spells. He is bound to
 
 **Raven Demon - Summoned Demon**
 
-| Name   | Raven Demon        |
-|--------|--------------------|
-| Type   | Summoned Demon     |
-| Area   | Summoned (Demonia) |
-| Race   | Demon              |
-| Sex    | Male               |
-| Age    | 0                  |
-| Height | 240 cm             |
-| Weight | 180 kg             |
-| SIZE   | 6.0                |
+|  |  |
+|---|---|
+| **Type** | Summoned Demon |
+| **Area** | Summoned (Demonia) |
+| **Race** | Demon |
+| **Sex** | Male |
+| **Age** | 0 |
+| **SIZE** | 6.0 |
+| **Height** | 240 cm |
+| **Weight** | 180 kg |
+| **Body Points** | 17 |
+| **Damage Bonus** | 5 |
+| **Magick Defense** | 9 |
+| **Armor** | Soul Power (AP 10) |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 3
-- **MIND**: 2
-- **SPIRIT**: 3
+| BODY 3 | Val | Tot |
+|---|---|---|
+| **Strength** | 4 | 7 |
+| Wield Weapon | 3 | 10 |
+| **Endurance** | 5 | 8 |
+| Fortitude | 7 | 15 |
+| Poison Resistance | 7 | 15 |
+| **Athletics** | 2 | 5 |
+| Dodge | 5 | 10 |
+| Hide | 0 | 5 |
+| Move Quietly | 10 | 15 |
+| **Melee Combat** | 3 | 6 |
+| Bone Spear | 2 | 8 |
+| Unarmed | 1 | 7 |
+| **Missile Combat** | 2 | 5 |
+| Dark Acid | 0 | 5 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Nature Knowledge** | 3 | 5 |
+| Magick Rituals | 8 | 13 |
+| **Social Knowledge** | 2 | 4 |
+| Legend Lore | 5 | 9 |
+| Literacy | 3 | 7 |
+| Spoken Language | 4 | 8 |
+| **Awareness** | 5 | 7 |
+| Alertness | 8 | 15 |
+| Reaction Speed | 5 | 12 |
+| Sense Magick | 8 | 15 |
+| **Willpower** | 5 | 7 |
+| Courage | 6 | 13 |
+| Mental Fortitude | 6 | 13 |
+| Pain Tolerance | 6 | 13 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 5 | 8 |
+| Area of Effect | 7 | 15 |
+| Duration | 8 | 16 |
+| Number of Targets | 6 | 14 |
+| Range | 8 | 16 |
+| Weight | 6 | 14 |
+| **Attunement** | 5 | 8 |
+| Death | 9 | 17 |
+| Mind | 7 | 15 |
+| Self | 6 | 14 |
 
-- **Strength**: 4 (Total with BODY: 7)
-- **Endurance**: 5 (Total with BODY: 8)
-- **Athletics**: 2 (Total with BODY: 5)
-- **Melee Combat**: 3 (Total with BODY: 6)
-- **Missile Combat**: 2 (Total with BODY: 5)
+</div>
 
-#### MIND
-
-- **Nature Knowledge**: 3 (Total with MIND: 5)
-- **Social Knowledge**: 2 (Total with MIND: 4)
-- **Awareness**: 5 (Total with MIND: 7)
-- **Willpower**: 5 (Total with MIND: 7)
-
-#### SPIRIT
-
-- **Casting**: 5 (Total with SPIRIT: 8)
-- **Attunement**: 5 (Total with SPIRIT: 8)
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 3 (Total: 10)
-
-#### BODY → Endurance
-
-- **Fortitude**: 7 (Total: 15)
-- **Poison Resistance**: 7 (Total: 15)
-
-#### BODY → Athletics
-
-- **Dodge**: 5 (Total: 10)
-- **Hide**: 0 (Total: 5)
-- **Move Quietly**: 10 (Total: 15)
-
-#### BODY → Melee Combat
-
-- **Bone Spear**: 2 (Total: 8)
-- **Unarmed**: 1 (Total: 7)
-
-#### BODY → Missile Combat
-
-- **Dark Acid**: 0 (Total: 5)
-
-#### MIND → Nature Knowledge
-
-- **Magick Rituals**: 8 (Total: 13)
-
-#### MIND → Social Knowledge
-
-- **Legend Lore**: 5 (Total: 9)
-- **Literacy**: 3 (Total: 7)
-- **Spoken Language**: 4 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 8 (Total: 15)
-- **Reaction Speed**: 5 (Total: 12)
-- **Sense Magick**: 8 (Total: 15)
-
-#### MIND → Willpower
-
-- **Courage**: 6 (Total: 13)
-- **Mental Fortitude**: 6 (Total: 13)
-- **Pain Tolerance**: 6 (Total: 13)
-
-#### SPIRIT → Casting
-
-- **Area of Effect**: 7 (Total: 15)
-- **Duration**: 8 (Total: 16)
-- **Number of Targets**: 6 (Total: 14)
-- **Range**: 8 (Total: 16)
-- **Weight**: 6 (Total: 14)
-
-#### SPIRIT → Attunement
-
-- **Death**: 9 (Total: 17)
-- **Mind**: 7 (Total: 15)
-- **Self**: 6 (Total: 14)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 17 (SIZE 6.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 5 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 9 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Soul Power (AP 10)
-- **Equipment**: Bone spear, A purple glowing soul (AP 10)
+**Equipment**: Bone spear, A purple glowing soul (AP 10)
 
 ### Weapons
 

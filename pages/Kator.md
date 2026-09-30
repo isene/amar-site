@@ -12,87 +12,59 @@ Knight; leader of The Guards, a mercenary party.
 
 ## Character Sheet
 
-| Name   | Kator                        |
-|--------|------------------------------|
-| Type   | Knight, leader of The Guards |
-| Area   | Travelling                   |
-| Race   | Human                        |
-| Sex    | Male                         |
-| Age    | 44                           |
-| Height | 184 cm                       |
-| Weight | 94 kg                        |
-| SIZE   | 3.5                          |
+|  |  |
+|---|---|
+| **Type** | Knight, leader of The Guards |
+| **Area** | Travelling |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 44 |
+| **SIZE** | 3.5 |
+| **Height** | 184 cm |
+| **Weight** | 94 kg |
+| **Body Points** | 10 |
+| **Damage Bonus** | 5 |
+| **Magick Defense** | 2 |
+| **Armor** | Chain mail (AP 4) |
+| **Wealth** | 30000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 1
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Strength** | 4 | 6 |
+| Wield Weapon | 5 | 11 |
+| **Endurance** | 4 | 6 |
+| Combat Tenacity | 5 | 11 |
+| Fortitude | 5 | 11 |
+| **Athletics** | 2 | 4 |
+| Dodge | 4 | 8 |
+| Ride | 3 | 7 |
+| **Melee Combat** | 5 | 7 |
+| Longsword & Kite Shield | 7 | 14 |
+| Unarmed | 1 | 8 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 3 | 5 |
+| Bargain | 4 | 9 |
+| Literacy | 3 | 8 |
+| Social Lore | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Awareness** | 3 | 5 |
+| Alertness | 2 | 7 |
+| Reaction Speed | 2 | 7 |
+| Sense Emotions | 2 | 7 |
+| **Willpower** | 4 | 6 |
+| Courage | 5 | 11 |
+| Pain Tolerance | 2 | 8 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
 
-- **Strength**: 4 (Total with BODY: 6)
-- **Endurance**: 4 (Total with BODY: 6)
-- **Athletics**: 2 (Total with BODY: 4)
-- **Melee Combat**: 5 (Total with BODY: 7)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 3 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-### Key Skills (with Totals)
-
-#### BODY → Strength
-
-- **Wield Weapon**: 5 (Total: 11)
-
-#### BODY → Endurance
-
-- **Combat Tenacity**: 5 (Total: 11)
-- **Fortitude**: 5 (Total: 11)
-
-#### BODY → Athletics
-
-- **Dodge**: 4 (Total: 8)
-- **Ride**: 3 (Total: 7)
-
-#### BODY → Melee Combat
-
-- **Longsword & Kite Shield**: 7 (Total: 14)
-- **Unarmed**: 1 (Total: 8)
-
-#### MIND → Social Knowledge
-
-- **Bargain**: 4 (Total: 9)
-- **Literacy**: 3 (Total: 8)
-- **Social Lore**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 2 (Total: 7)
-- **Reaction Speed**: 2 (Total: 7)
-- **Sense Emotions**: 2 (Total: 7)
-
-#### MIND → Willpower
-
-- **Courage**: 5 (Total: 11)
-- **Pain Tolerance**: 2 (Total: 8)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 10 (SIZE 3.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 5 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 2 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Chain mail (AP 4)
-- **Wealth**: 30000
-- **Equipment**: Company contract book
+**Equipment**: Company contract book
 
 ### Weapons
 

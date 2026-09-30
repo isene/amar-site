@@ -12,84 +12,61 @@ The Master Thief of Amar, GarThaleon is the "king" of the underworld.
 
 **Gar Thaleon - The Master Thief**
 
-| Name   | Gar Thaleon      |
-|--------|------------------|
-| Type   | The Master Thief |
-| Area   | Amaronir         |
-| Race   | Human            |
-| Sex    | Male             |
-| Age    | 38               |
-| Height | 168 cm           |
-| Weight | 71 kg            |
-| SIZE   | 3.0              |
+|  |  |
+|---|---|
+| **Type** | The Master Thief |
+| **Area** | Amaronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 38 |
+| **SIZE** | 3.0 |
+| **Height** | 168 cm |
+| **Weight** | 71 kg |
+| **Body Points** | 7 |
+| **Damage Bonus** | 1 |
+| **Magick Defense** | 1 |
+| **Armor** | Leather (AP 2) |
+| **Wealth** | 15000 |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 2
-- **MIND**: 2
-- **SPIRIT**: 1
+| BODY 2 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 4 |
+| Fortitude | 1 | 5 |
+| **Athletics** | 5 | 7 |
+| Balance | 7 | 14 |
+| Climb | 7 | 14 |
+| Dodge | 6 | 13 |
+| Hide | 8 | 15 |
+| Move Quietly | 8 | 15 |
+| Tumble | 6 | 13 |
+| **Melee Combat** | 4 | 6 |
+| Knife | 6 | 12 |
+| Short Sword | 6 | 12 |
+| Unarmed | 1 | 7 |
+| **Sleight** | 5 | 7 |
+| Disarm Traps | 8 | 15 |
+| Pick Pockets | 8 | 15 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 3 | 5 |
+| Social Lore | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Practical Knowledge** | 3 | 5 |
+| **Awareness** | 5 | 7 |
+| Alertness | 7 | 14 |
+| Detect Traps | 8 | 15 |
+| Listening | 6 | 13 |
+| Reaction Speed | 1 | 8 |
 
-#### BODY
+| SPIRIT 1 | Val | Tot |
+|---|---|---|
 
-- **Endurance**: 2 (Total with BODY: 4)
-- **Athletics**: 5 (Total with BODY: 7)
-- **Melee Combat**: 4 (Total with BODY: 6)
-- **Sleight**: 5 (Total with BODY: 7)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 3 (Total with MIND: 5)
-- **Practical Knowledge**: 3 (Total with MIND: 5)
-- **Awareness**: 5 (Total with MIND: 7)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 5)
-
-#### BODY → Athletics
-
-- **Balance**: 7 (Total: 14)
-- **Climb**: 7 (Total: 14)
-- **Dodge**: 6 (Total: 13)
-- **Hide**: 8 (Total: 15)
-- **Move Quietly**: 8 (Total: 15)
-- **Tumble**: 6 (Total: 13)
-
-#### BODY → Melee Combat
-
-- **Knife**: 6 (Total: 12)
-- **Short Sword**: 6 (Total: 12)
-- **Unarmed**: 1 (Total: 7)
-
-#### BODY → Sleight
-
-- **Disarm Traps**: 8 (Total: 15)
-- **Pick Pockets**: 8 (Total: 15)
-
-#### MIND → Social Knowledge
-
-- **Social Lore**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 7 (Total: 14)
-- **Detect Traps**: 8 (Total: 15)
-- **Listening**: 6 (Total: 13)
-- **Reaction Speed**: 1 (Total: 8)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 7 (SIZE 3.0 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 1 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 1 ((Mental Fortitude + Attunement Self)/3)
-- **Armor**: Leather (AP 2)
-- **Wealth**: 15000
-- **Equipment**: Lockpicks of dwarven make, Three purses, none his
+**Equipment**: Lockpicks of dwarven make, Three purses, none his
 
 ### Weapons
 

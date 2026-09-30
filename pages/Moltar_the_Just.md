@@ -12,80 +12,56 @@ An offbeat Moltan priest; right hand of Baron Garos Maella. Sees guilt where oth
 
 ## Character Sheet
 
-| Name   | Moltar the Just |
-|--------|-----------------|
-| Type   | Moltan priest   |
-| Area   | Feronir         |
-| Race   | Human           |
-| Sex    | Male            |
-| Age    | 44              |
-| Height | 176 cm          |
-| Weight | 78 kg           |
-| SIZE   | 3.5             |
+|  |  |
+|---|---|
+| **Type** | Moltan priest |
+| **Area** | Feronir |
+| **Race** | Human |
+| **Sex** | Male |
+| **Age** | 44 |
+| **SIZE** | 3.5 |
+| **Height** | 176 cm |
+| **Weight** | 78 kg |
+| **Body Points** | 8 |
+| **Damage Bonus** | 2 |
+| **Magick Defense** | 6 |
+| **Wealth** | 4000 |
+| **Deity** | Moltan |
 
-### Characteristics
+<div class="sheet">
 
-- **BODY**: 1
-- **MIND**: 2
-- **SPIRIT**: 3
+| BODY 1 | Val | Tot |
+|---|---|---|
+| **Endurance** | 2 | 3 |
+| Fortitude | 1 | 4 |
+| **Melee Combat** | 0 | 1 |
+| Staff | 2 | 3 |
+| Unarmed | 1 | 2 |
 
-### Attributes
+| MIND 2 | Val | Tot |
+|---|---|---|
+| **Social Knowledge** | 3 | 5 |
+| Literacy | 4 | 9 |
+| Mythology | 3 | 8 |
+| Social Lore | 4 | 9 |
+| Spoken Language | 3 | 8 |
+| **Awareness** | 3 | 5 |
+| Alertness | 1 | 6 |
+| Reaction Speed | 1 | 6 |
+| Sense Emotions | 6 | 11 |
+| **Willpower** | 4 | 6 |
+| Mental Fortitude | 5 | 11 |
 
-#### BODY
+| SPIRIT 3 | Val | Tot |
+|---|---|---|
+| **Casting** | 2 | 5 |
+| **Attunement** | 3 | 6 |
+| **Worship** | 5 | 8 |
+| Moltan | 8 | 16 |
 
-- **Endurance**: 2 (Total with BODY: 3)
+</div>
 
-#### MIND
-
-- **Social Knowledge**: 3 (Total with MIND: 5)
-- **Awareness**: 3 (Total with MIND: 5)
-- **Willpower**: 4 (Total with MIND: 6)
-
-#### SPIRIT
-
-- **Casting**: 2 (Total with SPIRIT: 5)
-- **Attunement**: 3 (Total with SPIRIT: 6)
-- **Worship**: 5 (Total with SPIRIT: 8)
-
-### Key Skills (with Totals)
-
-#### BODY → Endurance
-
-- **Fortitude**: 1 (Total: 4)
-
-#### BODY → Melee Combat
-
-- **Staff**: 2 (Total: 3)
-- **Unarmed**: 1 (Total: 2)
-
-#### MIND → Social Knowledge
-
-- **Literacy**: 4 (Total: 9)
-- **Mythology**: 3 (Total: 8)
-- **Social Lore**: 4 (Total: 9)
-- **Spoken Language**: 3 (Total: 8)
-
-#### MIND → Awareness
-
-- **Alertness**: 1 (Total: 6)
-- **Reaction Speed**: 1 (Total: 6)
-- **Sense Emotions**: 6 (Total: 11)
-
-#### MIND → Willpower
-
-- **Mental Fortitude**: 5 (Total: 11)
-
-#### SPIRIT → Worship
-
-- **Moltan**: 8 (Total: 16)
-
-### Combat & Equipment
-
-- **Body Points (BP)**: 8 (SIZE 3.5 × 2 + Fortitude/3)
-- **Damage Bonus (DB)**: 2 ((SIZE + Wield Weapon)/3)
-- **Magick Defense (MD)**: 6 ((Mental Fortitude + Attunement Self)/3)
-- **Wealth**: 4000
-- **Equipment**: Scales of Moltan, Judgement bell
+**Equipment**: Scales of Moltan, Judgement bell
 
 ### Weapons
 
@@ -103,10 +79,6 @@ An offbeat Moltan priest; right hand of Baron Garos Maella. Sees guilt where oth
 | [Detect Magic](Detect_Magic.html) | Magic, Perception | 6 | 1 | 1 round | Touch | 1 round |
 | [Change Emotion](Change_Emotion.html) | Life, Perception, Black | 7 | 1 | 1 round | 86m | 5 min. |
 | [Command](Command.html) | Black, Life | 11 | 3 | 1 round | 29m | 1 round |
-
-### Worship
-
-- **Deity**: Moltan — SPIRIT → Worship → Moltan: 16
 
 ### GM Notes
 
