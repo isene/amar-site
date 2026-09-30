@@ -348,3 +348,12 @@ ul.news b { font-variant-numeric: lining-nums; font-weight: normal; color: var(-
 :root[data-font="sans"] :is(#hits li span, #hits li.none, .crumbs, h4, blockquote, .toc summary, .stats dt, .tw .note,
   .key, .cats, figcaption, .hero .tag, .quote) { font-style: normal; }
 :root[data-font="sans"] .lede::first-letter { float: none; font: inherit; color: inherit; padding: 0; margin: 0; }
+
+/* the game on "The Eliminator game": the full width, square pixels, full screen on request */
+.game { margin: 0 0 1.4rem; }
+.game canvas { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+.game canvas:focus { outline: 2px solid var(--gold); outline-offset: 2px; }
+.game canvas:fullscreen { width: 100vw; height: 100vh; aspect-ratio: auto; object-fit: contain; outline: none; }
+.game-bar { font-size: 0.92rem; color: var(--ink-soft); margin: 0.5rem 0 0; }
+.game-bar button { font: inherit; color: var(--ink); background: var(--pane); border: 1px solid var(--rule);
+  border-radius: 3px; padding: 0.15rem 0.6rem; margin-right: 0.6rem; cursor: pointer; }
