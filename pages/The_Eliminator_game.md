@@ -25,6 +25,6 @@ New to Amar? Press `I` on the title screen. Three short pages show [the three ti
 - `1` to `6` pick a stance: normal, offensive, defensive, only defend, power hit, double attack.
 - `F` fires your crossbow or throws. `P` drinks a potion. `M` bandages. `R` rests.
 - `T` puts out or lights your torch. `G` takes what lies here. `<` or `Enter` climbs. `S` waits.
-- `?` shows the rules as the game plays them.
+- `?` shows the rules as the game plays them. `Q` quits back to the title.
 
 The Eliminator is part of [funkey](https://isene.org/funkey/), a set of free games that also run in a terminal.

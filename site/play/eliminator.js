@@ -7,7 +7,7 @@
   const KEYS = [["1", "1", "normal"], ["2", "2", "offence"], ["3", "3", "defence"], ["4", "4", "guard"],
     ["5", "5", "power"], ["6", "6", "double"], ["f", "F", "fire"], ["p", "P", "potion"], ["m", "M", "bandage"],
     ["r", "R", "rest"], ["t", "T", "light"], ["g", "G", "take"], ["<", "<", "climb"], ["?", "?", "rules"],
-    ["i", "I", "intro"], ["Enter", "Enter", ""], [" ", "Space", ""], ["Escape", "Esc", ""], ["Tab", "Tab", ""]];
+    ["i", "I", "intro"], ["q", "Q", "quit"], ["Enter", "Enter", ""], [" ", "Space", ""], ["Escape", "Esc", ""], ["Tab", "Tab", ""]];
 
   const box = document.querySelector(".game");
   const pad = document.getElementById("pad");
