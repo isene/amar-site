@@ -3,7 +3,7 @@ title: The Eliminator game
 ---
 
 <div class="game">
-<canvas id="eliminator" aria-label="The Eliminator, a game played by the Amar rules"></canvas>
+<canvas id="eliminator" data-wasm="play/eliminator.wasm" aria-label="The Eliminator, a game played by the Amar rules"></canvas>
 <div class="pad" id="pad" hidden></div>
 <p class="game-bar"><button type="button" id="full">Full screen</button> <button type="button" id="pad-toggle">Keys on screen</button></p>
 </div>

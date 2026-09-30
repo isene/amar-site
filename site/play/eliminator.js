@@ -33,6 +33,8 @@
   if (!document.fullscreenEnabled) full.hidden = true;
   full.addEventListener("click", () => box.requestFullscreen().catch(() => {}));
 
-  const game = await funkey.play(document.getElementById("eliminator"), "play/eliminator.wasm");
+  // The page names the game file with the build's version tag, so a new game is never taken from the cache.
+  const canvas = document.getElementById("eliminator");
+  const game = await funkey.play(canvas, canvas.dataset.wasm);
   funkey.pad(pad, game);
 })();

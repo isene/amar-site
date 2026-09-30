@@ -21,7 +21,8 @@ GITHUB = "https://github.com/isene/amar-site"      # pages are edited there, on 
 MD = MarkdownIt("commonmark", {"html": True}).enable(["table", "strikethrough"])
 NAV = yaml.load(open(ROOT / "nav.yaml"), Loader=yaml.BaseLoader)
 TEMPLATE = (ROOT / "template.html").read_text()
-VERSION = {f: hashlib.md5((ROOT / "site" / f).read_bytes()).hexdigest()[:8] for f in ("theme/style.css", "theme/site.js")}
+VERSION = {f: hashlib.md5((ROOT / "site" / f).read_bytes()).hexdigest()[:8]
+           for f in ("theme/style.css", "theme/site.js", *(f"play/{p.name}" for p in sorted((ROOT / "site" / "play").glob("*"))))}
 esc = html.escape
 
 
@@ -353,8 +354,8 @@ def page(title, body, desc="", cls="", head_extra=""):
                  "desc": esc(desc, quote=True), "cls": cls, "nav": nav_html(title),
                  "content": body, "head": head_extra}.items():
         doc = doc.replace("{" + k + "}", v)
-    # a version tag on style and script: browsers fetch them again as soon as they change
-    for f in ("theme/style.css", "theme/site.js"):
+    # a version tag on style, scripts and the game: browsers fetch them again as soon as they change
+    for f in VERSION:
         doc = doc.replace(f'"{f}"', f'"{f}?v={VERSION[f]}"')
     return doc
 
